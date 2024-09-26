@@ -8,6 +8,7 @@ from pyhmmer.easel import TextSequence, TextMSA, DigitalSequenceBlock
 import pandas as pd
 import matplotlib.pyplot as plt
 import csv
+from tqdm import tqdm
 
 
 """
@@ -25,7 +26,7 @@ L2_sequences_train_load = SeqIO.parse(fasta_file_path, "fasta")
 # Convert the sequences to a format suitable for the HMM (TextSequence objects)
 L2_sequences_train = [
     TextSequence(name=bytes(seq.id, "utf-8"), sequence=str(seq.seq))
-    for seq in L2_sequences_train_load
+    for seq in tqdm(L2_sequences_train_load, "L2_sequences_train_load")
 ]
 
 # Create a Multiple Sequence Alignment (MSA) object for the L2 sequences
@@ -66,7 +67,7 @@ L3_sequences_train_load = SeqIO.parse(fasta_file_path, "fasta")
 # Convert the sequences to a format suitable for the HMM (TextSequence objects)
 L3_sequences_train = [
     TextSequence(name=bytes(seq.id, "utf-8"), sequence=str(seq.seq))
-    for seq in L3_sequences_train_load
+    for seq in tqdm(L3_sequences_train_load, "L3_sequences_train_load")
 ]
 
 # Create a Multiple Sequence Alignment (MSA) object for the L3 sequences
@@ -108,7 +109,7 @@ All_sequences_train_load = SeqIO.parse(fasta_file_path, "fasta")
 # Convert the sequences to a format suitable for the HMM (TextSequence objects)
 All_sequences_train = [
     TextSequence(name=bytes(seq.id, "utf-8"), sequence=str(seq.seq))
-    for seq in All_sequences_train_load
+    for seq in tqdm(All_sequences_train_load, "All_sequences_train_load")
 ]
 
 # Create a Multiple Sequence Alignment (MSA) object for the L2+L3 (All) sequences
@@ -145,12 +146,12 @@ with pyhmmer.plan7.HMMFile("../../hmm/reproduce_experiment_for_iteration1/L3_i1.
 
 # 創建字母表
 alphabet = pyhmmer.easel.Alphabet.amino()
-fasta_file_path = '../../dataset/reproduce_experiment_for_iteration1/test/interpro_L7.fasta' # salima
+fasta_file_path = '../../dataset/reproduce_experiment_for_iteration1/test/interpro_L7_original.fasta' # salima
 sequences = SeqIO.parse(fasta_file_path, "fasta")
 
 search_sequences = []
 sequence_dict = {}
-for seq in sequences:
+for seq in tqdm(sequences, "sequence_dict[id_name]"):
     # 打印序列ID
     id_name = bytes(seq.id, "utf-8")
     # 添加 TextSequence 對象到列表
@@ -160,7 +161,7 @@ for seq in sequences:
 
 
 # 將序列轉換為 DigitalSequence
-digital_search_sequences = [seq.digitize(alphabet) for seq in search_sequences]
+digital_search_sequences = [seq.digitize(alphabet) for seq in tqdm(search_sequences, "digital_search_sequences")]
 
 # 創建搜索管道並搜索 HMM
 background = pyhmmer.plan7.Background(alphabet)
@@ -175,8 +176,8 @@ hits_L3 = pipeline.search_hmm(query=hmm_L3, sequences=sequences)
 fixed_length = 33
 
 # 構建名稱和分數字典以便於查找
-l2_scores = {hit.domains[0].alignment.target_name.decode(): hit.score for hit in hits_L2}
-l3_scores = {hit.domains[0].alignment.target_name.decode(): hit.score for hit in hits_L3}
+l2_scores = {hit.domains[0].alignment.target_name.decode(): hit.score for hit in tqdm(hits_L2, "hits_L2")}
+l3_scores = {hit.domains[0].alignment.target_name.decode(): hit.score for hit in tqdm(hits_L3, "hits_L3")}
 
 
 # 獲取所有名稱以確保完整打印
@@ -190,7 +191,7 @@ with open('../../result/reproduce_experiment_for_iteration1/i1_interpro_L7.csv',
     # 寫入標題行
     writer.writeheader()
 
-    for name in all_names:
+    for name in tqdm(all_names, "writer.writerow scores"):
         # formatted_name = name.ljust(fixed_length)
         formatted_name = name
         l2_score = l2_scores.get(name, "N/A")
@@ -214,7 +215,7 @@ with open('../../result/reproduce_experiment_for_iteration1/i1_interpro_L7.csv',
 
 file_path = '../../result/reproduce_experiment_for_iteration1/i1_NA_names.txt'
 with open(file_path, 'w') as file:
-    for name in NA_name:
+    for name in tqdm(NA_name, "NA_name"):
         file.write(name + '\n')  
 # print(f"Names with N/A scores have been saved to {file_path}.")  
 
@@ -445,11 +446,11 @@ classification = {
 
 
 # 简化分类信息
-simplified_classification = {k.split('|')[1]: v for k, v in classification.items()}
+simplified_classification = {k.split('|')[1]: v for k, v in tqdm(classification.items(), "simplified_classification")}
 
 # L2和L3名单
-simplified_L2_name = {name.split('|')[1] for name in L2_name}
-simplified_L3_name = {name.split('|')[1] for name in L3_name}
+simplified_L2_name = {name.split('|')[1] for name in tqdm(L2_name, "simplified_L2_name")}
+simplified_L3_name = {name.split('|')[1] for name in tqdm(L3_name, "simplified_L3_name")}
 
 
 # 创建空的DataFrame
@@ -470,7 +471,7 @@ markers = {'Animal': 'o', 'Plant': 'x', 'Fungi': '^', 'Unknown': '.'}
 all_data = pd.DataFrame()
 
 # 读取并处理每个文件
-for file, label in zip(files, labels):
+for file, label in tqdm(zip(files, labels), "Plot"):
     df = pd.read_csv(file)
     df['Name'] = df['Name']
     df['x'] = df['L2 Score'] / df['Length']
@@ -484,8 +485,8 @@ for file, label in zip(files, labels):
     unknown_df = df[df['Name'].apply(lambda x: simplified_classification.get(x, 'Unknown') == 'Unknown')]
     known_df = df[df['Name'].apply(lambda x: simplified_classification.get(x, 'Unknown') != 'Unknown')]
 
-    for df_subset, is_unknown in [(unknown_df, True), (known_df, False)]:
-        for index, row in df_subset.iterrows():
+    for df_subset, is_unknown in tqdm([(unknown_df, True), (known_df, False)], "GT_plot"):
+        for index, row in tqdm(df_subset.iterrows()):
             if row['Name'] in simplified_L2_name:
                 group = 'L2'
                 color = colors['L2']
