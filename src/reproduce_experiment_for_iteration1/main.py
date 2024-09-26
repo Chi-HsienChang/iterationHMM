@@ -146,7 +146,7 @@ with pyhmmer.plan7.HMMFile("../../hmm/reproduce_experiment_for_iteration1/L3_i1.
 
 # 創建字母表
 alphabet = pyhmmer.easel.Alphabet.amino()
-fasta_file_path = '../../dataset/reproduce_experiment_for_iteration1/test/interpro_L7_original.fasta' # salima
+fasta_file_path = '../../dataset/reproduce_experiment_for_iteration1/test/interpro_structured_disordered.fasta' # salima
 sequences = SeqIO.parse(fasta_file_path, "fasta")
 
 search_sequences = []
