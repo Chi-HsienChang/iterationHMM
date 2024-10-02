@@ -332,6 +332,10 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
 
                 non_df = df[df['Classification'] == 'Unclassified'] 
 
+                # print(f"Number of L2-type proteins: {len(l2_df)}")
+                # print(f"Number of L3-type proteins: {len(l3_df)}")
+                # set_trace()
+
                 l2_df_clade = l2_df.copy()
                 l3_df_clade = l3_df.copy()
 
