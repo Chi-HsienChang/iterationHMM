@@ -316,8 +316,20 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
             
             # Split into L2-type and L3-type
             if file in real_file:  # Check if the current file is a real file to split
-                l2_df = df[df['Classification'] == 'L2-type']
-                l3_df = df[df['Classification'] == 'L3-type']
+                # l2_df = df[df['Classification'] == 'L2-type']
+                l2_df = df[
+                    (df['Classification'] == 'L2-type') &
+                    (df['name'].map(name_to_filterCCCHCCHH) == 'CCCHCCHH')
+                ]
+
+                # print(len(l2_df))
+                # set_trace()
+                # l3_df = df[df['Classification'] == 'L3-type']
+                l3_df = df[
+                    (df['Classification'] == 'L3-type') &
+                    (df['name'].map(name_to_filterCCCHCCHH) == 'CCCHCCHH')
+                ]
+
                 non_df = df[df['Classification'] == 'Unclassified'] 
 
                 l2_df_clade = l2_df.copy()
@@ -612,6 +624,7 @@ taxid_to_lineage = {str(row['Taxid']): row['Named Lineage'] for index, row in ts
 # Initialize a dictionary to hold the mapping from FASTA name to Named Lineage
 name_to_lineage = {}
 name_to_taxID = {}
+name_to_filterCCCHCCHH = {}
 
 # Process the FASTA file
 with open(fasta_file_path, 'r') as fasta_file:
@@ -623,6 +636,9 @@ with open(fasta_file_path, 'r') as fasta_file:
             parts = identifier.split('|')
             name = parts[0]  # Assume the first part of the header is the name, now cleaned of '>'
             taxID = parts[-2].split(':')[-1]  # Extract taxID from the last part
+            
+            name_to_filterCCCHCCHH[name] = parts[-1]  # Extract taxID from the last part
+
             # Retrieve the Named Lineage using taxID
             named_lineage = taxid_to_lineage.get(taxID, 'NA,NA,NA,NA,NA')
             # Map the name to its corresponding Named Lineage
