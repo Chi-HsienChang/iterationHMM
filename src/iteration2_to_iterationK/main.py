@@ -282,7 +282,7 @@ def extract_names_from_fasta(fasta_file):
         names = {record.id.split('|')[0] for record in records}
     return names
 
-def main_pipeline(thresholds_file, real_file, decoy_files, iterations=2, csv_dir = '../../dataset/iteration2_to_iterationK/input_csv', output_dir='./result_test', hmm_dir='../../hmm/iteration2_to_iterationK/', representative='./result_test/representative/'):
+def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir = '../../dataset/iteration2_to_iterationK/input_csv', output_dir='./result_test', hmm_dir='../../hmm/iteration2_to_iterationK/', representative='./result_test/representative/'):
     # Set random seed for reproducibility
     seed = 29617
     random.seed(seed)
@@ -375,6 +375,8 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=2, csv_dir
                     l3_df_clade = l3_df_clade[l3_df_clade['name'].isin(l3_clustered_names)]
                     png_dir = '../../result/iteration2_to_iterationK' 
                     # Plot combined clade frequencies for L2-type and L3-type
+                    print("l2_df_clade: ", l2_df_clade)
+                    print("l3_df_clade: ", l3_df_clade)
                     if not l2_df.empty or not l3_df.empty:
                         plot_combined_clade_frequencies(l2_df_clade, l3_df_clade, iteration, png_dir)
 
@@ -438,11 +440,8 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=2, csv_dir
         decoy_fasta = [f"./result_test/decoy_fasta/all_L7_decoy_iteration_{iteration+1}.fasta"]
         real_fasta = ["../../dataset/iteration2_to_iterationK/aligned_real.fasta"]
 
-        # csv_directory = os.path.join(output_dir, "csv")
-        # setup_directory(csv_directory)  # 確保 csv 目錄已創建
 
         # 處理每個 FASTA 文件
-
         fasta_files = real_fasta + decoy_fasta
         for fasta_file in fasta_files:
             setup_directory(csv_dir+f"/i{iteration+1}")
@@ -623,7 +622,7 @@ with open(fasta_file_path, 'r') as fasta_file:
             identifier = line[1:]  # Remove '>' from the start of the header
             parts = identifier.split('|')
             name = parts[0]  # Assume the first part of the header is the name, now cleaned of '>'
-            taxID = parts[-1].split(':')[-1]  # Extract taxID from the last part
+            taxID = parts[-2].split(':')[-1]  # Extract taxID from the last part
             # Retrieve the Named Lineage using taxID
             named_lineage = taxid_to_lineage.get(taxID, 'NA,NA,NA,NA,NA')
             # Map the name to its corresponding Named Lineage
