@@ -379,6 +379,11 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
                 run_cd_hit(l3_fasta, l3_clustered_fasta)
                 # run_cd_hit(all_L7_fasta, all_L7_clustered) # all_L7
 
+                # if iteration == 2:
+                #     print("l2_clustered_fasta: ", l2_clustered_fasta)
+                #     print("l3_clustered_fasta: ", l3_clustered_fasta)
+                #     set_trace()
+
 
                 if iteration > 1:
 
