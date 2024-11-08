@@ -369,27 +369,89 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
                 convert_csv_to_fasta(l2_filename, l2_fasta)
                 convert_csv_to_fasta(l3_filename, l3_fasta)
                 # convert_csv_to_fasta(all_L7_filename, all_L7_fasta)
-              
-                # Clustering with CD-HIT
-                l2_clustered_fasta = l2_fasta.replace('.fasta', '_to_cluster.fasta')
-                l3_clustered_fasta = l3_fasta.replace('.fasta', '_to_cluster.fasta')
-                # all_L7_clustered = all_L7_fasta.replace('.fasta', '_to_cluster.fasta')
-                
-                run_cd_hit(l2_fasta, l2_clustered_fasta)
-                run_cd_hit(l3_fasta, l3_clustered_fasta)
-                # run_cd_hit(all_L7_fasta, all_L7_clustered) # all_L7
 
                 # if iteration == 2:
-                #     print("l2_clustered_fasta: ", l2_clustered_fasta)
-                #     print("l3_clustered_fasta: ", l3_clustered_fasta)
                 #     set_trace()
+
+                # l2_fasta is './result_test/L2_type_iteration_2_aligned_real.fasta.fasta'
+
+
+                l2_fasta_temp = f'./result_test/L2_type_iteration_{iteration}_aligned_real_temp.fasta'
+                l2_fasta_sequences = SeqIO.parse(l2_fasta, "fasta")
+                
+                modified_sequences = []
+                for fasta in l2_fasta_sequences:
+                # Remove lowercase characters from the sequence
+                    l2_fasta_temp_seq = ''.join([char for char in str(fasta.seq) if not char.islower()])   
+                    fasta.seq = l2_fasta_temp_seq
+                    modified_sequences.append(fasta)
+                # Write the modified sequences to the output FASTA file
+                with open(l2_fasta_temp, "w") as output_handle:
+                    SeqIO.write(modified_sequences, output_handle, "fasta")  
+
+
+
+                l3_fasta_temp = f'./result_test/L3_type_iteration_{iteration}_aligned_real_temp.fasta'
+                l3_fasta_sequences = SeqIO.parse(l3_fasta, "fasta")   
+
+                modified_sequences = []
+                for fasta in l3_fasta_sequences:
+                # Remove lowercase characters from the sequence
+                    l3_fasta_temp_seq = ''.join([char for char in str(fasta.seq) if not char.islower()])   
+                    fasta.seq = l3_fasta_temp_seq
+                    modified_sequences.append(fasta)
+                # Write the modified sequences to the output FASTA file
+                with open(l3_fasta_temp, "w") as output_handle:
+                    SeqIO.write(modified_sequences, output_handle, "fasta")  
+                
+                l2_clustered_fasta = l2_fasta.replace('.fasta', '_to_cluster.fasta')
+                l3_clustered_fasta = l3_fasta.replace('.fasta', '_to_cluster.fasta')
+
+                run_cd_hit(l2_fasta_temp, l2_clustered_fasta)
+                run_cd_hit(l3_fasta_temp, l3_clustered_fasta)
+
+
+
+
+                l2_after_cluster = f'./result_test/L2_type_iteration_{iteration}_after_cluster.fasta'
+                l2_fasta_after_cdhit_sequences = SeqIO.parse(l2_clustered_fasta, "fasta")
+                fasta_dict = {record.id: record for record in l2_fasta_sequences}
+                modified_sequences = []
+                for fasta in l2_fasta_after_cdhit_sequences:
+                    if fasta.id in fasta_dict:  # Check if sequence exists in original file
+                        fasta.seq = fasta_dict[fasta.id].seq  # Update the sequence
+                    modified_sequences.append(fasta)
+
+                # Write the modified sequences to the output FASTA file
+                with open(l2_after_cluster, "w") as output_handle:
+                    SeqIO.write(modified_sequences, output_handle, "fasta")           
+
+                l3_after_cluster = f'./result_test/L3_type_iteration_{iteration}_after_cluster.fasta'
+                l3_fasta_after_cdhit_sequences = SeqIO.parse(l3_clustered_fasta, "fasta")
+                fasta_dict = {record.id: record for record in l3_fasta_sequences}
+                modified_sequences = []
+                for fasta in l3_fasta_after_cdhit_sequences:
+                    if fasta.id in fasta_dict:  # Check if sequence exists in original file
+                        fasta.seq = fasta_dict[fasta.id].seq  # Update the sequence
+                    modified_sequences.append(fasta)
+
+                # Write the modified sequences to the output FASTA file
+                with open(l3_after_cluster, "w") as output_handle:
+                    SeqIO.write(modified_sequences, output_handle, "fasta")                
+                
+        
+                # if iteration == 2:
+                #     print("Here!")
+                #     set_trace()
+
+
 
 
                 if iteration > 1:
 
                     # Extract names from clustered FASTA files
-                    l2_clustered_names = extract_names_from_fasta(l2_clustered_fasta)
-                    l3_clustered_names = extract_names_from_fasta(l3_clustered_fasta)
+                    l2_clustered_names = extract_names_from_fasta(l2_after_cluster)
+                    l3_clustered_names = extract_names_from_fasta(l3_after_cluster)
 
                     # Remove names not in the clustered FASTA files
                     l2_df_clade = l2_df_clade[l2_df_clade['name'].isin(l2_clustered_names)]
@@ -410,7 +472,7 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
 
                 # TODO: combine the two fasta l2_clustered l3_clustered be all_L7_clustered_fasta
                 all_L7_clustered_fasta = os.path.join(output_dir, f'all_L7_iteration_{iteration}_to_cluster.fasta')
-                combine_fasta_files([l2_clustered_fasta, l3_clustered_fasta], all_L7_clustered_fasta)
+                combine_fasta_files([l2_after_cluster, l3_after_cluster], all_L7_clustered_fasta)
 
                 l2_aligned_sto = l2_clustered_fasta.replace('_to_cluster.fasta', '_hmmalign_trim.sto')
                 l3_aligned_sto = l3_clustered_fasta.replace('_to_cluster.fasta', '_hmmalign_trim.sto')
