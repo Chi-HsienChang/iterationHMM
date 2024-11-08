@@ -7,16 +7,16 @@ indices = range(1, 7)
 # Create a figure with 6 rows and 2 columns
 fig, axes = plt.subplots(nrows=6, ncols=2, figsize=(10, 30))
 # Add titles to the top subplots
-axes[0, 0].set_title('With Filter', fontsize=16)
-axes[0, 1].set_title('Without Filter', fontsize=16)
+axes[0, 0].set_title('wo removing insertion', fontsize=16)
+axes[0, 1].set_title('w removing insertion', fontsize=16)
 
 # Adjust the spacing between subplots
 plt.subplots_adjust(hspace=0.01, wspace=0.01)
 
 for idx, i in enumerate(indices):
     # Load images
-    img_w = mpimg.imread(f'w_i{i}.png')
-    img_wo = mpimg.imread(f'wo_i{i}.png')
+    img_w = mpimg.imread(f'w_CCCHCCHH_i{i}.png')
+    img_wo = mpimg.imread(f'i{i}.png')
     
     # Display w_iX.png in the left column
     axes[idx, 0].imshow(img_w)
@@ -27,5 +27,5 @@ for idx, i in enumerate(indices):
     axes[idx, 1].axis('off')  # Hide axis ticks
 
 # Optionally, save the combined figure
-plt.savefig('combined_figure.png', bbox_inches='tight', dpi=300)
+plt.savefig('combined_figure_1108.png', bbox_inches='tight', dpi=300)
 # plt.show()
