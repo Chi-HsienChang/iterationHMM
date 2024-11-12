@@ -550,6 +550,7 @@
 >Cluster 13
 0	220aa, >A0A8K1CCH2... at 86.36%
 1	222aa, >A0AAD5LF37... *
+2	222aa, >K3W7R4... at 80.18%
 >Cluster 14
 0	222aa, >A0AAE0BJL5... *
 >Cluster 15
@@ -737,8 +738,15 @@
 >Cluster 22
 0	218aa, >M4B1P6... *
 >Cluster 23
-0	217aa, >A0A388LKU4... *
+0	217aa, >A0A329T2L6... *
+1	217aa, >A0A8T0YFK9... at 100.00%
+2	217aa, >A0A8T1FBI9... at 100.00%
+3	217aa, >A0A8T1FI15... at 100.00%
+4	217aa, >A0A8T1HJF6... at 100.00%
+5	217aa, >A0A8T1UIB3... at 100.00%
 >Cluster 24
+0	217aa, >A0A388LKU4... *
+>Cluster 25
 0	216aa, >A0A0J0XWF6... *
 1	208aa, >A0A1B9GI90... at 80.77%
 2	216aa, >A0A1E3H8Z9... at 82.87%
@@ -748,10 +756,12 @@
 6	216aa, >A0A5D3AP32... at 82.87%
 7	216aa, >A0A7D8UZM6... at 92.13%
 8	216aa, >A0AAF0YAR3... at 91.67%
->Cluster 25
+>Cluster 26
+0	216aa, >A0A0P1B1J7... *
+>Cluster 27
 0	216aa, >A0A4Y7LSK1... *
 1	216aa, >A0A4Y7MI44... at 100.00%
->Cluster 26
+>Cluster 28
 0	208aa, >A0A151NGN9... at 83.17%
 1	208aa, >A0A151NGP1... at 83.17%
 2	208aa, >A0A151NH24... at 83.17%
@@ -762,30 +772,32 @@
 7	216aa, >A0A8J4X0Q5... at 84.72%
 8	199aa, >A0A8J7NRB9... at 92.96%
 9	216aa, >A0A9J7F506... at 86.11%
->Cluster 27
-0	216aa, >A0AAD9D0W3... *
->Cluster 28
-0	215aa, >A0A7M5V1X3... *
 >Cluster 29
+0	216aa, >A0AAD9D0W3... *
+>Cluster 30
+0	215aa, >A0A7M5V1X3... *
+>Cluster 31
 0	215aa, >A0A9P3KJJ2... *
 1	215aa, >A0A9P3N1J0... at 100.00%
->Cluster 30
-0	214aa, >A0A2B4R9V1... *
->Cluster 31
-0	213aa, >A0A8T1WIA6... *
 >Cluster 32
-0	213aa, >A0A8X6IRP0... *
+0	215aa, >G4YH12... *
 >Cluster 33
-0	210aa, >A0A7C8M6W3... *
+0	214aa, >A0A2B4R9V1... *
 >Cluster 34
-0	210aa, >A0A9W8WYM8... *
+0	213aa, >A0A8T1WIA6... *
 >Cluster 35
-0	209aa, >A0A0E0KLG1... *
+0	213aa, >A0A8X6IRP0... *
 >Cluster 36
-0	202aa, >A0A4S8K810... *
+0	210aa, >A0A7C8M6W3... *
 >Cluster 37
-0	202aa, >A0A7J7N539... *
+0	210aa, >A0A9W8WYM8... *
 >Cluster 38
+0	209aa, >A0A0E0KLG1... *
+>Cluster 39
+0	202aa, >A0A4S8K810... *
+>Cluster 40
+0	202aa, >A0A7J7N539... *
+>Cluster 41
 0	192aa, >A0A5J9UZP8... at 81.25%
 1	200aa, >A0A830CKP2... at 84.00%
 2	201aa, >A0A9Q0JJF3... *

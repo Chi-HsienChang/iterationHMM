@@ -570,24 +570,22 @@
 >Cluster 15
 0	222aa, >A0AAE0BJL5... *
 >Cluster 16
-0	221aa, >A0A196SCY6... *
->Cluster 17
 0	200aa, >A0A0D3B1N2... at 83.00%
 1	221aa, >A0A816HY15... *
->Cluster 18
+>Cluster 17
 0	220aa, >A0A5D6Y9H5... *
->Cluster 19
+>Cluster 18
 0	220aa, >D8RYX3... *
 1	220aa, >D8SV26... at 99.55%
->Cluster 20
+>Cluster 19
 0	219aa, >A0A2P6NSE9... *
->Cluster 21
+>Cluster 20
 0	219aa, >A0A834Z9K9... *
->Cluster 22
+>Cluster 21
 0	219aa, >A0A8T1X126... *
->Cluster 23
+>Cluster 22
 0	218aa, >A0A3R7XJX6... *
->Cluster 24
+>Cluster 23
 0	216aa, >A0A060S7T9... at 93.52%
 1	216aa, >A0A067MQG0... at 87.96%
 2	216aa, >A0A067NZZ9... at 94.44%
@@ -755,11 +753,11 @@
 164	216aa, >S8ELS9... at 93.98%
 165	216aa, >V2YSF4... at 93.52%
 166	216aa, >W4KJQ2... at 90.28%
->Cluster 25
+>Cluster 24
 0	218aa, >F0WNG5... *
->Cluster 26
+>Cluster 25
 0	218aa, >M4B1P6... *
->Cluster 27
+>Cluster 26
 0	217aa, >A0A081A1E7... *
 1	217aa, >A0A329T2L6... at 88.94%
 2	217aa, >A0A833WVA9... at 87.56%
@@ -776,9 +774,9 @@
 13	217aa, >W2Q4I8... at 99.08%
 14	217aa, >W2WW86... at 99.08%
 15	217aa, >W2Z3F7... at 99.08%
->Cluster 28
+>Cluster 27
 0	217aa, >A0A388LKU4... *
->Cluster 29
+>Cluster 28
 0	216aa, >A0A0J0XWF6... *
 1	208aa, >A0A1B9GI90... at 80.77%
 2	216aa, >A0A1E3H8Z9... at 82.87%
@@ -788,13 +786,13 @@
 6	216aa, >A0A5D3AP32... at 82.87%
 7	216aa, >A0A7D8UZM6... at 92.13%
 8	216aa, >A0AAF0YAR3... at 91.67%
->Cluster 30
+>Cluster 29
 0	216aa, >A0A0P1B1J7... *
 1	213aa, >A0A976IAY6... at 80.75%
->Cluster 31
+>Cluster 30
 0	216aa, >A0A4Y7LSK1... *
 1	216aa, >A0A4Y7MI44... at 100.00%
->Cluster 32
+>Cluster 31
 0	208aa, >A0A151NGN9... at 83.17%
 1	208aa, >A0A151NGP1... at 83.17%
 2	208aa, >A0A151NH24... at 83.17%
@@ -805,32 +803,32 @@
 7	216aa, >A0A8J4X0Q5... at 84.72%
 8	199aa, >A0A8J7NRB9... at 92.96%
 9	216aa, >A0A9J7F506... at 86.11%
->Cluster 33
+>Cluster 32
 0	216aa, >A0AAD9D0W3... *
->Cluster 34
+>Cluster 33
 0	215aa, >A0A7M5V1X3... *
->Cluster 35
+>Cluster 34
 0	215aa, >A0A9P3KJJ2... *
 1	215aa, >A0A9P3N1J0... at 100.00%
->Cluster 36
+>Cluster 35
 0	215aa, >G4YH12... *
->Cluster 37
+>Cluster 36
 0	214aa, >A0A2B4R9V1... *
->Cluster 38
+>Cluster 37
 0	213aa, >A0A8T1WIA6... *
->Cluster 39
+>Cluster 38
 0	213aa, >A0A8X6IRP0... *
->Cluster 40
+>Cluster 39
 0	210aa, >A0A7C8M6W3... *
->Cluster 41
+>Cluster 40
 0	210aa, >A0A9W8WYM8... *
->Cluster 42
+>Cluster 41
 0	209aa, >A0A0E0KLG1... *
->Cluster 43
+>Cluster 42
 0	202aa, >A0A4S8K810... *
->Cluster 44
+>Cluster 43
 0	202aa, >A0A7J7N539... *
->Cluster 45
+>Cluster 44
 0	192aa, >A0A5J9UZP8... at 81.25%
 1	200aa, >A0A830CKP2... at 84.00%
 2	201aa, >A0A9Q0JJF3... *

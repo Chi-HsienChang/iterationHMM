@@ -17,6 +17,7 @@ import matplotlib.pyplot as plt
 import random
 import numpy as np
 from ipdb import set_trace
+from collections import Counter
 
 # L2 名稱集合
 L2_name = {
@@ -282,18 +283,35 @@ def extract_names_from_fasta(fasta_file):
         names = {record.id.split('|')[0] for record in records}
     return names
 
-def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir = '../../dataset/iteration2_to_iterationK/input_csv', output_dir='./result_test', hmm_dir='../../hmm/iteration2_to_iterationK/', representative='./result_test/representative/'):
+def get_clade_frequency(fasta_file, name_to_lineage):
+    clade_counts = Counter()
+    
+    # 讀取 FASTA 檔案，並計算 clade 頻率
+    with open(fasta_file, "r") as file:
+        for record in SeqIO.parse(file, "fasta"):
+            name = record.id.split('|')[0]
+            if name in name_to_lineage:
+                clade = name_to_lineage[name].split(',')[3]
+                clade_counts[clade] += 1
+    
+    return clade_counts
+
+def main_pipeline(thresholds_file, real_file, decoy_files, iterations=10, csv_dir = '../../dataset/iteration2_to_iterationK/input_csv', output_dir='./result_test', hmm_dir='../../hmm/iteration2_to_iterationK/', representative='./result_test/representative/'):
     # Set random seed for reproducibility
     seed = 29617
     random.seed(seed)
     np.random.seed(seed) 
     num_decoy = 10000
+    # num_decoy = 10
     setup_directory(output_dir)
     setup_directory(csv_dir)
     setup_directory(hmm_dir)
     setup_directory(representative)
 
     previous_classifications = None # termination condition
+    x_iterations = []
+    l2_clade_counts_iterations = []
+    l3_clade_counts_iterations = []
 
     for iteration in range(1,iterations+1):
         thresholds_file = [f'../../dataset/iteration2_to_iterationK/input_csv/i{iteration}/all_L7_decoy_iteration_{iteration}.fasta.csv']
@@ -390,7 +408,6 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
                     SeqIO.write(modified_sequences, output_handle, "fasta")  
 
 
-
                 l3_fasta_temp = f'./result_test/L3_type_iteration_{iteration}_aligned_real_temp.fasta'
                 l3_fasta_sequences = SeqIO.parse(l3_fasta, "fasta")   
 
@@ -410,9 +427,6 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
                 run_cd_hit(l2_fasta_temp, l2_clustered_fasta)
                 run_cd_hit(l3_fasta_temp, l3_clustered_fasta)
 
-
-
-
                 l2_after_cluster = f'./result_test/L2_type_iteration_{iteration}_after_cluster.fasta'
                 l2_fasta_after_cdhit_sequences = SeqIO.parse(l2_clustered_fasta, "fasta")
                 fasta_dict = {record.id: record for record in l2_fasta_sequences}
@@ -423,6 +437,7 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
                     modified_sequences.append(fasta)
 
                 # Write the modified sequences to the output FASTA file
+                # l2_after_cluster: ./result_test/L2_type_iteration_{iteration}_after_cluster.fasta
                 with open(l2_after_cluster, "w") as output_handle:
                     SeqIO.write(modified_sequences, output_handle, "fasta")           
 
@@ -435,17 +450,36 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
                         fasta.seq = fasta_dict[fasta.id].seq  # Update the sequence
                     modified_sequences.append(fasta)
 
-                # Write the modified sequences to the output FASTA file
+                # Write the modified sequences to the output FASTA file 
+                # l3_after_cluster: ./result_test/L3_type_iteration_{iteration}_after_cluster.fasta
                 with open(l3_after_cluster, "w") as output_handle:
-                    SeqIO.write(modified_sequences, output_handle, "fasta")                
+                    SeqIO.write(modified_sequences, output_handle, "fasta")     
+
+                # line plot for l2_after_cluster and l3_after_cluster ##########################################################################
+                # 'Clade': name_to_lineage[name.split('|')[0]].split(',')[3]
+
+                # 計算 clade 頻率
+                l2_clade_counts = get_clade_frequency(l2_after_cluster, name_to_lineage)
+                l3_clade_counts = get_clade_frequency(l3_after_cluster, name_to_lineage)
+
+                print("L2 Clade Counts:", l2_clade_counts)
+                print("L3 Clade Counts:", l3_clade_counts)
+                # set_trace()
+
+
+                x_iterations.append(iteration)
+                l2_clade_counts_iterations.append(l2_clade_counts)
+                l3_clade_counts_iterations.append(l3_clade_counts)
+
+
+
+
                 
-        
+                # ##############################################################################################################################  
+                
                 # if iteration == 2:
                 #     print("Here!")
                 #     set_trace()
-
-
-
 
                 if iteration > 1:
 
@@ -520,6 +554,7 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
         alphabet = pyhmmer.easel.Alphabet.amino()
 
         # decoy_fasta = glob.glob("./result_test/decoy_fasta/*.fasta")
+        # TEST DATA
         decoy_fasta = [f"./result_test/decoy_fasta/all_L7_decoy_iteration_{iteration+1}.fasta"]
         real_fasta = ["../../dataset/iteration2_to_iterationK/aligned_real.fasta"]
 
@@ -673,6 +708,8 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=6, csv_dir
             plt.savefig(f"../../result/iteration2_to_iterationK/class_proportion/i{iteration}_class_proportion.png")
             plt.close()
     print("Pipeline completed successfully.")
+    return x_iterations, l2_clade_counts_iterations, l3_clade_counts_iterations
+
 
 
 
@@ -718,4 +755,42 @@ with open(fasta_file_path, 'r') as fasta_file:
             name_to_taxID[name] = taxID
 
 
-main_pipeline(thresholds_file, real_file, decoy_files)
+x_iterations, l2_clade_counts_iterations, l3_clade_counts_iterations = main_pipeline(thresholds_file, real_file, decoy_files)
+print(x_iterations)
+print(l2_clade_counts_iterations)
+print(l3_clade_counts_iterations)
+
+
+# Extract unique clades from both L2 and L3
+clades = sorted(set(key for counts in l2_clade_counts_iterations + l3_clade_counts_iterations for key in counts))
+
+# Define unique markers for each clade
+markers = ['o', 's', '^', 'D', 'x', 'P', '*', 'h', '+']
+clade_marker_map = {clade: markers[i % len(markers)] for i, clade in enumerate(clades)}
+
+# Plotting L2 and L3 clade frequencies over iterations
+plt.figure(figsize=(15, 8))
+
+# Set a larger marker size
+marker_size = 10
+
+# Plot for L2 Clades (Blue Color Family)
+for clade in clades:
+    l2_counts = [iteration_counts.get(clade, 0) for iteration_counts in l2_clade_counts_iterations]
+    plt.plot(x_iterations, l2_counts, label=f'L2 {clade}', linestyle='-', marker=clade_marker_map[clade], color='blue', markersize=marker_size)
+
+# Plot for L3 Clades (Red Color Family)
+for clade in clades:
+    l3_counts = [iteration_counts.get(clade, 0) for iteration_counts in l3_clade_counts_iterations]
+    plt.plot(x_iterations, l3_counts, label=f'L3 {clade}', linestyle='-', marker=clade_marker_map[clade], color='red', markersize=marker_size)
+
+# Ensuring x-axis only has integer ticks
+plt.xticks(x_iterations)
+
+plt.xlabel('Iterations', fontsize = 20)
+plt.ylabel('Count', fontsize = 20)
+plt.title('Clade Frequency Over Iterations for L2 and L3', fontsize = 20)
+plt.legend()
+# plt.legend(bbox_to_anchor=(1.01, 1), loc='upper left', borderaxespad=0., fontsize = 20)
+plt.grid(True)
+plt.savefig("../../result/iteration2_to_iterationK/line_plot.png")
