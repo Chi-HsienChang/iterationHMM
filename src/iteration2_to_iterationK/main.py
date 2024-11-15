@@ -296,7 +296,7 @@ def get_clade_frequency(fasta_file, name_to_lineage):
     
     return clade_counts
 
-def main_pipeline(thresholds_file, real_file, decoy_files, iterations=20, csv_dir = '../../dataset/iteration2_to_iterationK/input_csv', output_dir='./result_test', hmm_dir='../../hmm/iteration2_to_iterationK/', representative='./result_test/representative/'):
+def main_pipeline(thresholds_file, real_file, decoy_files, iterations=30, csv_dir = '../../dataset/iteration2_to_iterationK/input_csv', output_dir='./result_test', hmm_dir='../../hmm/iteration2_to_iterationK/', representative='./result_test/representative/'):
     # Set random seed for reproducibility
     seed = 29617
     random.seed(seed)
@@ -790,7 +790,7 @@ plt.xticks(x_iterations)
 plt.xlabel('Iterations', fontsize = 20)
 plt.ylabel('Count', fontsize = 20)
 plt.title('Clade Frequency Over Iterations for L2 and L3', fontsize = 20)
-plt.legend()
+# plt.legend()
 # plt.legend(bbox_to_anchor=(1.01, 1), loc='upper left', borderaxespad=0., fontsize = 20)
 plt.grid(True)
 plt.savefig("../../result/iteration2_to_iterationK/line_plot.png")

@@ -512,21 +512,20 @@
 506	222aa, >L5JQH7... at 100.00%
 507	222aa, >L9KH64... at 100.00%
 508	222aa, >M3WGR7... at 100.00%
-509	218aa, >M3YVR1... at 91.74%
-510	222aa, >M7BLZ1... at 99.10%
-511	222aa, >O95232... at 100.00%
-512	222aa, >Q3SX41... at 100.00%
-513	222aa, >Q5R8W6... at 100.00%
-514	222aa, >Q5SUF2... at 100.00%
-515	222aa, >Q5ZIU4... at 100.00%
-516	222aa, >Q6PKC2... at 100.00%
-517	222aa, >Q86Y74... at 100.00%
-518	222aa, >S7MZG8... at 100.00%
-519	222aa, >T2HPV3... at 98.20%
-520	222aa, >U3BXY2... at 100.00%
-521	222aa, >U3JFA1... at 99.55%
-522	222aa, >V8NME0... at 98.65%
-523	222aa, >W5NZF3... at 100.00%
+509	222aa, >M7BLZ1... at 99.10%
+510	222aa, >O95232... at 100.00%
+511	222aa, >Q3SX41... at 100.00%
+512	222aa, >Q5R8W6... at 100.00%
+513	222aa, >Q5SUF2... at 100.00%
+514	222aa, >Q5ZIU4... at 100.00%
+515	222aa, >Q6PKC2... at 100.00%
+516	222aa, >Q86Y74... at 100.00%
+517	222aa, >S7MZG8... at 100.00%
+518	222aa, >T2HPV3... at 98.20%
+519	222aa, >U3BXY2... at 100.00%
+520	222aa, >U3JFA1... at 99.55%
+521	222aa, >V8NME0... at 98.65%
+522	222aa, >W5NZF3... at 100.00%
 >Cluster 2
 0	223aa, >A0A022QVH2... at 82.96%
 1	223aa, >A0A068UA34... at 83.86%
@@ -976,11 +975,8 @@
 5	219aa, >A0A9J7M774... at 97.72%
 6	219aa, >C3YWM9... at 97.72%
 >Cluster 23
-0	207aa, >A0A078AWF7... at 85.99%
-1	219aa, >J9EHK3... *
->Cluster 24
 0	219aa, >R7T6G3... *
->Cluster 25
+>Cluster 24
 0	217aa, >A0A086PGS0... *
 1	213aa, >A0A086Q6N8... at 99.06%
 2	217aa, >A0A125YRL4... at 100.00%
@@ -989,25 +985,28 @@
 5	211aa, >F0V9V8... at 95.73%
 6	217aa, >S7UKQ1... at 100.00%
 7	217aa, >V4Z2J5... at 100.00%
->Cluster 26
+>Cluster 25
 0	217aa, >A0A0G4H2P3... *
 1	217aa, >A0A7S1P816... at 100.00%
->Cluster 27
+>Cluster 26
 0	217aa, >A0A1D2N959... *
 1	217aa, >A0A226EG89... at 84.33%
 2	217aa, >A0A8J2NRR4... at 84.79%
->Cluster 28
+>Cluster 27
 0	206aa, >A0A1D3CVK8... at 100.00%
 1	217aa, >A0A6P5WCW5... *
 2	217aa, >U6G938... at 95.85%
 3	217aa, >U6M5S3... at 96.31%
->Cluster 29
+>Cluster 28
 0	216aa, >A0A1S3H6U7... *
 1	215aa, >A0A1S3H8P1... at 93.02%
->Cluster 30
+>Cluster 29
 0	215aa, >A0A6A7G7H7... *
->Cluster 31
+>Cluster 30
 0	215aa, >A0A7S1S645... *
+>Cluster 31
+0	215aa, >A0A813HU82... *
+1	215aa, >A0A813JG55... at 100.00%
 >Cluster 32
 0	215aa, >F4P120... *
 >Cluster 33

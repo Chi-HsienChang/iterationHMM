@@ -1,460 +1,468 @@
 # STOCKHOLM 1.0
 
-A0A016T530         ---MRDMIAQLMGSQKEGEEGrd..lpPYHHPSVCRAYLIGCCPYELVPDSRQGLVSCRKTHEPAHKADFLKAQKERDHYYDVDAFDILENAIRIV...DNEISRIKDKLDrEAR...eQ.tDtAEAVKTQRINDLSEQIGKAVAEMEELGNMGKVEESMKLSKTVEDLRARKAEl....eG-.Qtdfr....lagpgSN
-#=GR A0A016T530 PP ...79*************99999..***********************************************************************...************7666...54.445888999*********************************************6....42..45799....*******
-A0A059D1I0         MDAIRKQLDVLMGANRNGDVRev..nrKYYDRDVCRMYLVGLCPHELFQLTKMDMGPCPKVHSLQLRKEYEEAKGKGVDNYDRDLEDVIDRLIVEC...DRKIARALKRLEeLPQp.lpN..PpPLAPLVAPDPRTQEMINEKLKKAEDLGEQGMVDEAQKALEEAEALKKLHARq...epA-.Qdstky..taadvrIT
-#=GR A0A059D1I0 PP 9******************999*..***********************************************************************...************77777.743..34778889999**************************************99995...542..157899..9*******
-A0A067BJQ2         MDAQRALLDELMGRNRDGDKPqe.dirDFRDQRVCKRFLCGLCPHDLFQNTKMDMGECPKLHLPKLKLAYEEAKNQRDYGYEADLERELVRYVSDV...EKKISRALKRLD.EQDgarvS..SmLDIENNKEVLEITAEIAELMQKAEDAGNEGEVDLSMELMAKVEALKVKKAA......LQ.AvlastapdvaqmtNV
-#=GR A0A067BJQ2 PP 9******************999*.************************************************************************...************.66658643..4588899**********************************************......66.557778999999999*
-A0A081A1E7         MDAQRALLDSLMGLNRDGDRPdddatmDFRHPRVCKPYLCGLCPRELFQNTRLDLGTCKSLHLPTLRLAYEEKKSTRDFGYERELANELSRLLADV...EKKIARAQRRLA.EDG....-..-.DDEQAPAQILQLTQDIQDAAAQAEKAAKEGNADRSLSMMEKVEMLKQKRREl....lRQ.Snpgt....snavdNV
-#=GR A0A081A1E7 PP 9******************999**************************************************************************...************.988.........6889999********************************************8....733.36899....999*9**
-A0A0C9RPB2         MDSLRKQLDALMGANRNGDVTev..trKYYDRDVCRLYLAGLCPHELFQLTKMDLGPCAKLHSLPLRKDYQEAKAKGKDNYDRELEDALERLVVEC...ERKITRSLRRLE.APQp.vqS.aPpVPPVPPPVDARTQEMIMDKLKKAEELGELGMVDEAQKLMEDAEALKKLGAPq....aG-.Tpesski.aavnvrIT
-#=GR A0A0C9RPB2 PP 9******************999*..***********************************************************************...************.7775.643.33345556677889************************************99885....41..2456789.99******
-A0A0D3F7D0         MDAIRKQLDQLMGANRNGDVRev..srKYYDRDVCRLFLAGLCPHDLFQLTKMDMGPCPKLHSLQLRKEYEEAKAKGMDNYDRELEETIERLISEC...ERKIQRALKRLE.ELQtanqS.iP.PPPVAAAPDARTQEMIDEKLKKAEELGENGMIDEAQKLLDEAEALKKLGAR......PQ.Pvpdsak.msthvqIT
-#=GR A0A0D3F7D0 PP 9******************999*..***********************************************************************...************.55546533.44.88899999******************************************9......44.3345567.889999**
-A0A0E0KLG1         MEAMRKQLDVLMGANRNGDVRev..srKYYDRDVCRLFLAGLCPHDLFQLTKMDLGPCPKVHSLQLRKDYEEVKAKGTENYDRELEEMIDRLIVEC...ERKIQRALKRLAdEDAk..aA.iAiSVSEVTDEVLQLSKEIKEKMKEVDTYDFEGKTDDKIKTMEVVEELRSKRAD......--.M.............QT
-#=GR A0A0E0KLG1 PP 9******************999*..***********************************************************************...************65556..65.6678899999***************************************99987.........6.............78
-A0A0E0P3S3         MDAMRKQLDVLMGANRKTATGngdvsrKYYDRDVCRLFLAGLCPHDLFQLTKMDLGPCPKVHSLQLRKDYEEVKAKGTENYDRELEEMIDRLIVEC...ERKIQRALKRLAdLPQp..tP.tPqMASVPAPPDARTQEMINEKIKKAEELGEQGMVDEAQKVMEEAEALKKLAAR......REpTsdptky.taadvrIT
-#=GR A0A0E0P3S3 PP 9****************9998999************************************************************************...************87776..53.3335566678899**************************************999......4423568889.99******
-A0A0J0XWF6         ---QRKLLEQMMGPEAMGFNPp...slDWWNEKVCRDYLFGTCLHDTFSNTKMDLGPCPKTHSDRILKQFQEAQKEPSPDFRQEHENNIYQFVDEC...DRRIRASQRKLEkTPE....E.nR.KTVDLMKEIGEIELAIQGGTDEIEQLGAEGKVDESMEKLAAVDALKQLKND......KE.Kelqll..nenagaSG
-#=GR A0A0J0XWF6 PP ...8**************9999...***********************************************************************...************7777....7.56.*************************************************99......66.457899..999**9**
-A0A0P1B1J7         MDAQRALLDSLMGINRDGDRPnddactNFRHPKVCKLYLCGLCPRSLFQNTRLDSGPCEFLHLPTLRSAYEEERTKESFRYERDLISELSKLLADV...EKKIARAQRRLT.EDG....-..-.GESQDKKQILQLTQDMQEAAAQAEQAAKDGDADQSLRSLENVELFKQKRREv....lRQ.Nngat.....nlvdSV
-#=GR A0A0P1B1J7 PP 9******************999**************************************************************************...************.888.........5788999********************************************9....744.36899.....9*****
-A0A0S4TGY4         MDEIRRQIEDLMGGIEAPIEK.....kNPHDNDVCKFYLCGLCPHELFENTKLYMGPCKNIHSEVLREKYERESKGNTRIYETDSLRVFQGMVDDC...NKKIERNRVRAE.LSG....-..-.SSKLEDENIRALDLEIKEIMKEIDDLGANGDIDGSLKRMEDLTRLNQQKMKi...saT-.Kedv.......engMY
-#=GR A0A0S4TGY4 PP 9************99998887.....799*******************************************************************...********9999.666.........5788999******************************************997...642..2578.......89999
-A0A196SCY6         MDDIRKLLDHLMGPNRDGERRqg.evdDFRDPRVCKPYLLGFCLHDRLASSKYDIGPCNLIHDPELKKKYEADPHRRSYNYESILYSELQDHVRAC...DRRISNAVARFK.IDG....M.dN.LMKMEFDDVKDLAADISKMEDQVEELQKMGKDELAEELQEKINTNVEMKASi....qA-.Hvkdeke.kvnlnaTP
-#=GR A0A196SCY6 PP 9******************999*.************************************************************************...************.666....5.49.*******************************************999999985....41..2455678.999*9999
-A0A1I7T1V8         ---MRDMIAQLMGSQHVDNKEkp..smPFDHHSVCRAFLLGICPHDMVPDSRQNVVSCRKVHEPAHKADYERAQKERDHFYDVDAYEIIENAVRLV...DIEISKVREKLEdDVK...tQ.tSqAADSKAKQVAEIEAKIAKNVEDIEKLGNEGKIEESMKLHKYVEELREKIQDi...edS-.Qtevr....tagpgSN
-#=GR A0A1I7T1V8 PP ...79*********998888889..99*********************************************************************...************7666...64.444889999*********************************************7...532..26899....*******
-A0A1J4MPJ6         MDEIRRQIESLMGEIESPIEK.....kSVHDESVCKLYLCGLCPHELFENTKLYMGACPKIHSEKLRERYLEERKSPNFIYEQESYLILQGMVDEC...NKKITRNRVRAQ.LSG....-..-.SSKLEDENIKSVDREITLIMKEIEDLGASGDIDGSLKKMEDLTRLNQQKLKii..atR-.Eev........angMY
-#=GR A0A1J4MPJ6 PP 9*************9999888.....7*********************************************************************...*******99998.666.........5788999******************************************9998..632..268........8999*
-A0A1N6LX35         MDEIRAQLSQLMGELEAPGGLyv..gkDFRDRDVCKLYLTGLCPHDLFDNTKHYLGPCSKIHAEELRAEYEKVKLTKNYGYEEEALAFISPMIHDC...DRKITKAKMRVSsEED....P.tKnPLDVLMEELRAIDVHIQQKMLKAEELGLQGLVDDSLRVMEEIERLKHLKVKt....lD-.Rng.........dsNY
-#=GR A0A1N6LX35 PP 9*************999887789..99*********************************************************************...************6666....5.55599999*******************************************9997....52..246.........7799
-A0A1Y1HY81         MDAFRKQLDDLMGANRNGDSRev..dhKYYDRAVCRLYLCGLCPHELFVNTKMDMGPCPKAHSVKLRRDYEEARKKGKENYDRELEDALLKIIDEC...DRKIQRALKRLQdRAEi..qA.aAlLEAFNKDKQLGVPQHIDEKLKQAEQAGESGQVDEAQRLMDEAEALKKRATTvv..vpE-.Pprvlq...qvdsrIT
-#=GR A0A1Y1HY81 PP 9******************999*..***********************************************************************...************76668..53.4467778888888899************************************9987..651..145666...78899**
-A0A2B4R9V1         ---MKKMLDELMGTQRDGARPed..evKFSDDRVCKSYLMGLCPHELFNNTKMDLGPCNKIHEAALKADYEIASKKRDYGYDVDQMEHLQSFIKDC...DRKIQIAKKRLE.ETQ....D.dH.DNVPEAQAVHDLADQIGKKLAEAETVGAEGKVEESMELMKEVEDLKAKKKM......AE.Diyres...lpsssLQ
-#=GR A0A2B4R9V1 PP ...799************99999..***********************************************************************...************.888....7.58.9999*********************************************99......55.556778...999999*
-A0A2K1IDW9         MDAFRKQLDALMGANRNGDVLev..krNYWDRDVCRLYLTGLCPHDLFQLTKMDLGPCSKVHSLQLRKEYEEAKANGKDNYDRDLEDCLEKHIVEC...DRKIQRALKRLEdLANp..pP.aPlPTLVTLPPDARTQEMITEKLKKAEELGELGMVDEAQKAMEEAEALKKLGAR......QE.AvtdpakllapevrIA
-#=GR A0A2K1IDW9 PP 9******************9889..99*********************************************************************...************65557..64.55688889999****************************************999......66.55688999********
-A0A2P6NSE9         MDEQRRILDALMGTSRNGDAEd...kkDFTDPDVCKFFLVGFCPVELFINTKMDVGECKKIHQESLKMDYEEASKKREYGYEQDLIRELESIVHDC...DRKINNARKRLE.HNQ....E.vE.KQLSGETEADDLGPEIEKLIKKAEELGEEGEVDESLKVMEQVNNLKAQQQA......DK.ArrqamtteigplsNQ
-#=GR A0A2P6NSE9 PP 9******************999...99*********************************************************************...************.999....8.79.*************************************************99......44.33568999********
-A0A388LKU4         MDAFRKQLDALMGANRNGDVQev..krKYYARDVCRYFLCGLCPHDLFQNTKIDLGPCGKVHSLHLRLEYEDAKKRLRDNYDRELEECLEKHIIDC...DKKIQRALKRLEdMLG....S.pP.GVGPSIPPDPRTQEAIRERLKKAEELGEMGMVDEAQKAMEEAEALKRLGSRg...dpA-.Dgqk......gdmrIA
-#=GR A0A388LKU4 PP 9*******************99*..***********************************************************************...************6666....7.57.9999999*****************************************9997...651..1456......8899**
-A0A3B0MP33         MDQIRATLAELMGKYEQKEDLds..tkPFTDPDVCRQYLTGICPHDLFENTKFYMGECSRIHSEKLRERYQNERKNHFYGYELETLKIIQPMIDDC...DKKIARGKARVE.EDL...vR.rKtLDPMIIEEAKKIDSQIQSRMARADELGRNGEVEESFKIVEEVELLKRTKLE.....mLE.Kgg.........daSY
-#=GR A0A3B0MP33 PP 9**************99988788..999********************************************************************...************.766...54.455899999*******************************************99.....744.467.........889*
-A0A3R7XJX6         MDAQRALLDSLMGLNRDGDRPne.ailDFNHPKVCKLYLCGLCPRELFQHTRLDSGACELLHVPALRSAFEQEEDVERDFYERQLVNELSKFLVDV...EKKITRAQKRLE.EDG....-..-.DDNQDRTQVLQFTQDIQDATIKAEQAAQNGDVDKSLQLMEQVELFKRKRREv....lRQ.Stansn..assvvdNV
-#=GR A0A3R7XJX6 PP 9******************999*.************************************************************************...************.988.........6889999********************************************9....733.257889..9*******
-A0A4S8K810         MDAIRKQLDVLMGANRNGDVRev..shKYYDRDVCRLFLAGLCPHDLFQLTKMDMGPCPKIHSLQLRKEYEEAKVKGDHNFDRELEDMIERLIVEC...ERKIQRALKRLE.DLK....L..P.LPNQNPSQLASLPVVN--PPDRHTQEMINEKLKKAEDLGPQPKSTMDEKPY......--.R.............ET
-#=GR A0A4S8K810 PP 9*******************99*..***********************************************************************...************.998....6..7.7778888888886544..445555556667888999999988888877765.........6.............89
-A0A4Y7LSK1         ---MRAMLDQLMGTTRDGESSry..nvKFSDPKVCKSFLLGCCPHEILASTRMDIGECVNIHDLALRADYEKASETKDYGYQVDAMDHLTTFVGEC...DRKTEAAKKRLAeTQE....E.lSaEVAAKAQKVHLLAEQIGQKLAKAEQLGAEGFVDESMKMMEEVEEFRKKKAA......AE.Qeyrna...mpassYQ
-#=GR A0A4Y7LSK1 PP ...79**************999*..***********************************************************************...************6666....7.777999**********************************************99......55.447899...9**999*
-A0A5D6Y9H5         MDEQRALLDELMGRNRDGDRPde.dvtDFRHARVCKRFLCGLCPHELFQNTKMDLGDCALLHTPALREQFERARLQRDWGYEQELERELARFVADV...EKRIARAQRRLE.EGA....E..S.TEARAAAEIQSVLRRALGLLDTVEELKTKMAMAQANAMLTSFRAAKGGRGGe...spR-.Tdaedd..rkdgalAV
-#=GR A0A5D6Y9H5 PP 9******************9999.************************************************************************...************.999....8..8.999999**************************************99888774...441..146678..999*****
-A0A5N5KHN3         MDAMRKQLDVLMGANRNGDVRev..nrKYYDRDVCRLYLVGLCPHELFQLTKMDMGPCPKVHSLQLRKNYEEARAKGVDNYDVELENVIDKLIVEC...DKKIGRALKRLEdTQEm..iN.eKlKAEDLDKEDNAVEKNFVSSQNLIHSSGEQGMVDEAQKALEEAEALKKLPAR......QE.PtldsskysaadvrVT
-#=GR A0A5N5KHN3 PP 9******************999*..***********************************************************************...************77778..85.56788999999***************************************9999......44.2366778999***99*
-A0A662WHC7         MDAQRALLDTLMGRNRDGDRPee.disDFRHPRVCKPWLCGLCPHDLFQNTKMNLGVCESLHLPEMRAAYERHVSASDLGYEQQLVRELAVFVADV...EKKIARGQKRLDeQEE...eE.dArSLDAAAKRVLELTTGIQEAMEQAKEASTVGEVERSIELVQKIEELKRAKAE......LE.KcvgamkrerskstNV
-#=GR A0A662WHC7 PP 9******************9999.************************************************************************...************5444...54.4447788999********************************************......66.5567777889999999
-A0A6A4SXN7         ---MRAMLDQLMGTGRDGDTMrq..riKFSDERVCKSHLLDSCPHDILSGTRMDLGECIKVHDLALRADYEIASKEQEYFFELDAAEHLQSFIADC...DRRTELAKKRLVeTQD....E.iSaEVAAKAERVHELNEEIGKLLARAEQLGGEGNVDEAQQLLEKVEKTRALKKE......AE.Dvyrns...mpassFQ
-#=GR A0A6A4SXN7 PP ...79**************9999..***********************************************************************...***********95555....7.77799*********************************************9999......55.556778...999999*
-A0A6H5K8V8         MDSQRALLDELMGVNRNLDNEeg.vidDFKDERVCKAYLCGLCPHDLFSNTKQDLGACDYLHDEELKKQYEAAVAKGDYGYDKHLESILVNHIQEV...DKKISRSQRRLEeGGQa..mA.mDtASLRNNEEIMKIEVQMSEIMKNAEAKGEEGDVDEAQELFEQAEELQRTKAEl....eA-.Kadsime.araqsnAT
-#=GR A0A6H5K8V8 PP 9**********************.************************************************************************...************64446..73.44488899**********************************************6....42..3578999.9999999*
-A0A7C8M6W3         --------EELMSGTDARAPQ.....lIITDSRVCRSYLVGNCPHDLFTNTKQDFGQCPKHHSEGLKTEYQEASDEQKRKFEFDYLRDMQKHVDEC...NRRINTAQLRLEkTPE....E.mR.QTNAMLKSIDTLTKSIEAGLKEVKLMGEEGMVNLAVQEYYAVQQKMALKAD......DE.Qrlktl..sdtggpSG
-#=GR A0A7C8M6W3 PP ........6899999998888.....89********************************************************************...************8888....8.78.********************************************9999999......55.447889..99******
-A0A7J7N539         MDAIRKQLDVLMGANRNGDVTev..nrKYYDRDVCRLYLVGLCPHELFQLTKMDMGPCPKVHSLQLRKEYEEAKAKIGHNYDRDLEDVIDRLIVEC...DRKISRALKRLE.DRK....S..-.----------------YYRRQCLPKLGEQGMVDEAQKALEEAEALKKLAAR......QE.PgmdtskytaadvrIT
-#=GR A0A7J7N539 PP 9******************999*..***********************************************************************...***********9.776....2....................11223456799999999999999999999999998......44.34556678999999**
-A0A7M5V1X3         ---ARKMLDELMGTNRDGAPGan..stKFSDPEVCKSYLLGLCPYDLFHNTKLDLGVCTKVHDPALKADYELAANGKEYEYEFEQFGNISKFVEDC...DHKVEANKKRLE.ETQ....D.qE.QLAPEALAVHVLNESIGKKLSQAEELGAEGNVEESMKIMADVEELKNQKRK......AE.Eayrna...vpatqNQ
-#=GR A0A7M5V1X3 PP ...69*************99899..99*********************************************************************...************.777....6.48.9999*********************************************99......55.447789...99999**
-A0A816HY15         MDAMRKQLDVLMGANRNGDVTev..nrKYYDRDVCRLYLSGLCPHDLFQLTKMDMSPCPKVHSLQLRKEYLFFLSLELYFHSLDIKKRRQKVLEDA...IDKAQVALDRAA.LPT....PaqQ.PSAALPPPNPRTQEMINEKLKKAEEFGELGMVDEAQKALEEAEALKKVCVFfrflfsT-.Sshsv.....pllsQT
-#=GR A0A816HY15 PP 9******************999*..***********************************************************************...************.666....4335.99999******************************************99987777642..25789.....***9**
-A0A833VW73         MDAIRKQLDVLMGANRNGETRev..khKYYDRDVCRLFLSGLCPHDLFQLTKMDMGPCPKVHSLQLRKEYEEAKERGEDNYDRELEDKIDRLIVEC...ERKIQRALKRLSeMAQg..qP.aPaAVTTMPPPDPKTQELINEKLKKSEELGETGMIDEAQKLLEEAEALKKLGAR......QE.PavsdaskiandvrIT
-#=GR A0A833VW73 PP 9******************999*..***********************************************************************...************76667..53.3446777788999*************************************9999......55.33667889999**9**
-A0A834Z9K9         MDAIRKQLDVLMGANRNGDVRev..nrKYYDRDVCRLFLVGLCPHELFQLTKMDMGPCPKVHSLQLRKEYEEAKSTGIHTYDRDLEDVIDRLIVEC...DRKIQRALKRLEdRQE....PvlD.SSKYTDVRISEILLEANPLEAEAEAEAEAIAIRSSMETMPLIGSLVKYLPG......SQ.Dnthww...sskacTT
-#=GR A0A834Z9K9 PP 9******************999*..***********************************************************************...************6666....5544.8899999**************************************999988......55.336899...9999***
-A0A8J5LV60         MDAIRKQLDVLMGANRNGDVTev..nrKYHDRDVCRLFLCGLCPHDLFQLTKMDMGPCPKIHSLQLRKEYPLCLQNNDVFLDSDNFAYHFYYIMQFfdsSSTAAKVQDALP.NPN....P.sQlPSLPVNPPDPRTQEMINEKLKKAEDLGERGMIDEAQKALEEAEAMKKLGVRq...epV-.Qepsky..saadvrIT
-#=GR A0A8J5LV60 PP 9******************999*..*******************************************************9999888877777665222455666677777.777....6.67799999******************************************99884...442..257789..99******
-A0A8T1WIA6         MDAQRALLDSLMGFNRDGDRPde.aalDFRHPRVCKPYLCGLCPRDLFQNTRLDAGACESLHLPTLRSAYQQQQQQQQQQYERALANELSKLLTDV...EKKIARAQRRLA.EGG....-..-.DDGQDRPQILQLTQDLQDAEAQ---AAKDGDGNRSLPAMEKVELLKRKRREl....lRQ.Ssaga....sgavdSV
-#=GR A0A8T1WIA6 PP 9******************999*.************************************************************************...************.888.........6788999999999999876655...6789999*******************8....633.36899....9******
-A0A8T1X126         MDAQRALLDSLMGFNRDGDRPee.dvtDFRHPRVCKRWLCGLCPRELFQNTRLDTGSCPLLHLPELKVSYEKEKNTKDFGYERDLTQELSRMLADV...EKKIAKGQKRLD.EDA....-..S.DGGDARNQVLQLTHEIQDSVKQAEKKTESGLLDESLQLLKQVEVLKTKRKEl....lK-.Egaatat.aaaqavDV
-#=GR A0A8T1X126 PP 9******************9999.************************************************************************...************.877.......5.7889999********************************************8....52..3567788.9999999*
-A0A8X6IRP0         ------MLDQLMGTGRDGENNkf..kvHFTDPRVCKSFLLACCPHDILAATRMDLGECPKLHDLALRADYENAKKTKDYYYDVDAMDHLQNFINEC...DRRTEQAKRRLAeTQE....E.lSaEVAAKLQRVHELAEQIGKQLALAEKLGAEGNVEESMKTLEEVEKFKMQKVL......AE.Qeyrns...mpassYQ
-#=GR A0A8X6IRP0 PP ......7*************99*..***********************************************************************...************6666....7.77799999******************************************9998......44.347789...999999*
-A0A9D4ZG63         MDAFRKQLDSLMGANRNGDVQvv..krKYYDRDVCRLYTAGLCPHDLFQLTKMDLGSCTKIHSLQLRKEYDEAKAKGKDNYDRELEEALEKLISEC...DRKIQRALKRLEaMPQp..lQ.aPpPLAPLLAPDARTQEMIKEKLKMAEELGEEGRVDEAQKLMNEADALKKLVRAe...plT-.Dpakqa...aldvrIT
-#=GR A0A9D4ZG63 PP 9**********************..***********************************************************************...************99997..74.44577888999****************************************9997...761..144568...999*9**
-A0A9D5CAI4         MDALRKQLDVLMGANRNGDVTev..nrKYSDRDVCRLFLAGLCPHDLFQLTKMDLGPCPKIHSLQLRKEYEEAKAKGLSNYSRELEDMIERLILEC...ERKIQRALKRLE.ENKd.raS.lPqPSQLAAPPDPRTQEIINDKLKKAEDLGEKGMIDEAQKLLEEAEALKKLGGRpe.pvlD-.Sskyt....aadvrIT
-#=GR A0A9D5CAI4 PP 9******************999*..***********************************************************************...************.5555.774.444777888999***************************************99966.6541..15688....99999**
-A0A9P3KJJ2         MDAIRKQLDALMGANRNGDVEet..nkNYYDRDVCRAFLCGLCPHDLFTLTKMDLGPCSREHSLRLRKEYEEAKAKGLADYERELESILEKLIVEC...DRKIQRSFKRLE.DPA....P..S.GPASANQPDSKTQEMIKEKLRRAEQLGEEGRVDEAQKLMEEADALKKLAMA......PKpDpias.....lgfqIA
-#=GR A0A9P3KJJ2 PP 9******************9999..***********************************************************************...************.999....9..8.99999999****************************************999......55247888.....9999**
-A0A9P5YKD3         ---QRKLLEQMMGPEAMGVANa...nlVWSDEKVCRNFLCGTCPHALFTNTKMDLGACPKSHTERLKTEYIAAKEANPNDFQMEYESNIFAFVDEC...DRRIRAAHRRLEkTPE....E.nA.KTTNLMREIAEIELAIQGGTEKIETLGEQGKVDESMREMAAIEALKSEKSE......KEvRpsklqq.tdtsgaSG
-#=GR A0A9P5YKD3 PP ...8*************99999...99*********************************************************************...************7777....7.56.99************************************************9......4423566778.999**9**
-A0A9Q0JJF3         MDAMRKQLDVLMGANRNGDVRev..nrKYYDRDVCRMFLVGLCPHELFQLTKMDMGPCPKVHSLQLRKDYEEARAKGLDNYDRELEDTIDRLIIEC...DKKIGRALKRLEeLPN....P.pPlPTVLAPMPDARTQEMINEKLKKAEDLGEQGMVDEAQKVMEEAEALKK----......--.-.............-T
-#=GR A0A9Q0JJF3 PP 9******************999*..***********************************************************************...************6666....6.5679999999**************************************97............................6
-A0A9W8WYM8         --------EQLMSGSDQRAPQ.....lSITDPKVCRSYLVGNCPHDLFTNTKNELGPCPKVHNEALKTEYQEADADQKRRFDFDYLRDMQHHIDGC...NRKIDQAQRRLEkTPE....E.iR.QTNALLKSINELTKSIDAGMLEVQIMGEEGMVNMAVQEFTKVRMKKAEKEE......RE.Relral..sdtggpSG
-#=GR A0A9W8WYM8 PP ........689*999999999.....9*********************************************************************...************8888....9.89.**************************************************9......66.447899..99******
-A0AAD5LF37         MDAQRALLDELMGRNRDGDRPee.eitNYRDKRVCKRFLCGLCPHDLFQNTKMDLGECAQLHLPKLLAAYEKDKAANSDLYEMELEKDLVKIISDV...EKKIARAQKRLE.EQD...gE.rA.PSLMDCKEVLEITAEIQEVMQKAEDAGNEGEVDLSMELMQKVEELQQKKAE......AQ.AmirsirpaaakasSV
-#=GR A0AAD5LF37 PP 9******************9999.************************************************************************...************.666...57.56.***************************************************......77.568889999999999*
-A0AAD8PEA0         MDEMRSQWAALMGNLENPADSie..tkSFTDSDVCKMFLVGICPYDLFENTKHYIGPCSKNHSEELRAKYLEARKEKYYGYEDDTLRFIIPMIEDC...DRRVQKGRLRAE.ENVa.ckQ.tE.LDPATVEEAKRIDMEIDKKMKIANELGMKGEVEESFKVLEEAELLKKNKLEm....lE-.Kag.........esSY
-#=GR A0AAD8PEA0 PP 9****************999999..99*********************************************************************...************.6554.754.45.8889999******************************************998....52..346.........7799
-A0AAD9D0W3         ---QRKVLETMMGPEAMGLQVv...nlDWWDERVCRNYLFGTCPHLIFGNTKMDLGPCPKTHSETILKQFQEHRQAHPNDFKQEHEAALFSFVDDC...DRRIRAAQRKLEkTPE....E.nR.KTVDLMKEIGEIELSIQGGTEEIEALGEAGKVEESMEKLAAVDALKSLKAE......KE.Relqnl..netagaSG
-#=GR A0AAD9D0W3 PP ...8*************99999...9**********************************************************************...************7777....7.56.***********************************************9999......55.446789..999**9**
-A0AAE0BJL5         MDAMRATLDALMGVNRDGDKEse.mnrKFSDPDVCRAFLGGLCAHDLFTNTKIDMGACASIHNVSLREQYEEARQKGEANYDRELLENLDKLLVEC...DRKIARAMKRLEeDAEk..pE.sEkEPEEAPPPDPKTAEMIAAKLKDAEAAGEEGRVDDVERLMNEVEILKSISASr...pvV-.Avvpa.....gevkIT
-#=GR A0AAE0BJL5 PP 9**********************.************************************************************************...************65556..53.3346667777899************************************999985...541..15667.....7788**
-D8RYX3             MDSFRKQLDALMGANRNGDVQev..qrKFSDRDVCRLYLAGLCPHDLFQLTRMDLGVCPKIHSLQLRKEYNEQT---KQCYNRELEECLEKHVLEC...DRKIQRALKRIE.EQGn.apP.lA.PLPYMFPPDARTQDMIKEKLNKAEVLGEQGLVDEAQKALEEAEALKKLVSRy....dM-.Apdpnkv.lqqdarAT
-#=GR D8RYX3     PP 9*******************99*..*********************************************9887...678****************...************.6664.644.44.8888999*******************************************97....51..2456678.888999**
-F0WNG5             MDAQRALLDELMGRNRDGDKPnd.eikDYRDRRVCKYFLCGLCPHELFQNTKMDLGECPKLHIPNLRTKYEKDPK-KSSGYEYELERELLRFISDL...DKKIYRAQKRLE.EQE...gS.kA.PSLMDCKEVLEITAEIQEVMLKAEEAGNEGQVDLSMELMEKVEDLKQKKAD......AQ.Amlqsv...qkastDV
-#=GR F0WNG5     PP 9*******************99*.*************************************************95.6789****************...************.777...56.45.9*************************************************9......55.446678...8899999
-G4YH12             MEAQRALLDSLMGFNRDGDRPdddpqlDFRHPRVCKPFLCGLCPRELFQNTRLDAGACQLIHSPSIRAAYEQEA-TRDFGYERALATELSRLLADV...ERKIAKAQRRLD.EDN....-..G.DTCPDRARLLELTQELQDAAAQAAQRARDGDADASLQLVEKAELLKRKRREl...lrQ-.Tqtkgk..dggapdVI
-#=GR G4YH12     PP 9******************999************************************************9876.789******************...************.776.......3.67888999*******************************************9...752..246899..*****999
-L0AW24             MDEIRATLAQLMGKFEEPEDVee..tkSFLDSDVCRMFLTGICPHDLFENTKHYLGECKRLHSERLREKYMNERKSRYFGFEVDTLRTIQPMIDDC...DKRISKGKARAE.DDGg..rK.pT.IDPLVLNEAKRIDDQIQAKMTLADELGMNGDVEQSFKIVEEVELLKKTKLEm....lE-.Kag.........eaSY
-#=GR L0AW24     PP 9*************988776668..89*********************************************************************...************.6665..54.34.8888999******************************************998....52..346.........789*
-M4B1P6             MDAQRALLDSLMGFNRDGDRPde.ealDFRHPRVCKSYLCGLCPRELFQHTRLDAGACDLLHVPALRSAFLLHQKQEKDEYKRELANELSKLLVDV...EKKIARAQKRLD.EDG....-..-.DESQDKAQILQLTQEMQDVAVQAEQATRDGLVDKSLQLMEQVELLKKKRREl....lRQ.Stsaag..iamsvdNV
-#=GR M4B1P6     PP 9******************9999.************************************************************************...************.888.........6789999********************************************8....733.36899*..********
-Q9SRN8             MDAIRKQLDVLMGANRNGDVQev..nrKYYDRDVCRLYLSGLCPHDLFQLTKMDMGPCPKVHSLQLRKEYPLFTRALKRLQEEDAKAAIAISVSEV...TQSPEILSEKIKeLPQp..vP.aQpPSSELPPPDPRTQEMINEKLKKAEDLGEQGMVDEAQKALEEAEALKKLTVR......RE.PpadstkytavdvrIT
-#=GR Q9SRN8     PP 9*******************99*..***********************************************************************...************76777..75.5568999999****************************************9999......43.2345678999******
-A0A023ENH0         MDVARQLLDELMGRNRNLDPSvktkelNWEDEEFCTYFMVKFCPHELFVNTRADLGQCGKLHDEEAKKLFDAAKQCRKKIYEEDFLRFCTNMINEV...DRKIVKGQQRLLlMNSk..lE.aR.PVSKQQEQINTMNEKIEKLLREAEEAGIRGDVDQAQSLMQMSDQLKEEKDEl....iKQ.Hesnsv..taeyaaSQ
-#=GR A0A023ENH0 PP 9******************9999*************************************************************************...***********987775..66.55.999************************************************9....744.357899..********
-A0A067JEU6         MDLQRAMLDELMGADRNLTDDqkkkeiTWDSKEVCPYYMARFCPHDLFVNTKSDLGPCDRIHDAKLKESFEKSPRHDRYLFEAELAQRCEKLVMDL...DRRVRRGRERLAqGEEp.vpP..PpLSTEKSEQLSVVEEKIKNLLVQVESLGEAGKVDEAQALMKKVDELNAEKTLi....qS-.Qndk......vlmvPQ
-#=GR A0A067JEU6 PP 9****************9998899************************************************************************...************54558.843..458999**********************************************96....42..3578......******
-A0A078KKG5         MEEMRSLLDSLMGKDRNEMSSkr..nySFKDENVCKYYLIDFCPHDLFPNTKSDIGRCKSIHAEILKEQLENDENYKYYLYQQKFMRKLEDIVQMA...DIKIERSKEKLK.QLS...eN.pK.NIDDKKEKIESINTHICDLLKQAEKAGEDGDIAKATSFNNQVTTLQAEIKR......LN.Eeg.........vqSS
-#=GR A0A078KKG5 PP 9*****************99999..9**********************************************************************...************.555...26.56.99*************************************************......44.336.........779*
-A0A086PGS0         MDEMRAMLDSLMGRNRNECGRnkrgdsSFKDDEICKFFLLDYCPHELFPNTRSDLGPCPKEHRPDLKEAFEKDENHEYYKYEQEFMKFLKRLVDQM...ESRIKKVQQRIDaNNT....V.tE.LDKDTAEKVNAVNAQISELLKKQDEAGAKGEIDVAEKLNEEVALLQREVQR......LK.Npha......diatIR
-#=GR A0A086PGS0 PP 9****************9988899************************************************************************...************5555....4.46.9**************************************************......66.5568......89999*
-A0A0B7NHH7         MDYQKAMLEELMSQYVDVDNK......DFWDDSVCKHYIVAFCPSQLFTNTKSDLGACDKIHNDRLKERYQKSPDKDKYRYEDKFYDYLNKLISDL...SRKIRQGNGRLNiQLDd..kA.aEvRKEEREEKMVLLDVKIKELLQKVEEAGEEGRVQEATDLQAEVDKLQEELTQ.....fKE.Nae........glsKA
-#=GR A0A0B7NHH7 PP 9********************......*********************************************************************...***********987766..54.56789999999*******************************************.....744.467........999**
-A0A0D9QMF9         MEEMRSLLDSLMGKDRNETDArk..khSFKDDNVCKYYLIDFCPHDLFHNTKSDIGRCKNIHSEVLKEQLANHEDYKYYRYEQKFMRTLENIIDLA...DHKIERTKEKLRyMSE....N.sK.NHVDKKEKIESISNHIEDLQKREEEAREKGDLVKADSFSSQVTTLQAEIKRl....nE-.Ep..........ekVA
-#=GR A0A0D9QMF9 PP 9*****************99999..99*********************************************************************...************8888....8.67.***************************************************6....41..35..........5699
-A0A0G4H2P3         MDEMRAMLDSLMGKDRNASINerkkrsSFRDPEVCKWYLLDFCPHELFPNTKSDLGPCPNIHSDALREAFLADPEHDALQYEEDFAKVLQELVDQV...EAKIKKGNQRIV.API...pE.aT.LPEDKQQRVNELEARISDRLKKAEELAEEGRISECALFHQEIATYKDEIER......IK.Atpf......dsyiRK
-#=GR A0A0G4H2P3 PP 9****************988778999**********************************************************************...************.777...45.46.9**************************************************......55.3378......9999**
-A0A0G4J7D6         MLSQRELLDQLMGKDRNLADEdkkpdqHWWDDAVCKYYICGFCPHDLFYNTKSDLGPCAKQHDMAFRREFECEPVSRRAPYEADFLRLLESLTEEV...DRRKRRGTDRLSmTMQp.dlS.dP.VVARCKSDIDQIVADMRPLIDQMQTLAERGDVDDAARLLVAFEEKAIRKQA......LQ.Eemegg...trfitQH
-#=GR A0A0G4J7D6 PP 789**************9999999************************************************************************...************87777.654.34.789999**************************************9999999......55.447899...****9**
-A0A0H5REN6         MLSQRELLDQLMGKDRNLIDEdkklnqHWYDDNICKYFICGFCPHDLFYNTKSDLGPCTKIHDEHLRQTFEAESESRKASYQSAFLRLLQSLTDDV...DRRKRRGSDRLAmQLQ...pD.vNdPGYIEQKQIEVIKDQQVVLIDQIRQLGESGKIDESFAVFTLFDDFEKQKVDi....eT-.Dhdag....qkfitDH
-#=GR A0A0H5REN6 PP 789**************9988899************************************************************************...************8777...75.66688899********************************************996....42..25688....99**9**
-A0A0L1I9W6         MEEMRSLLDSLMGKDRNETDSkkkenvNMKNIKVCKYYLIDFCPHDLFPNTKSDIGRCKNIHSDILKEQLEKHEDYKYYLYQQMFMKTLERIIDVA...DMKIEKTKEKLKhMSN....T.pN.NTSDKKTKIESINSHICDLLKQSEEAGEKGDLNKATSFNNQITMLQEEIKRl....tE-.Em..........qkSN
-#=GR A0A0L1I9W6 PP 9*****************999999************************************************************************...************6666....6.57.***************************************************7....51..24..........459*
-A0A163URX1         MDYQKAMLADLMSQYVEVDNK......DFWDDSVCKNYLVAFCPHLLFTNTKSDLGACNKIHNDRLREKYQQSNDKGKYSYEQDFYSFLQQLINDV...GRKIRHGRERVNlQDEk..eS.kEmVNEERHEKVVLLEVKIKEYLQKIEEAGEEGRVQEASDLTSQVEKLQVELQL.....lK-.Eaee.......masKA
-#=GR A0A163URX1 PP 9********************......*********************************************************************...************87776..53.45678899999****************************************999.....52..3356.......8889*
-A0A1D2N959         ----SNILDELMGRDRDALPTdkprtpKWDDADICTHYLVCFCPHELFVNTKADLGPCAKLHDEQLRKKYQEEANHRKSVYEAEFIRFAEKMISDI...EAKIKRGKMRIAlANGp..dG.yAgPGSKNAEKIALLTERINALLSEAEEAGCEGDVEKAQGLMKLCDQLKEEREQ.....lKS.Nevs.......hpwNP
-#=GR A0A1D2N959 PP ....578**********9888889************************************************************************...************77768..63.557999************************************************.....533.3689.......9****
-A0A1J1GR03         MEEMRSLLDSLMGKDRNEMDSqk.kkySFKDDNVCKYYLIDFCPHDLFPNTKSDIGRCKNIHSEVLKEQLENDENYKYYLYQQKFMKTLEKIIEVA...DIKIEKSKEKLK.QLS...vN.cK.NTFDKKSKIESINNHICNLLKQSEEAGEKGDLIKATSFNNQITMLHAEIKRl....nE-.En..........dkAN
-#=GR A0A1J1GR03 PP 9****************999889.99**********************************************************************...************.777...68.88.***************************************************7....52..24..........569*
-A0A1L8DH79         MDSARQLLDELMGRNRNLDPDakcrklNCFDPEFCQYYLVKFCPHDLFVNTKADLGQCPKLHDDEAKRLFEEEPRSSAKKYEDEFLRFCNNMVNEV...DRKIHKGKLRLKlMNKd..dP.dSpTHGTHQEQLNTLSERIKKLVGEAEEAGHRGDVDQAQGLMQLCDQLKDEKEAl....lKS.Ndtshw..slemvqAQ
-#=GR A0A1L8DH79 PP 9******************9999**9*99*******************************************************************...************97777..74.45588999**********************************************8....633.367899..*****9**
-A0A1R0GMA9         ---ARQLLDELMNQYQASSK-......DFRDSDVCKDYLVSFCPHLLFTNTKADLGSCDLLHDDKLVSDYKASPDYMRLGYEESFYNKLRNLLSDL...DRKIRRAFQRVStEADe.kvT..NpDKEENQEAVILIEQKIKTLLENIEKAGEEGRIQEAKSLTSDLDKLKIELKA......AQ.Ekana....vnpmfKN
-#=GR A0A1R0GMA9 PP ...69**********99987.......9********************************************************************...************76657.543..458899999999**************************************999......55.44789....*******
-A0A1S3H6U7         ----AQMLDELMGRNRNLDPSeskadfSWDSPEVCKHFLCGFCPCELFINTRADLGQCNKIHDEDLKRQYSESPKFQKMGFEEDFERYLNTLVADV...ERRIRRGHQRLSlNNNa.gtP.gN.PNPIADEKIKMLTERINDLVEQAENLGCEGKVEEAQGVLKLCEQLREERTQ......LE.Tslk.......iaaEN
-#=GR A0A1S3H6U7 PP ....69*************9999*************************************************************************...************87778.865.66.99999**********************************************......55.4477.......999**
-A0A1X2G6H9         MDHQKAMLAELMSQYVDVDDK......DFWDDAVCKNYLVRFCPHLLFTNTKSDLGPCNKIHNDRLREKYQQSE-KSRYTYEEDFYRFLRQLISEV...SRKINHGYDRVNqQDEk..kK.kEiAIEEHQEKQVLLEVKIKELLQQSEEAGEEGRVDEASELTDQVEKLEEELKTm...kdN-.Qsq.........mqRS
-#=GR A0A1X2G6H9 PP 9********************......********************************************987.6789*****************...************65556..54.45677889999999*************************************9997...541..256.........7799
-A0A1Y1JJW9         MEEMRSLLDSLMGKDRNETDSrk..khTFKDDNVCKYYLIDFCPHDLFPNTKSDIGRCENLHSEVLKEKFAKDENYKYYLYQQKFMKTLEKIIEVA...NMKIKRSKEKLKhMSE....N.sK.NNVDNKEKIESINSHISDLIKQEEDSKKKGDLVKATSFNSQIVTLQAEIKRl....nE-.Es..........dkPA
-#=GR A0A1Y1JJW9 PP 9*****************99999..9**********************************************************************...************7777....7.67.***************************************************7....52..24..........5699
-A0A1Y1WEJ2         ---ARQLLQELMGEYQDTGK-......SYTDADVCKNYLVSFCPNQLFTNTKDDLGQCTLVHDDRLRTAYQQSSDRGRLGYEQSFYSWLQQLHHDL...QRKVRRAHERITaEADd.tlA..NpHREEKEERAILMDERIREMLKRIEDCGMSGRVDEALSVLASMEKAKADLVV......LR.Erida....gnpmfKN
-#=GR A0A1Y1WEJ2 PP ...69***********9988.......9********************************************************************...************87767.654..458899999999**************************************999......44.33778....99*****
-A0A2J6L577         MDAQRALLDELMGSARNLTEEerrkeiSWDDKEVCGFYMVKFCPHDLLVNTRSDLGPCPKIHDPKLKESFESSLRHYFYVFEAELAHFCEKLVMDL...DRRVRRGRERLAqEVEv..pP.pPpIPAEKSEQLSVLEEKIKNLLESVEALGEAGKVDEAEALMRKVDLLNIEKTAlt..lqP-.Qnek......vlmlAR
-#=GR A0A2J6L577 PP 9******************999**************************************************************************...************77779..73.445899************************************************76..541..2678......******
-A0A328E4K5         MDAQRALLDELMGASRNLTEEerkkelTWDDKEVCRFYMVRFCPHDLFVNTRSDLGPCPKVHDPKLKESFEKSPRHDAYVFEEELAHFCEKLIMDL...DRRVKRGQERLD.QDEa..tP.lPpSLSTESEQLSRLEESIKNLLEQVESLGEAGNVDEAEALMRKVELLNIEKIS.....lTQ.Kshqt....sllmmAQ
-#=GR A0A328E4K5 PP 9******************999**************************************************************************...************.6665..75.65588999*******************************************999.....733.35789....9******
-A0A3P6D4H9         MDAQRALLDELMGAARDLTDEerrkeiKWDDREVCAFYMVRFCPHDLFVNTKSDLGACSRVHDPKLKESFENSPRHDSYVFEAELVQFCEKLVNDL...DRKVRRGRERLAqEVE....P.pPpPTLSAAQQLSVLEEKIKSFLELVEALGEDGKVDEAEALMRKRVSLCNFGKAv...llQ-.Rpnek.....alamVH
-#=GR A0A3P6D4H9 PP 9*****************9999**************************************************************************...************7777....5.455999**************************************99999988887...751..24567.....89999*
-A0A433QUM3         MDYQRQLMAELMAQYDLDDTK......NFWDDDVCKNYLVAYCPSQLFTNTKSDLGPCTKIHNDKLRDKYRNTPDKESRYYEVAFVDYITSLVTDL...DHKIRRNKERLDiDTQ...lE..PiQSSTNTAVVHRLRRYLH--FPRLLQLSLLLTVHLPNRHINHWCRLLIFVRD.....tLQ.Ndgi......npilKQ
-#=GR A0A433QUM3 PP 9********************......*********************************************************************...************8888...55..6699999999999999987..88999999****************99999999.....644.4689......9*****
-A0A507DYT5         MDAQRKLLEELMNPIMGTER-......TYKDPQMCPHMLCGYCPFDLFTNTKCDIGFCDKVHDE----KYQESPDRYKLGHEQAFHSFALRLVQDM...DRIIRRQKDKVQ.QNR....E.pE.PTNDEEERIAMIEGQVKQYTQQLQDAGEQGFVDRAIDLLTTVELLKTNIEA.....iRT.N.............AN
-#=GR A0A507DYT5 PP 9************9876655.......9***********************************8....7***************************...************.888....7.68.***************************************************.....666.8.............**
-A0A5B6UVD8         MDAQRALLDELMGTARNLTEEekkrelRWDDKEVCAFYMVRFCPHDLFVNTRR---LCPRVHDPKLKERMELKYALLAISSSVQVIAIMISIIRDN...RGFFTKSSSLLKhAQEv..eP.aPpAPLSASEQLSVLEEKIKNLLEQVESLGEAGKVDEAEALMRKVEALNAEKTVl....tQ-.Qqndk.....vlmlAQ
-#=GR A0A5B6UVD8 PP 9*****************99999*****************************8...8***************************************...***********965558..63.44588899*********************************************97....53..34799.....******
-A0A653GZP2         MEEMRSLLDSLMGKDRNETTSkk..kySFKDDDVCKYYLIDFCPHDLFINTKSDIGRCKNIHSDILKEQLENHEDYKYYLYQNRFMSTLKKMVETA...DIKIKKNKERLK.SLS....E.nS.PKSGKKEKIECINNHICDLLKQAEAAGEKGDLVKATSFNNQVTTLQAEIKRl....nE-.Es..........eeET
-#=GR A0A653GZP2 PP 9*****************99999..9**********************************************************************...************.777....6.48.***************************************************7....52..24..........5699
-A0A6A7G7H7         MDAQRALLDQLMGQDRDLLPDeapqkrTWDDEEVCQYYNVAWCPHELFTNTKSDLGECVNLHDDRLRSDFQALPRAARRPFEENLYRFLVSLIDDV...EVKIRRGRDRLL.EGRd..gA.sS.PGHSAKPSPEALTTQINEILAEMEELGERGKIEESQALMRRVEQLGRQKKL......LE.Apv.........hdHE
-#=GR A0A6A7G7H7 PP 9****************9888889999*********************************************************************...**********99.5443..55.45.9999999******************************************99......55.446.........67**
-A0A6I9RWQ4         MDAQRALLDELMGAARNLTEEekkkeiRWDDREVCGSFMVRFCPYDLFVNTKSDLGPCPKIHDLKLKESFEKSPRHDSYVFEAELAQLCEKLVMDL...DRKVKRGRERLAqEVEv..pP.pPpPPISAFEQLSVLEEKIKKLLEQVEMLGESGKVDEAEALMRKVDMLNAEKTA.....lTQ.Qssnd....kvmmlPQ
-#=GR A0A6I9RWQ4 PP 9*****************99999*************************************************************************...************77779..74.4458999***********************************************.....733.35789....9******
-A0A6J3DXE2         MISAAQLLDELMGRDRNLAPDekrsnvRWDHESVCKYYLCGFCPAELFTNTRSDLGPCEKIHDENLRKQYEKSSRFMKVGYERDFLRYLQSLLAEV...ERRIRRGHARLAqNQQs.sgA..AgPTGKNEEKIQVLTDKIDVLLQQIEELGSEGKVEEAQGMMKLVEQLKEERELl....rS-.Ttsvllq.tiesfaAQ
-#=GR A0A6J3DXE2 PP 667889***********9988899************************************************************************...************65558.633..46999**********************************************996....41..3578999.9*******
-A0A6P5AH87         ----AQMLDELMGRDRNLAPNekkediHWSDEKVCKHFLCSFCPSELFTNTRSDLGPCDKIHDDALRDGYRKSSRFQRMGYEEDFLRYLQSCMADV...ERRIRRGHARLAlSEQq..aQ.vAqGGGKNEEKIQMLTDRINGLLEQVEQLGCEGKVEEAQGVMKLCDQLKEEREQ.....lRQ.Nkssi.....dsmtAQ
-#=GR A0A6P5AH87 PP ....69***********99988999***********************************************************************...************86664..64.44467899**********************************************.....733.35789.....9999**
-A0A6P5WCW5         MDEMRATLDSLMGRDRNEYGAnakkgtSFKGETICKFFLLDFCPHDLFPNTRVDLGPCDREHRADLKVAFETDPEREFYQFETEFARYLQRLVDQM...ENRIKRVQQRIDaNNQ....P.vE.LSKENEERVNSMNAEISELLKQQDEAGSKGDIDAAEKLNEKVAFLQREVSR......LK.Npna......diatIR
-#=GR A0A6P5WCW5 PP 9****************98888899***********************************************************************...************7777....8.88.***************************************************......55.5568......89999*
-A0A6P5XSD8         MDAQRALLDELMGTARNLTEEqkkreiRWDDKEVCAFYMVRFCPHDLFVNTRSDLGPCPRVHDQKLKDSFEKSPRHDAYVFEAELAQFCEKLVMDL...DRRVRRGQERLAqEVEt..aP.lTpLSAEKSEQLFVLEEKIKNLLEQVETLGEAGKVDEAEVLMR-----------......--.-.............-K
-#=GR A0A6P5XSD8 PP 9*****************99999*************************************************************************...************76667..75.656999**********************************997...................................4
-A0A7I4FKH7         -----------MGTARDLTAEerkcemQWDDPLVCTCFLVNFCPHDLFVNTKSDLGPCPKIHDPKLKESYQQSTRHDNYVFEAQLFQFCEKLVQDL...DRKVRRGRERLAqDANt..sT.mLmPISTESDLLVNIEESIKKLLEKIEVFGEVGQVDEAEALMKKVDMLNMEKAI.....lTQ.Qitne....rglilSQ
-#=GR A0A7I4FKH7 PP ...........9999999988899999*********************************************************************...************54446..53.3347778888899***************************************99.....644.47789....9******
-A0A7J0E3G1         MESQRALLDELMGAARNLTEDekkkeiTWDDKEVCGMYMVRFCPHDLFVNTRSDLGPCPRIHDPKLKERHVDKPVSCYFDSLASMTGGLALNIKVI...PSARAPGYCRAKeCITg..fS.fE.KSPRHDSYVPRFEAECEKLVMDLDRRVRRGRIDQEVEVPPPVETLNTEKTA.....lTQ.Qsqtg....kllmlAQ
-#=GR A0A7J0E3G1 PP 9****************9999999************************************************************************...***********965557..87.78.999************************************************.....733.35799....*******
-A0A7J6FN42         MDAQRALLDELMGAARNMTDEerkkevTWDDKEVCGAYMVRFCPHDLFVNTRSDLGPCPRIHDPKLKESFEKSPRHDAFVFETELAQFCEKLVMDL...DRRVRRGRERLAqEVEp..aP.aQpLSSEKAEQLSQLEDKIKNLLEQVESLGEAGKVDEAEALMRKVQQVDTLNTEka..alTQ.Qtlpd....kvlllAQ
-#=GR A0A7J6FN42 PP 9*****************99999*************************************************************************...************77778..74.556899************************************99888777666644..4533.3799*....*******
-A0A7J6MIQ8         MEEARALLDQLMGRDRNATAAaksrriNWTQDQYCPYYLVDFCPNELFVNTRAYMGSCGKEHCEYTKFRFDQMEEKREIIYERKLLSYCEYMETQL...AQKIRRGKARVT.TEI...pD.iE.VPAQNREKIEELRTRINGLVKDAESLAERGRLMESEKKMSQIEPLNEKIRD......LS.Ek..........ylHM
-#=GR A0A7J6MIQ8 PP 9*****************99999*************************************************************************...************.666...47.78.***************************************************......55.33..........7899
-A0A7J7CED1         MDAQRALLDALMGSARNLTEEerkkelTWEDREVCRFHMVRFCPHDLFVNTRSDLGPCPRIHDQKLKESFENSPRHEAYVFEAELAQFCEKLVMDL...DRKVRRGRERLAqELEp..aP.vTpLAAEKSEQLSVLEEKIKNLLGQVEALGEAGRVDEAEALMRKVELLNAEKTV......LT.Qppqn....nalmlAQ
-#=GR A0A7J7CED1 PP 9******************999**************************************************************************...************77677..75.5568999**********************************************9......44.44567....89*****
-A0A7S2D7U3         MEDARKLLDSLMGPSRDKSLQeqqradGWKDRNVCKRYLVGFCPNNCFKNTRRDTGSCSKIHSDSLKKQFEEHPDFARYQYEKEFLTFLEGLVFEA...DAWIGREKKNCKpPGK....E.mR.MPAHAKEQERAMQEKSEKLMKEAEDLAEAGELTKSKEAVSKATQLKEDLEEl....kV-.Ky...........tFV
-#=GR A0A7S2D7U3 PP 99***************99888999*99********************************************************************...************6555....7.67.9**************************************************5....42..45...........599
-A0A7S2LHG6         MQDAKALLDSLMGPSRDKSLEeqkktdRWKDKDVCKRYLVGFCPNNWFHNTRKDVNVCCKIHSDRLRSDFEAHPDHAKYAYEKDFLEFLEGLVREA...DAWISRETGNCV.GPG....KvtK.LPASVKQKVAEMQEKSEQLLKEAEDLAEKGDVQASKQAVETSSKLKEEVKE.....lKE.Kh...........tYE
-#=GR A0A7S2LHG6 PP 999**************99888899***********************************************************************...************.666....4446.99*************************************************.....633.35...........588
-A0A813RY60         -----------MGKARNATAGetvhqyRFDDPEVCKYLLVEFCPHDLFVNTRADLGPCDKVHEEGLQKTYLKSSRYGKLGYEEDFERFLKSLLADV...ERRIKRGIDRLRlTQG...eS.vNdNSETSASRIRQIDDRINELVQKSEQLGCKGKVDEAQAVLEECEQLRAEREQl....sY-.Qey.........nsDM
-#=GR A0A813RY60 PP ...........9999999988899999*********************************************************************...************8666...65.667999999*********************************************7....62..346.........6799
-A0A833QZ21         MDAQRALLDDLMGAARNMTEDerkreiKWDDREVCGPFMVQFCPHDLFVNTKSNLGPCEKIHDHKLKESFEESPRHDAFVFEADLAQFCEKLVSDL...DKKVRRGRDRLAqELD...vP.tPpLSSEQSEQLSLIEEKIKKLLEQIEELGEAGKVDEAEALMRKVDVLNAEKSAi...iqP-.Nski.......talIQ
-#=GR A0A833QZ21 PP 9****************999999*************************************************************************...************6666...84.455999************************************************8...651..2568.......999**
-A0A8B7ZXX0         MQSAAQLLDELMGKNRNSLPTerskeiRWDHPSVCKHFLCGFCPHELFINTRSDLGPCEKVHDESLKRSFEQCSSRERARYEDDFLSYLQQIVAEV...DRRIRKGHSRLAlSNSq..qQ.lSaNQAKNEEQIRLLTERINSLVEKAEELGCQGEVEEAQGTMRLCEQLREERDT......LK.Aaatqa...ldavlSQ
-#=GR A0A8B7ZXX0 PP 8999*************99888999***********************************************************************...***********985555..66.6679999**********************************************9......44.335678...99*****
-A0A8H3M743         MDYQRQLLEELMAPFERSNKH......NFWDDSVCKHFLVKFCPNSLFTNTKSDLGPCTKVHDEKLRKQYQEAPDRTKYGYEIKFYDYLQSLCNDL...DKKIRKGNDRLNvRPDd..tL.lNpNKDEKEEKMIILDEKIKELLVKIEGAGEEGRVQEAQILTKEVETLQKDLKNlf..srF-.Dytsdd...snplfKQ
-#=GR A0A8H3M743 PP 9********************......*********************************************************************...************98777..73.55599999*********************************************986..540..156678...99*****
-A0A8H7PWF0         MDFQKAMLDELMSQYVDVDNK......DFWDDSVCKHYLVEFCPSSLFTNTKSDLGPCDKIHNDRLKEKYQNSPDKYKYPYEQDFIKYLTFLIDDL...DKKIRRGRGRLTiQSMd..dK..HtEAIKGEEKLVLLDVKIKEMLAKIEEAGEEGRVQEASDLTKEVERLQAEHAL.....lKE.Kad........naaRS
-#=GR A0A8H7PWF0 PP 9********************......*********************************************************************...************76665..33..4477788999****************************************999.....633.357........8899*
-A0A8J5X1A1         MDAQRALLDELMGTARDLTEEerkkevKWDDPDVCRSFMARFCPHDLFVNTKSNLGPCAKIHDSKLKESFESSPRHDSYMFEAELAQQCEKLVVDL...DRKIRRGRERLA.QDIa..vP.pT.ILEKTSEQLLIIEEKVKKLLVQIEELGEAGKVAEAEALMRKVELLNAEKTAv....tN-.Qadnk.....vamlPQ
-#=GR A0A8J5X1A1 PP 9*****************99999*************************************************************************...************.6664..65.45.89999**********************************************7....42..35789.....9*****
-A0A9D5C0W0         MDAQRALLDELMGSARNLTDEekkrevRWDDKDVCGPFMLRFCPHDLFINTKSDLGPCSKIHDLKLKESFEKSPRHDAYVFEAELAQFCERLVTNL...NKKVKRGQERVA.QEDv.lpT.vP.ISSEKSGQLSMVEERIKKLLEQIESLGEAGKVDEAEALMRMVDALNAQKTGl....mA-.Qasdk.....glpqAQ
-#=GR A0A9D5C0W0 PP 9*****************99999*************************************************************************...************.7776.854.55.99999*********************************************97....63..23578.....9999**
-A0A9W7Y0B3         ---ARQLLQELMGQYQDSGN-......RYTDANVCKDHLVDFCPNQLFTNTKADLGQCDLVHDDRLKSAYQKSTDRGRLGYEDAFYERLQRLTNDL...QRRVRRAMDRVTtEADe..qL.vNpYKEEKEEKAIILDERIKHMLQQVQEHGENGRVLEAYGMYLQIDRLKEDLDA......LK.Qrids....vnpmfKN
-#=GR A0A9W7Y0B3 PP ...69***********9998.......9********************************************************************...***********976556..53.4558899999999*****************************************......55.44889....9******
-A0A9W8EGW9         ---ARQLLQELMGQYQDTGK-......KYTDSDVCKDHLVDFCPNQQFVNTKADLGSCDLVHDDRLREEYQKSRDRGRLGYEEAFYSRLQRLSQDL...QRKVKRALDRITtEGDe..qL.vNpHREEKEEKAIILDVRIKQALKQVEELGMSGKVDEALSIFNHTERLKSDLVV......LK.Rridh....vnpifKN
-#=GR A0A9W8EGW9 PP ...69***********9988.......9********************************************************************...***********965446..53.5558899999999**************************************999......55.44788....99*****
-A0A9W8HFQ8         ---ARQLLQELMGELQDSGK-......KYTDHDVCKDHLVDFCPNQQFTNTKADLGPCSLVHDDRLREAYQRSADRGRLGYEEAFYDRLQQLTHDL...QRKVRRALDRITaEADe..rL.vNpHKEEKEERAAMLEERIKQMLGQIEELGEAAHVEEAFGLFRQMERLKGDLGA......LR.Qrids....vnpmfKN
-#=GR A0A9W8HFQ8 PP ...69**********99998.......9********************************************************************...************87667..63.555999999******************************************999......44.44789....99*****
-A0A9W8KN07         ---ARQLLQELMGGLEDTGT-......KYTDHNICKDYLVDFCPNLLFVNTKADLGPCDLTHDDRLRDAYKKSPDHGRLGYEEAFYDRLQRLSHDL...QRKVRRALDRITaEADe..qL.vNpHKEEKEERAIILDERIKQAMKKVQELGEQGHVLEAFNIYSQTDRLKSDLST......LK.Qrids....inpmfKN
-#=GR A0A9W8KN07 PP ...69*********999887.......9********************************************************************...***********986666..53.5558999999999*****************************************......55.44889....9******
-A0AAD5T6Q3         MDAQRKLLEELMNPLLGTTK-......TYKDPQMCPYQLAGYCPYDLFTNTKCDIGMCDKLHDEKLVAMYQASPDRFKLGHEQSFFGLANRLVQDM...DRTIRRQKDKVNvTSLa.daN.tK.DDDEKEERLAMIEGQMKDYVKQMEELGIAGHVDRAIDLWVAVELLKANVEA.....iKN.A.............TN
-#=GR A0AAD5T6Q3 PP 9************9987776.......9********************************************************************...************65557.654.45.8899999********************************************.....555.7.............9*
-C5L6J1             MEEARALLDQLMGRDRNVSAAeknkkiNWTQTRYCPYFLVDFCPNDLFVNTRADMGMCNKEHCEYTKSRFDKCAEKRAVVYSRELLSFLEYLETQL...AHKIRRGKARVSaEIP....D.iE.VPPQNKEQIEELKGRIHGIVKEAEELAEKGRIVESEKKMGQTESLNAKIREl....sG-.Ek..........ymMM
-#=GR C5L6J1     PP 9****************99888999***********************************************************************...************5555....7.88.9**************************************************6....52..34..........6689
-F2EDV2             MDAQRALLDALMGSSRDLTEEekkrevSWDDPDVCAPYMARFCPHDLFINTKSNLGVCPKIHDPALKQSFETSPRYAAALFEAELAHRCERLVQDL...DKKIRRGRDRLA.QDV...vE.mPpPAAHAVEQLAILEDKIKKMLEQIEELGDTGKIDEATALMRKVDILNLEKSA.....lTH.Qietk.....lsmvPQ
-#=GR F2EDV2     PP 9*****************99999*************************************************************************...************.766...66.6659999***********************************************.....633.46688.....99****
-F4P120             MDYQRQLLAELMNPLIPSAKK......DYRDNDVCKHFLVGFCPNELFLNTKVDLGKCGNLHDERLQKEYQSSSNKNRLGYEDRFYDYLAKLVSDI...ERTIKRGHTRLEsKTEa..sP.tGvTQDDIREKIIIIEETIKNKTNQLRQLGESGRVKDAYDLYSAVERSMVELDQ.....lRQ.Tdqt......hpsyRP
-#=GR F4P120     PP 9********************......*********************************************************************...************76667..63.346889999****************************************99999.....633.2568......99999*
-I1GKH1             MDAQRALLDALMGTSRNLTDEekkrevLWDDPDVCGPFMARFCPHDLFINTKSNLGTCPKIHDPNLKLSFENSPRHETCLYEAELAHRCEKLVQDL...DRKIRRGRDRLAqDVEv..lP.pP.IPGDKSEQLSVLEEKIKKLLEQIEQLGETGKIDEAEALMRKVDLLNVEKAAl....tN-.Qaenk.....aamlPQ
-#=GR I1GKH1     PP 9*****************9999999999********************************************************************...************66668..65.45.999************************************************7....52..35678.....99****
-J9EHK3             MDHIRQDLDELMGKDRNHPLHrlqkrdHFDDDYVCKYNLLSFCPHDLFPNTKADIGPCQKRHDDYLKEMFKNDPDREIYQYEKELQSLLEQMIAQV...DQKMKRSIARVE.NNQp.eiN.aS.QQESLNQKIDQLEQKINFYIERAEKLGEEGQIDESEAIMKVVDDLKKQKTE......LE.Sltd......vnmiPK
-#=GR J9EHK3     PP 9****************9988899999*********************************************************************...************.7666.555.45.899999*********************************************......55.4567......89999*
-R7T6G3             MSSASQMLDELMGRNRNVDPTrksdelHWEDSEVCKHFLCGLCPHELFTNTRADLGPCDKLHDESLKLKYEKSPRYEQAGLEEDLVRFLQTLVSDV...ERRIRRGQARLSlNSQi..nP.sQtPQAARDEKVGVLTEKINELVEQAEQLGCEGKVEEAQGVMKLCDQLKDERSE......LE.Ntkp.......lvlPS
-#=GR R7T6G3     PP 88999**************9999*************************************************************************...************98889..74.45699999**********************************************......55.4469.......9**9*
-S8D1R3             MDAQRALLDELMGSARDLTEEerrreiKWDDKEVCGCYMIRFCPHDLFVNTKSDLGVCPKIHDQKLKESFEQSPRHDSFIFEADLAHFCERLVSDL...DRKVRRSRERLAqDIEv..pP.pPpISAEKAEQLSVLEEKIKNLLEQVESLGEEGKVDEAEALMRKVELLNLEKSS.....lTQ.Qshkd....kllmvAQ
-#=GR S8D1R3     PP 9******************999**************************************************************************...************65558..73.445899***********************************************9.....733.35789....9******
-#=GC PP_cons       9**9*************9999......*********************************************************************...************.766....5..6.8999999*****************************************999......34.3.............9*
-#=GC RF            xxxxxxxxxxxxxxxxxxxxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxx.xxx....x..x.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xx.x.............xx
+A0A016T530         ---MRDMIAQLMGSQKEGEEGrd..lpPYHHPSVCRAYLIGCCPYELVPDSRQGLVSCRKTHEPAHKADFLKAQKERDHYYDVDAFDILENAIRIV...DNEISRIKDKLDrEAR...eQ.tDtAEAVKTQRINDLSEQIGKAVAEMEELGNMGKVEESMKLSKTVEDLRARKA.eL...Egqtdf...rlagpGSNAAR
+#=GR A0A016T530 PP ...79*************99999..***********************************************************************...************7666...64.445888999*******************************************9.64...345789...9***99*****
+A0A059D1I0         MDAIRKQLDVLMGANRNGDVRev..nrKYYDRDVCRMYLVGLCPHELFQLTKMDMGPCPKVHSLQLRKEYEEAKGKGVDNYDRDLEDVIDRLIVEC...DRKIARALKRLEeLPQp.lpN..PpPLAPLVAPDPRTQEMINEKLKKAEDLGEQGMVDEAQKALEEAEALKKLHA.rQ...EpaqdstkytaadvRITDQK
+#=GR A0A059D1I0 PP 9******************999*..***********************************************************************...************77777.743..34778888999**************************************999.64...3467899*************
+A0A067BJQ2         MDAQRALLDELMGRNRDGDKPqe.dirDFRDQRVCKRFLCGLCPHDLFQNTKMDMGECPKLHLPKLKLAYEEAKNQRDYGYEADLERELVRYVSDV...EKKISRALKRLD.EQDgarvS..SmLDIENNKEVLEITAEIAELMQKAEDAGNEGEVDLSMELMAKVEALKVKKA.aL...QavlastapdvaqmTNVNQK
+#=GR A0A067BJQ2 PP 9******************999*.************************************************************************...************.66658643..4588899*********************************************.64...4477889******999****
+A0A081A1E7         MDAQRALLDSLMGLNRDGDRPdddatmDFRHPRVCKPYLCGLCPRELFQNTRLDLGTCKSLHLPTLRLAYEEKKSTRDFGYERELANELSRLLADV...EKKIARAQRRLA.EDG....D..-.-DEQAPAQILQLTQDIQDAAAQAEKAAKEGNADRSLSMMEKVEMLKQKRR.eLl.rQsnpg....tsnavDNVNQK
+#=GR A0A081A1E7 PP 9*******************99**************************************************************************...************.888....5.....688999******************************************9.735.436899....9***99*****
+A0A0C9RPB2         MDSLRKQLDALMGANRNGDVTev..trKYYDRDVCRLYLAGLCPHELFQLTKMDLGPCAKLHSLPLRKDYQEAKAKGKDNYDRELEDALERLVVEC...ERKITRSLRRLE.APQp.vqS.aPpVPPVPPPVDARTQEMIMDKLKKAEELGELGMVDEAQKLMEDAEALKKLGA.pQa.gTpessk..iaavnvRITDQK
+#=GR A0A0C9RPB2 PP 9******************999*..***********************************************************************...************.7775.643.33355566677899*************************************99.743.4267899..************
+A0A0D3F7D0         MDAIRKQLDQLMGANRNGDVRev..srKYYDRDVCRLFLAGLCPHDLFQLTKMDMGPCPKLHSLQLRKEYEEAKAKGMDNYDRELEETIERLISEC...ERKIQRALKRLE.ELQtanqS.iP.PPPVAAAPDARTQEMIDEKLKKAEELGENGMIDEAQKLLDEAEALKKLGA..R..pQpvpdsa.kmsthvQITDQK
+#=GR A0A0D3F7D0 PP 9******************999*..***********************************************************************...************.55546533.44.88899999****************************************99..5..43467899.9***********
+A0A0E0KLG1         MEAMRKQLDVLMGANRNGDVRev..srKYYDRDVCRLFLAGLCPHDLFQLTKMDLGPCPKVHSLQLRKDYEEVKAKGTENYDRELEEMIDRLIVEC...ERKIQRALKRLAdEDAk..aA.iAiSVSEVTDEVLQLSKEIKEKMKEVDTYDFEGKTDDKIKTMEVVEELRSKRA..-...D.............MQTDQK
+#=GR A0A0E0KLG1 PP 9******************999*..***********************************************************************...************65557..65.6678899999**************************************99887......6.............899***
+A0A0E0P3S3         MDAMRKQLDVLMGANRKTATGngdvsrKYYDRDVCRLFLAGLCPHDLFQLTKMDLGPCPKVHSLQLRKDYEEVKAKGTENYDRELEEMIDRLIVEC...ERKIQRALKRLAdLPQp.tpT.pQ.MASVPAPPDARTQEMINEKIKKAEELGEQGMVDEAQKVMEEAEALKKLAA.rR...EptsdptkytaadvRITDQK
+#=GR A0A0E0P3S3 PP 9****************9998999************************************************************************...************87776.532.23.5666688999*************************************999.63...3467899*************
+A0A0J0XWF6         ---QRKLLEQMMGPEAMGFNPp...slDWWNEKVCRDYLFGTCLHDTFSNTKMDLGPCPKTHSDRILKQFQEAQKEPSPDFRQEHENNIYQFVDEC...DRRIRASQRKLEkTPE....E.nR.KTVDLMKEIGEIELAIQGGTDEIEQLGAEGKVDESMEKLAAVDALKQLKN.dK...Ekelql..lnenagASGHQK
+#=GR A0A0J0XWF6 PP ...8**************9999...***********************************************************************...************7777....7.56.***********************************************999.64...235889..999***9*****
+A0A0P1B1J7         MDAQRALLDSLMGINRDGDRPnddactNFRHPKVCKLYLCGLCPRSLFQNTRLDSGPCEFLHLPTLRSAYEEERTKESFRYERDLISELSKLLADV...EKKIARAQRRLT.EDG....G..-.-ESQDKKQILQLTQDMQEAAAQAEQAAKDGDADQSLRSLENVELFKQKRRevL..rQnnga.....tnlvDSVNQK
+#=GR A0A0P1B1J7 PP 9*******************99**************************************************************************...************.888....4.....688999*****************************************99653..436899.....9*********
+A0A0S4TGY4         MDEIRRQIEDLMGGIEAPIEK.....kNPHDNDVCKFYLCGLCPHELFENTKLYMGPCKNIHSEVLREKYERESKGNTRIYETDSLRVFQGMVDDC...NKKIERNRVRAE.LSG....S..-.-SKLEDENIRALDLEIKEIMKEIDDLGANGDIDGSLKRMEDLTRLNQQKMkiS...Atke......dvenGMYRQK
+#=GR A0A0S4TGY4 PP 9************99988877.....799*******************************************************************...*******99999.666....4.....6788999***************************************999542...1467......88889999**
+A0A196SCY6         MDDIRKLLDHLMGPNRDGERRqg.evdDFRDPRVCKPYLLGFCLHDRLASSKYDIGPCNLIHDPELKKKYEADPHRRSYNYESILYSELQDHVRAC...DRRISNAVARFK.IDG....M.dN.LMKMEFDDVKDLAADISKMEDQVEELQKMGKDELAEELQEKINTNVEMKAsiQ...Ahvkdek.ekvnlnATPAQK
+#=GR A0A196SCY6 PP 9******************999*.************************************************************************...************.666....5.49.9******************************************9999888542...1467889.9***99999***
+A0A1I7T1V8         ---MRDMIAQLMGSQHVDNKEkp..smPFDHHSVCRAFLLGICPHDMVPDSRQNVVSCRKVHEPAHKADYERAQKERDHFYDVDAYEIIENAVRLV...DIEISKVREKLEdDVK...tQ.tSqAADSKAKQVAEIEAKIAKNVEDIEKLGNEGKIEESMKLHKYVEELREKIQdiE...Dsqtev...rtagpGSNSAK
+#=GR A0A1I7T1V8 PP ...79*********998888889..99*********************************************************************...************7666...64.444888999********************************************653...246889...9****9*****
+A0A1J4MPJ6         MDEIRRQIESLMGEIESPIEK.....kSVHDESVCKLYLCGLCPHELFENTKLYMGACPKIHSEKLRERYLEERKSPNFIYEQESYLILQGMVDEC...NKKITRNRVRAQ.LSG....S..-.-SKLEDENIKSVDREITLIMKEIEDLGASGDIDGSLKKMEDLTRLNQQKL..KiiaTree.......vanGMYQQK
+#=GR A0A1J4MPJ6 PP 9*************9999888.....8*********************************************************************...******999998.655....4.....6788999***************************************998..43432568.......888999***
+A0A1N6LX35         MDEIRAQLSQLMGELEAPGGLyv..gkDFRDRDVCKLYLTGLCPHDLFDNTKHYLGPCSKIHAEELRAEYEKVKLTKNYGYEEEALAFISPMIHDC...DRKITKAKMRVSsEED....P.tKnPLDVLMEELRAIDVHIQQKMLKAEELGLQGLVDDSLRVMEEIERLKHLKV.kT..lDrn.........gdSNYAQK
+#=GR A0A1N6LX35 PP 9*************998877789..99*********************************************************************...************6666....4.45489999******************************************999.52..4246.........8899****
+A0A1Y1HY81         MDAFRKQLDDLMGANRNGDSRev..dhKYYDRAVCRLYLCGLCPHELFVNTKMDMGPCPKAHSVKLRRDYEEARKKGKENYDRELEDALLKIIDEC...DRKIQRALKRLQdRAEi..qA.aAlLEAFNKDKQLGVPQHIDEKLKQAEQAGESGQVDEAQRLMDEAEALKKRAT.tVv.vPepprv..lqqvdsRITDQK
+#=GR A0A1Y1HY81 PP 9*******************99*..***********************************************************************...************76668..53.3457777888888999***********************************99.524.4268899..*****99*****
+A0A2B4R9V1         ---MKKMLDELMGTQRDGARPed..evKFSDDRVCKSYLMGLCPHELFNNTKMDLGPCNKIHEAALKADYEIASKKRDYGYDVDQMEHLQSFIKDC...DRKIQIAKKRLE.ETQ....D.dH.DNVPEAQAVHDLADQIGKKLAEAETVGAEGKVEESMELMKEVEDLKAKKK.mA...Ediyre...slpssSLQQQK
+#=GR A0A2B4R9V1 PP ...799************99999..***********************************************************************...************.888....6.58.9999**********************************************.64...346788...9999999****
+A0A2K1IDW9         MDAFRKQLDALMGANRNGDVLev..krNYWDRDVCRLYLTGLCPHDLFQLTKMDLGPCSKVHSLQLRKEYEEAKANGKDNYDRDLEDCLEKHIVEC...DRKIQRALKRLEdLANp..pP.aPlPTLVTLPPDARTQEMITEKLKKAEELGELGMVDEAQKAMEEAEALKKLGA.rQ...EavtdpakllapevRIADQK
+#=GR A0A2K1IDW9 PP 9******************9889..99*********************************************************************...************65557..64.4568888999****************************************999.53...3567899*************
+A0A2P6NSE9         MDEQRRILDALMGTSRNGDAEd...kkDFTDPDVCKFFLVGFCPVELFINTKMDVGECKKIHQESLKMDYEEASKKREYGYEQDLIRELESIVHDC...DRKINNARKRLE.HNQ....E.vE.KQLSGETEADDLGPEIEKLIKKAEELGEEGEVDESLKVMEQVNNLKAQQQ.aD...KarrqamtteigplSNQQQK
+#=GR A0A2P6NSE9 PP 9******************999...99*********************************************************************...************.888....8.79.*************************************************9.63...23578999************
+A0A388LKU4         MDAFRKQLDALMGANRNGDVQev..krKYYARDVCRYFLCGLCPHDLFQNTKIDLGPCGKVHSLHLRLEYEDAKKRLRDNYDRELEECLEKHIIDC...DKKIQRALKRLEdMLG....S.pP.GVGPSIPPDPRTQEAIRERLKKAEELGEMGMVDEAQKAMEEAEALKRLGS..R..gDpadg....qkgdmRIADQK
+#=GR A0A388LKU4 PP 9*******************99*..***********************************************************************...************6666....7.57.9999999****************************************999..4..423568....899999*****
+A0A3B0MP33         MDQIRATLAELMGKYEQKEDLds..tkPFTDPDVCRQYLTGICPHDLFENTKFYMGECSRIHSEKLRERYQNERKNHFYGYELETLKIIQPMIDDC...DKKIARGKARVE.EDL...vR.rKtLDPMIIEEAKKIDSQIQSRMARADELGRNGEVEESFKIVEEVELLKRTKLemL...Ekg.........gdASYQSR
+#=GR A0A3B0MP33 PP 9*************999888778..999********************************************************************...************.777...64.455889999*****************************************999642...357.........889*****
+A0A3R7XJX6         MDAQRALLDSLMGLNRDGDRPne.ailDFNHPKVCKLYLCGLCPRELFQHTRLDSGACELLHVPALRSAFEQEEDVERDFYERQLVNELSKFLVDV...EKKITRAQKRLE.EDG....D..-.-DNQDRTQVLQFTQDIQDATIKAEQAAQNGDVDKSLQLMEQVELFKRKRRevL..rQstans..nassvvDNVNQK
+#=GR A0A3R7XJX6 PP 9*******************99*.************************************************************************...************.988....5.....6788999****************************************99653..4367899..******9*****
+A0A4S8K810         MDAIRKQLDVLMGANRNGDVRev..shKYYDRDVCRLFLAGLCPHDLFQLTKMDMGPCPKIHSLQLRKEYEEAKVKGDHNFDRELEDMIERLIVEC...ERKIQRALKRLE.DLK....L..P.LPNQNPSQLASLPVVNPPDRHT--QEMINEKLKKAEDLGPQPKSTMDEKP..-...Y.............RETDQK
+#=GR A0A4S8K810 PP 9******************999*..***********************************************************************...************.888....4..4.4445555555544322222222..22223345555555555555555444......4.............7899**
+A0A4Y7LSK1         ---MRAMLDQLMGTTRDGESSry..nvKFSDPKVCKSFLLGCCPHEILASTRMDIGECVNIHDLALRADYEKASETKDYGYQVDAMDHLTTFVGEC...DRKTEAAKKRLAeTQE....E.lSaEVAAKAQKVHLLAEQIGQKLAKAEQLGAEGFVDESMKMMEEVEEFRKKKA.aA..eQeyrn....ampasSYQQQK
+#=GR A0A4Y7LSK1 PP ...79***************99*..***********************************************************************...************6666....7.7669999*********************************************9.63..335789....9***999****
+A0A5D6Y9H5         MDEQRALLDELMGRNRDGDRPde.dvtDFRHARVCKRFLCGLCPHELFQNTKMDLGDCALLHTPALREQFERARLQRDWGYEQELERELARFVADV...EKRIARAQRRLE.EGA....E..S.TEARAAAEIQSVLRRALGLLDTVEELKTKMAMAQANAMLTSFRAAKGGRG.gE..sPrtdaed.drkdgaLAVNQK
+#=GR A0A5D6Y9H5 PP 9******************9999.************************************************************************...************.999....8..8.999999****************************************9998.74..32467899.9****99*****
+A0A5N5KHN3         MDAMRKQLDVLMGANRNGDVRev..nrKYYDRDVCRLYLVGLCPHELFQLTKMDMGPCPKVHSLQLRKNYEEARAKGVDNYDVELENVIDKLIVEC...DKKIGRALKRLEdTQEm..iN.eKlKAEDLDKEDNAVEKNFVSSQNLIHSSGEQGMVDEAQKALEEAEALKKLPA.rQ...EptldsskysaadvRVTDQK
+#=GR A0A5N5KHN3 PP 9******************999*..***********************************************************************...************77778..85.56788899999***************************************999.53...34688999******9*****
+A0A662WHC7         MDAQRALLDTLMGRNRDGDRPee.disDFRHPRVCKPWLCGLCPHDLFQNTKMNLGVCESLHLPEMRAAYERHVSASDLGYEQQLVRELAVFVADV...EKKIARGQKRLDeQEE...eE.dArSLDAAAKRVLELTTGIQEAMEQAKEASTVGEVERSIELVQKIEELKRAKA.eL...EkcvgamkrersksTNVNYK
+#=GR A0A662WHC7 PP 9******************9999.************************************************************************...************5444...63.4447788999******************************************9.64...44789999****99999***
+A0A6A4SXN7         ---MRAMLDQLMGTGRDGDTMrq..riKFSDERVCKSHLLDSCPHDILSGTRMDLGECIKVHDLALRADYEIASKEQEYFFELDAAEHLQSFIADC...DRRTELAKKRLVeTQD....E.iSaEVAAKAERVHELNEEIGKLLARAEQLGGEGNVDEAQQLLEKVEKTRALKK.eA...Edvyrn...smpasSFQQQK
+#=GR A0A6A4SXN7 PP ...79*************99999..***********************************************************************...***********95555....7.776999******************************************99999.53...346788...9999999****
+A0A6H5K8V8         MDSQRALLDELMGVNRNLDNEeg.vidDFKDERVCKAYLCGLCPHDLFSNTKQDLGACDYLHDEELKKQYEAAVAKGDYGYDKHLESILVNHIQEV...DKKISRSQRRLEeGGQa..mA.mDtASLRNNEEIMKIEVQMSEIMKNAEAKGEEGDVDEAQELFEQAEELQRTKA.eL...EakadsimearaqsNATQQK
+#=GR A0A6H5K8V8 PP 9**********************.************************************************************************...************54446..73.44488899********************************************9.63...3357899******999****
+A0A7C8M6W3         --------EELMSGTDARAPQ.....lIITDSRVCRSYLVGNCPHDLFTNTKQDFGQCPKHHSEGLKTEYQEASDEQKRKFEFDYLRDMQKHVDEC...NRRINTAQLRLEkTPE....E.mR.QTNAMLKSIDTLTKSIEAGLKEVKLMGEEGMVNLAVQEYYAVQQKMALKA.dD..eQrlktl...sdtggPSGHQK
+#=GR A0A7C8M6W3 PP ........6899999988888.....99********************************************************************...************8888....8.78.******************************************99999998.63..3257789...99**999****
+A0A7J7N539         MDAIRKQLDVLMGANRNGDVTev..nrKYYDRDVCRLYLVGLCPHELFQLTKMDMGPCPKVHSLQLRKEYEEAKAKIGHNYDRDLEDVIDRLIVEC...DRKISRALKRLE.DRK....S..Y.-----------------YRRQCLPKLGEQGMVDEAQKALEEAEALKKLAA.rQ...EpgmdtskytaadvRITDQK
+#=GR A0A7J7N539 PP 9******************999*..***********************************************************************...***********9.766....4..1..................122345679999999999999999999999999.53...356788999999999*****
+A0A7M5V1X3         ---ARKMLDELMGTNRDGAPGan..stKFSDPEVCKSYLLGLCPYDLFHNTKLDLGVCTKVHDPALKADYELAANGKEYEYEFEQFGNISKFVEDC...DHKVEANKKRLE.ETQ....D.qE.QLAPEALAVHVLNESIGKKLSQAEELGAEGNVEESMKIMADVEELKNQKR.kA...Eeayrn...avpatQNQQQK
+#=GR A0A7M5V1X3 PP ...69*************99999..99*********************************************************************...************.888....6.48.9999*********************************************9.53...346889...9***9******
+A0A7S3MGE9         MDSQRALLDSLMGINRNNDRQed.qvtDYRDDRVCKFFLVGMCPNDIFVNTKMDEGPCQKVHSEVLKADFQKSRD--VHAYDALIEREFNNRIMEA...DRVIKKGRARVE.EEK...tD.eT.INPEINPEILRIHADMSRVISAAEEAGLEGNIDLVQELFLKLEELQKEKNavL..aKimei....krnrpGGPDKK
+#=GR A0A7S3MGE9 PP 9*******************99*.***********************************************9986..789****************...************.666...35.45.999***********************************************753..437789....99999899***
+A0A816HY15         MDAMRKQLDVLMGANRNGDVTev..nrKYYDRDVCRLYLSGLCPHDLFQLTKMDMSPCPKVHSLQLRKEYLFFLSLELYFHSLDIKKRRQKVLEDA...IDKAQVALDRAA.LPT...pA.qQ.PSAALPPPNPRTQEMINEKLKKAEEFGELGMVDEAQKALEEAEALKKVCVffR...Flfstss.hsvpllSQTDQK
+#=GR A0A816HY15 PP 9******************999*..***********************************************************************...************.666...34.36.999999*****************************************999752...1455789.9***********
+A0A833VW73         MDAIRKQLDVLMGANRNGETRev..khKYYDRDVCRLFLSGLCPHDLFQLTKMDMGPCPKVHSLQLRKEYEEAKERGEDNYDRELEDKIDRLIVEC...ERKIQRALKRLSeMAQg..qP.aPaAVTTMPPPDPKTQELINEKLKKSEELGETGMIDEAQKLLEEAEALKKLGA.rQ...EpavsdaskiandvRITDQK
+#=GR A0A833VW73 PP 9*****************9999*..***********************************************************************...************76667..53.3346677788999*************************************999.54...35688999************
+A0A834Z9K9         MDAIRKQLDVLMGANRNGDVRev..nrKYYDRDVCRLFLVGLCPHELFQLTKMDMGPCPKVHSLQLRKEYEEAKSTGIHTYDRDLEDVIDRLIVEC...DRKIQRALKRLEdRQE....PvlD.SSKYTDVRISEILLEANPLEAEAEAEAEAIAIRSSMETMPLIGSLVKYLP.gS...Qdnthw...wsskaCTTDQK
+#=GR A0A834Z9K9 PP 9******************999*..***********************************************************************...************6666....4445.8999999**************************************99998.73...234689...9999999****
+A0A8J5LV60         MDAIRKQLDVLMGANRNGDVTev..nrKYHDRDVCRLFLCGLCPHDLFQLTKMDMGPCPKIHSLQLRKEYPLCLQNNDVFLDSDNFAYHFYYIMQFfdsSSTAAKVQDALP.NPN....P.sQlPSLPVNPPDPRTQEMINEKLKKAEDLGERGMIDEAQKALEEAEAMKKLGV.rQ...EpvqepskysaadvRITDQK
+#=GR A0A8J5LV60 PP 9******************999*..******************************************************99999888777777654221445566677777.777....6.57799999******************************************998.53...34668999************
+A0A8T1WIA6         MDAQRALLDSLMGFNRDGDRPde.aalDFRHPRVCKPYLCGLCPRDLFQNTRLDAGACESLHLPTLRSAYQQQQQQQQQQYERALANELSKLLTDV...EKKIARAQRRLA.EGG....D..-.-DGQDRPQILQLTQDLQDAEAQ---AAKDGDGNRSLPAMEKVELLKRKRR.eLl.rQssag....asgavDSVNQK
+#=GR A0A8T1WIA6 PP 9*******************99*.************************************************************************...************.887....5.....678899999999999877665...67899999***************99.735.437899....***********
+A0A8T1X126         MDAQRALLDSLMGFNRDGDRPee.dvtDFRHPRVCKRWLCGLCPRELFQNTRLDTGSCPLLHLPELKVSYEKEKNTKDFGYERDLTQELSRMLADV...EKKIAKGQKRLD.EDA....S..-.DGGDARNQVLQLTHEIQDSVKQAEKKTESGLLDESLQLLKQVEVLKTKRK.eL..lKegaata.taaaqaVDVNQK
+#=GR A0A8T1X126 PP 9******************9999.************************************************************************...************.887....5....6889999*****************************************99.73..53478999.***999999***
+A0A8X6IRP0         ------MLDQLMGTGRDGENNkf..kvHFTDPRVCKSFLLACCPHDILAATRMDLGECPKLHDLALRADYENAKKTKDYYYDVDAMDHLQNFINEC...DRRTEQAKRRLAeTQE....E.lSaEVAAKLQRVHELAEQIGKQLALAEKLGAEGNVEESMKTLEEVEKFKMQKV.lA..eQeyrn....smpasSYQQQK
+#=GR A0A8X6IRP0 PP ......7*************99*..***********************************************************************...************6666....7.76699999********************************************9.63..326889....9***999****
+A0A9D4ZG63         MDAFRKQLDSLMGANRNGDVQvv..krKYYDRDVCRLYTAGLCPHDLFQLTKMDLGSCTKIHSLQLRKEYDEAKAKGKDNYDRELEEALEKLISEC...DRKIQRALKRLEaMPQp..lQ.aPpPLAPLLAPDARTQEMIKEKLKMAEELGEEGRVDEAQKLMNEADALKKLVR.aE...Pltdpak.qaaldvRITDQK
+#=GR A0A9D4ZG63 PP 9**********************..***********************************************************************...************99997..74.44477888999****************************************99.63...2457889.9***********
+A0A9D5CAI4         MDALRKQLDVLMGANRNGDVTev..nrKYSDRDVCRLFLAGLCPHDLFQLTKMDLGPCPKIHSLQLRKEYEEAKAKGLSNYSRELEDMIERLILEC...ERKIQRALKRLE.ENKd.raS.lPqPSQLAAPPDPRTQEIINDKLKKAEDLGEKGMIDEAQKLLEEAEALKKLGG..R..pEpvldsskytaadvRITDQK
+#=GR A0A9D5CAI4 PP 9******************999*..***********************************************************************...************.5555.774.444777788999**************************************999..5..334677899************
+A0A9P3KJJ2         MDAIRKQLDALMGANRNGDVEet..nkNYYDRDVCRAFLCGLCPHDLFTLTKMDLGPCSREHSLRLRKEYEEAKAKGLADYERELESILEKLIVEC...DRKIQRSFKRLE.DPA....P..S.GPASANQPDSKTQEMIKEKLRRAEQLGEEGRVDEAQKLMEEADALKKLAM..A..pKpdpi....aslgfQIADQK
+#=GR A0A9P3KJJ2 PP 9******************9999..***********************************************************************...************.999....9..8.9999999****************************************999..5..334689....99*********
+A0A9P5YKD3         ---QRKLLEQMMGPEAMGVANa...nlVWSDEKVCRNFLCGTCPHALFTNTKMDLGACPKSHTERLKTEYIAAKEANPNDFQMEYESNIFAFVDEC...DRRIRAAHRRLEkTPE....E.nA.KTTNLMREIAEIELAIQGGTEKIETLGEQGKVDESMREMAAIEALKSEKS.eK...EvrpsklqqtdtsgASGHQK
+#=GR A0A9P5YKD3 PP ...8*************99999...99*********************************************************************...************7777....7.56.999***********************************************.53...35678999******9*****
+A0A9Q0JJF3         MDAMRKQLDVLMGANRNGDVRev..nrKYYDRDVCRMFLVGLCPHELFQLTKMDMGPCPKVHSLQLRKDYEEARAKGLDNYDRELEDTIDRLIIEC...DKKIGRALKRLEeLPN....P.pPlPTVLAPMPDARTQEMINEKLKKAEDLGEQGMVDEAQKVMEEAEALKK---..-...-.............--TDQK
+#=GR A0A9Q0JJF3 PP 9******************999*..***********************************************************************...************6666....5.56799999999*************************************97.........................789*
+A0A9W8WYM8         --------EQLMSGSDQRAPQ.....lSITDPKVCRSYLVGNCPHDLFTNTKNELGPCPKVHNEALKTEYQEADADQKRRFDFDYLRDMQHHIDGC...NRKIDQAQRRLEkTPE....E.iR.QTNALLKSINELTKSIDAGMLEVQIMGEEGMVNMAVQEFTKVRMKKAEKE.eR...Erelra..lsdtggPSGHQK
+#=GR A0A9W8WYM8 PP ........699*999999999.....9*********************************************************************...************8888....9.89.*************************************************9.53...346889..99***999****
+A0AAD5LF37         MDAQRALLDELMGRNRDGDRPee.eitNYRDKRVCKRFLCGLCPHDLFQNTKMDLGECAQLHLPKLLAAYEKDKAANSDLYEMELEKDLVKIISDV...EKKIARAQKRLE.EQD...gE.rA.PSLMDCKEVLEITAEIQEVMQKAEDAGNEGEVDLSMELMQKVEELQQKKA.eA...QamirsirpaaakaSSVNQK
+#=GR A0AAD5LF37 PP 9******************9999.************************************************************************...************.666...57.56.9*************************************************.53...4578899******999****
+A0AAD8PEA0         MDEMRSQWAALMGNLENPADSie..tkSFTDSDVCKMFLVGICPYDLFENTKHYIGPCSKNHSEELRAKYLEARKEKYYGYEDDTLRFIIPMIEDC...DRRVQKGRLRAE.ENVa.ckQ.tE.LDPATVEEAKRIDMEIDKKMKIANELGMKGEVEESFKVLEEAELLKKNKLemL...Eka.........geSSYQSR
+#=GR A0AAD8PEA0 PP 9*****************99999..99*********************************************************************...************.6654.754.45.8889999****************************************999652...346.........7799****
+A0AAD9D0W3         ---QRKVLETMMGPEAMGLQVv...nlDWWDERVCRNYLFGTCPHLIFGNTKMDLGPCPKTHSETILKQFQEHRQAHPNDFKQEHEAALFSFVDDC...DRRIRAAQRKLEkTPE....E.nR.KTVDLMKEIGEIELSIQGGTEEIEALGEAGKVEESMEKLAAVDALKSLKA.eK...Erelqn..lnetagASGHQK
+#=GR A0AAD9D0W3 PP ...8*************99999...9**********************************************************************...************7777....7.56.*********************************************99999.53...245778..99****9*****
+A0AAE0BJL5         MDAMRATLDALMGVNRDGDKEse.mnrKFSDPDVCRAFLGGLCAHDLFTNTKIDMGACASIHNVSLREQYEEARQKGEANYDRELLENLDKLLVEC...DRKIARAMKRLEeDAEk..pE.sEkEPEEAPPPDPKTAEMIAAKLKDAEAAGEEGRVDDVERLMNEVEILKSISA.sR...Pvvavv...pagevKITDQK
+#=GR A0AAE0BJL5 PP 9**********************.************************************************************************...************55556..63.3336667778899*************************************999.53...356789...99*********
+D8RYX3             MDSFRKQLDALMGANRNGDVQev..qrKFSDRDVCRLYLAGLCPHDLFQLTRMDLGVCPKIHSLQLRKEYNEQT---KQCYNRELEECLEKHVLEC...DRKIQRALKRIE.EQGn.apP.lA.PLPYMFPPDARTQDMIKEKLNKAEVLGEQGLVDEAQKALEEAEALKKLVS..R..yDmapdpnkvlqqdaRATDQK
+#=GR D8RYX3     PP 9*******************99*..*********************************************9987...579****************...************.6664.644.45.8888999******************************************9..4..324567899*****99*****
+F0WNG5             MDAQRALLDELMGRNRDGDKPnd.eikDYRDRRVCKYFLCGLCPHELFQNTKMDLGECPKLHIPNLRTKYEKDPK-KSSGYEYELERELLRFISDL...DKKIYRAQKRLE.EQE...gS.kA.PSLMDCKEVLEITAEIQEVMLKAEEAGNEGQVDLSMELMEKVEDLKQKKA.dA...Qamlqs...vqkasTDVNQK
+#=GR F0WNG5     PP 9*******************99*.*************************************************96.788*****************...************.777...56.45.999***********************************************.63...346778...99999999***
+G4YH12             MEAQRALLDSLMGFNRDGDRPdddpqlDFRHPRVCKPFLCGLCPRELFQNTRLDAGACQLIHSPSIRAAYEQEA-TRDFGYERALATELSRLLADV...ERKIAKAQRRLD.EDN....G..-.DTCPDRARLLELTQELQDAAAQAAQRARDGDADASLQLVEKAELLKRKRR.eLl.rQtqtkg..kdggapDVIDQK
+#=GR G4YH12     PP 9*******************99************************************************9987.699******************...************.877....4....57788899****************************************99.735.436799*..*****9999***
+L0AW24             MDEIRATLAQLMGKFEEPEDVee..tkSFLDSDVCRMFLTGICPHDLFENTKHYLGECKRLHSERLREKYMNERKSRYFGFEVDTLRTIQPMIDDC...DKRISKGKARAE.DDGg..rK.pT.IDPLVLNEAKRIDDQIQAKMTLADELGMNGDVEQSFKIVEEVELLKKTKLemL...Eka.........geASYQQR
+#=GR L0AW24     PP 9*************988776668..89*********************************************************************...************.6665..54.44.8888999****************************************998652...346.........779*****
+M4B1P6             MDAQRALLDSLMGFNRDGDRPde.ealDFRHPRVCKSYLCGLCPRELFQHTRLDAGACDLLHVPALRSAFLLHQKQEKDEYKRELANELSKLLVDV...EKKIARAQKRLD.EDG....D..-.-ESQDKAQILQLTQEMQDVAVQAEQATRDGLVDKSLQLMEQVELLKKKRR.eLl.rQstsaa..giamsvDNVNQK
+#=GR M4B1P6     PP 9******************9999.************************************************************************...************.888....5.....688899*****************************************99.735.436899*..******9*****
+Q9SRN8             MDAIRKQLDVLMGANRNGDVQev..nrKYYDRDVCRLYLSGLCPHDLFQLTKMDMGPCPKVHSLQLRKEYPLFTRALKRLQEEDAKAAIAISVSEV...TQSPEILSEKIKeLPQp..vP.aQpPSSELPPPDPRTQEMINEKLKKAEDLGEQGMVDEAQKALEEAEALKKLTV.rR...EppadstkytavdvRITDQK
+#=GR Q9SRN8     PP 9*******************99*..***********************************************************************...************76777..74.4558899999****************************************999.53...34678999************
+A0A023ENH0         MDVARQLLDELMGRNRNLDPSvktkelNWEDEEFCTYFMVKFCPHELFVNTRADLGQCGKLHDEEAKKLFDAAKQCRKKIYEEDFLRFCTNMINEV...DRKIVKGQQRLLlMNSk..lE.aR.PVSKQQEQINTMNEKIEKLLREAEEAGIRGDVDQAQSLMQMSDQLKEEKD.eL..iKqhesns.vtaeyaASQEKQ
+#=GR A0A023ENH0 PP 9******************9999*************************************************************************...***********987775..66.56.999***********************************************.73..5346799*.************
+A0A067JEU6         MDLQRAMLDELMGADRNLTDDqkkkeiTWDSKEVCPYYMARFCPHDLFVNTKSDLGPCDRIHDAKLKESFEKSPRHDRYLFEAELAQRCEKLVMDL...DRRVRRGRERLAqGEEp.vpP..PpLSTEKSEQLSVVEEKIKNLLVQVESLGEAGKVDEAQALMKKVDELNAEKTliQ...Sqnd......kvlmVPQEKK
+#=GR A0A067JEU6 PP 9****************9999999************************************************************************...************54558.844..448999**********************************************642...2578......99999*****
+A0A078KKG5         MEEMRSLLDSLMGKDRNEMSSkr..nySFKDENVCKYYLIDFCPHDLFPNTKSDIGRCKSIHAEILKEQLENDENYKYYLYQQKFMRKLEDIVQMA...DIKIERSKEKLK.QLS...eN.pK.NIDDKKEKIESINTHICDLLKQAEKAGEDGDIAKATSFNNQVTTLQAEIK.rL..nEe..........gvQSSDTN
+#=GR A0A078KKG5 PP 9*****************99999..9**********************************************************************...************.555...36.57.99************************************************.74..436..........88******
+A0A086PGS0         MDEMRAMLDSLMGRNRNECGRnkrgdsSFKDDEICKFFLLDYCPHELFPNTRSDLGPCPKEHRPDLKEAFEKDENHEYYKYEQEFMKFLKRLVDQM...ESRIKKVQQRIDaNNT....V.tE.LDKDTAEKVNAVNAQISELLKKQDEAGAKGEIDVAEKLNEEVALLQREVQ.rL..kNpha.......diaTIRESQ
+#=GR A0A086PGS0 PP 9****************9888889************************************************************************...************5555....5.47.9*************************************************.74..43678.......9999*****
+A0A0B7NHH7         MDYQKAMLEELMSQYVDVDNK......DFWDDSVCKHYIVAFCPSQLFTNTKSDLGACDKIHNDRLKERYQKSPDKDKYRYEDKFYDYLNKLISDL...SRKIRQGNGRLNiQLDd..kA.aEvRKEEREEKMVLLDVKIKELLQKVEEAGEEGRVQEATDLQAEVDKLQEELTqfK...Ena........eglSKAEKR
+#=GR A0A0B7NHH7 PP 9********************......*********************************************************************...***********987766..54.56789999999*****************************************9543...357........899******
+A0A0D9QMF9         MEEMRSLLDSLMGKDRNETDArk..khSFKDDNVCKYYLIDFCPHDLFHNTKSDIGRCKNIHSEVLKEQLANHEDYKYYRYEQKFMRTLENIIDLA...DHKIERTKEKLRyMSE....N.sK.NHVDKKEKIESISNHIEDLQKREEEAREKGDLVKADSFSSQVTTLQAEIK.rL..nEe..........peKVAEPN
+#=GR A0A0D9QMF9 PP 9*****************99999..9**********************************************************************...************8888....8.68.**************************************************.74..424..........66999***
+A0A0G4H2P3         MDEMRAMLDSLMGKDRNASINerkkrsSFRDPEVCKWYLLDFCPHELFPNTKSDLGPCPNIHSDALREAFLADPEHDALQYEEDFAKVLQELVDQV...EAKIKKGNQRIV.API...pE.aT.LPEDKQQRVNELEARISDRLKKAEELAEEGRISECALFHQEIATYKDEIEriK...Atpf.......dsyIRKETQ
+#=GR A0A0G4H2P3 PP 9****************988778999**********************************************************************...************.777...46.56.9*************************************************642...2578.......89999****
+A0A0G4J7D6         MLSQRELLDQLMGKDRNLADEdkkpdqHWWDDAVCKYYICGFCPHDLFYNTKSDLGPCAKQHDMAFRREFECEPVSRRAPYEADFLRLLESLTEEV...DRRKRRGTDRLSmTMQp.dlS.dP.VVARCKSDIDQIVADMRPLIDQMQTLAERGDVDDAARLLVAFEEKAIRKQ.aL..qEemeg....gtrfiTQHEKQ
+#=GR A0A0G4J7D6 PP 789***************999999************************************************************************...************87777.654.34.889999**************************************999999.64..335889....9**********
+A0A0H5REN6         MLSQRELLDQLMGKDRNLIDEdkklnqHWYDDNICKYFICGFCPHDLFYNTKSDLGPCTKIHDEHLRQTFEAESESRKASYQSAFLRLLQSLTDDV...DRRKRRGSDRLAmQLQ...pD.vNdPGYIEQKQIEVIKDQQVVLIDQIRQLGESGKIDESFAVFTLFDDFEKQKVdiE...Tdhda....gqkfiTDHEKK
+#=GR A0A0H5REN6 PP 789**************9998899************************************************************************...************8777...75.66688899****************************************99999643...25689....99*********
+A0A0L1I9W6         MEEMRSLLDSLMGKDRNETDSkkkenvNMKNIKVCKYYLIDFCPHDLFPNTKSDIGRCKNIHSDILKEQLEKHEDYKYYLYQQMFMKTLERIIDVA...DMKIEKTKEKLKhMSN....T.pN.NTSDKKTKIESINSHICDLLKQSEEAGEKGDLNKATSFNNQITMLQEEIK.rL..tEe..........mqKSNDGN
+#=GR A0A0L1I9W6 PP 9*****************999999************************************************************************...************6666....6.57.**************************************************.74..424..........6699****
+A0A163URX1         MDYQKAMLADLMSQYVEVDNK......DFWDDSVCKNYLVAFCPHLLFTNTKSDLGACNKIHNDRLREKYQQSNDKGKYSYEQDFYSFLQQLINDV...GRKIRHGRERVNlQDEk..eS.kEmVNEERHEKVVLLEVKIKEYLQKIEEAGEEGRVQEASDLTSQVEKLQVELQ.lL..kEae........emaSKAEKR
+#=GR A0A163URX1 PP 9********************......*********************************************************************...************87777..53.44678899999******************************************.73..4356........8999*****
+A0A1D2N959         -----NILDELMGRDRDALPTdkprtpKWDDADICTHYLVCFCPHELFVNTKADLGPCAKLHDEQLRKKYQEEANHRKSVYEAEFIRFAEKMISDI...EAKIKRGKMRIAlANGp..dG.yAgPGSKNAEKIALLTERINALLSEAEEAGCEGDVEKAQGLMKLCDQLKEERE.qL...Ksne......vshpWNPDKA
+#=GR A0A1D2N959 PP .....78**********9988899************************************************************************...************77778..63.556999***********************************************.63...3357......889999****
+A0A1J1GR03         MEEMRSLLDSLMGKDRNEMDSqk.kkySFKDDNVCKYYLIDFCPHDLFPNTKSDIGRCKNIHSEVLKEQLENDENYKYYLYQQKFMKTLEKIIEVA...DIKIEKSKEKLK.QLS...vN.cK.NTFDKKSKIESINNHICNLLKQSEEAGEKGDLIKATSFNNQITMLHAEIK.rL..nEe..........ndKANETN
+#=GR A0A1J1GR03 PP 9****************999889.99**********************************************************************...************.877...68.89.**************************************************.74..425..........6799****
+A0A1L8DH79         MDSARQLLDELMGRNRNLDPDakcrklNCFDPEFCQYYLVKFCPHDLFVNTKADLGQCPKLHDDEAKRLFEEEPRSSAKKYEDEFLRFCNNMVNEV...DRKIHKGKLRLKlMNKd..dP.dSpTHGTHQEQLNTLSERIKKLVGEAEEAGHRGDVDQAQGLMQLCDQLKDEKE.aL..lKsndtsh.wslemvQAQEKQ
+#=GR A0A1L8DH79 PP 9******************9999****9********************************************************************...************97777..73.44588999*********************************************.83..5346899*.************
+A0A1R0GMA9         ---ARQLLDELMNQYQASSK-......DFRDSDVCKDYLVSFCPHLLFTNTKADLGSCDLLHDDKLVSDYKASPDYMRLGYEESFYNKLRNLLSDL...DRKIRRAFQRVStEADe.kvT..NpDKEENQEAVILIEQKIKTLLENIEKAGEEGRIQEAKSLTSDLDKLKIELK.aA..qEkana.....vnpmFKNEKR
+#=GR A0A1R0GMA9 PP ...69*********998888.......9********************************************************************...************76556.643..448889999999**************************************99.63..325789.....99*99*****
+A0A1S3H6U7         ----AQMLDELMGRNRNLDPSeskadfSWDSPEVCKHFLCGFCPCELFINTRADLGQCNKIHDEDLKRQYSESPKFQKMGFEEDFERYLNTLVADV...ERRIRRGHQRLSlNNNa.gtP.gN.PNPIADEKIKMLTERINDLVEQAENLGCEGKVEEAQGVLKLCEQLREERT.qL...Etsl.......kiaAENEKQ
+#=GR A0A1S3H6U7 PP ....69*************9999*************************************************************************...************87777.865.66.99999*********************************************.63...3468.......8999*****
+A0A1X2G6H9         MDHQKAMLAELMSQYVDVDDK......DFWDDAVCKNYLVRFCPHLLFTNTKSDLGPCNKIHNDRLREKYQQSE-KSRYTYEEDFYRFLRQLISEV...SRKINHGYDRVNqQDEk..kK.kEiAIEEHQEKQVLLEVKIKELLQQSEEAGEEGRVDEASELTDQVEKLEEELKtmK...Dnq........sqmQRSDKR
+#=GR A0A1X2G6H9 PP 9********************......********************************************998.5889*****************...************55556..53.44667889999999*************************************99642...246........889999***
+A0A1Y1JJW9         MEEMRSLLDSLMGKDRNETDSrk..khTFKDDNVCKYYLIDFCPHDLFPNTKSDIGRCENLHSEVLKEKFAKDENYKYYLYQQKFMKTLEKIIEVA...NMKIKRSKEKLKhMSE....N.sK.NNVDNKEKIESINSHISDLIKQEEDSKKKGDLVKATSFNSQIVTLQAEIK.rL..nEe..........sdKPAEPN
+#=GR A0A1Y1JJW9 PP 9*****************99999..9**********************************************************************...************7777....7.67.**************************************************.74..425..........67999***
+A0A1Y1WEJ2         ---ARQLLQELMGEYQDTGK-......SYTDADVCKNYLVSFCPNQLFTNTKDDLGQCTLVHDDRLRTAYQQSSDRGRLGYEQSFYSWLQQLHHDL...QRKVRRAHERITaEADd.tlA..NpHREEKEERAILMDERIREMLKRIEDCGMSGRVDEALSVLASMEKAKADLV.vL..rErida.....gnpmFKNEKR
+#=GR A0A1Y1WEJ2 PP ...69**********99998.......9********************************************************************...************77667.754..4488999999999*************************************99.84..436889.....99*9******
+A0A2J6L577         MDAQRALLDELMGSARNLTEEerrkeiSWDDKEVCGFYMVKFCPHDLLVNTRSDLGPCPKIHDPKLKESFESSLRHYFYVFEAELAHFCEKLVMDL...DRRVRRGRERLAqEVEv.ppP..PpIPAEKSEQLSVLEEKIKNLLESVEALGEAGKVDEAEALMRKVDLLNIEKT.aLt.lQpqne.....kvlmLAREKK
+#=GR A0A2J6L577 PP 9******************999**************************************************************************...************77779.743..45899***********************************************.733.436789.....9**99*****
+A0A2P2IAL6         MDAQRALLDQLMGIDRDRASDdtpqrrHWSDPESCPFYLCGFCPHELFSNTKSDLGPCDRVHDTAMREDFTKATKEEQRPTKYLFLRELERLLEDL...DMRIREGNRRIDlSDRh..vA.lElNPADTKENIRELDTRIEELYTRMEKLGEEGAVEESKGLLKLATQLKAERDgfD...Rgnvat...nhienDPKDKR
+#=GR A0A2P2IAL6 PP 9****************999899*************************************************************************...************87778..86.77899************************************************853...245788...9999999****
+A0A328E4K5         MDAQRALLDELMGASRNLTEEerkkelTWDDKEVCRFYMVRFCPHDLFVNTRSDLGPCPKVHDPKLKESFEKSPRHDAYVFEEELAHFCEKLIMDL...DRRVKRGQERLD.QDEa..tP.lPpSLSTESEQLSRLEESIKNLLEQVESLGEAGNVDEAEALMRKVELLNIEKI.sL..tQkshq....tsllmMAQEKK
+#=GR A0A328E4K5 PP 9******************999**************************************************************************...************.7766..75.555889999****************************************9999.64..435678....9**********
+A0A3P6D4H9         MDAQRALLDELMGAARDLTDEerrkeiKWDDREVCAFYMVRFCPHDLFVNTKSDLGACSRVHDPKLKESFENSPRHDSYVFEAELVQFCEKLVNDL...DRKVRRGRERLAqEVE...pP..PpPTLSAAQQLSVLEEKIKSFLELVEALGEDGKVDEAEALMRKRVSLCNFGKavL..lQrpne.....kalaMVHEKK
+#=GR A0A3P6D4H9 PP 9*****************9999**************************************************************************...************7777...54..45999************************************99888888777563..435678.....999999****
+A0A433QUM3         MDYQRQLMAELMAQYDLDDTK......NFWDDDVCKNYLVAYCPSQLFTNTKSDLGPCTKIHNDKLRDKYRNTPDKESRYYEVAFVDYITSLVTDL...DHKIRRNKERLDiDTQ...lE..PiQSSTNTAVVHRLRRYLH--FPRLLQLSLLLTVHLPNRHINHWCRLLIFVR.dT..lQndg......inpiLKQDKK
+#=GR A0A433QUM3 PP 9***************99999......*********************************************************************...************8888...55..5589999999999999887..7889999999999999999999999988888.53..33478......8899******
+A0A507DYT5         MDAQRKLLEELMNPIMGTER-......TYKDPQMCPHMLCGYCPFDLFTNTKCDIGFCDKVHDE----KYQESPDRYKLGHEQAFHSFALRLVQDM...DRIIRRQKDKVQ.QNR....E.pE.PTNDEEERIAMIEGQVKQYTQQLQDAGEQGFVDRAIDLLTTVELLKTNIE..Ai.rT.............NANSRR
+#=GR A0A507DYT5 PP 9************9766555.......9***********************************8....7***************************...************.888....7.69.**************************************************..54.57.............9*****
+A0A5B6UVD8         MDAQRALLDELMGTARNLTEEekkrelRWDDKEVCAFYMVRFCPHDLFVNTRR---LCPRVHDPKLKERMELKYALLAISSSVQVIAIMISIIRDN...RGFFTKSSSLLKhAQEv..eP.aPpAPLSASEQLSVLEEKIKNLLEQVESLGEAGKVDEAEALMRKVEALNAEKT.vL..tQqqnd.....kvlmLAQEKK
+#=GR A0A5B6UVD8 PP 9******************9999*****************************8...8***************************************...***********965658..63.44588899*********************************************.84..424689.....9**9******
+A0A653GZP2         MEEMRSLLDSLMGKDRNETTSkk..kySFKDDDVCKYYLIDFCPHDLFINTKSDIGRCKNIHSDILKEQLENHEDYKYYLYQNRFMSTLKKMVETA...DIKIKKNKERLK.SLS....E.nS.PKSGKKEKIECINNHICDLLKQAEAAGEKGDLVKATSFNNQVTTLQAEIK.rL..nEe..........seEETEIE
+#=GR A0A653GZP2 PP 9*****************99999..9**********************************************************************...************.777....6.48.**************************************************.74..424..........6699999*
+A0A6A7G7H7         MDAQRALLDQLMGQDRDLLPDeapqkrTWDDEEVCQYYNVAWCPHELFTNTKSDLGECVNLHDDRLRSDFQALPRAARRPFEENLYRFLVSLIDDV...EVKIRRGRDRLL.EGRd..gA.sS.PGHSAKPSPEALTTQINEILAEMEELGERGKIEESQALMRRVEQLGRQKK.lL...Eap.........vhDHEEKR
+#=GR A0A6A7G7H7 PP 9****************98888999***********************************************************************...**********99.5553..55.45.9999999*******************************************.64...335.........66******
+A0A6I9RWQ4         MDAQRALLDELMGAARNLTEEekkkeiRWDDREVCGSFMVRFCPYDLFVNTKSDLGPCPKIHDLKLKESFEKSPRHDSYVFEAELAQLCEKLVMDL...DRKVKRGRERLAqEVEv.ppP..PpPPISAFEQLSVLEEKIKKLLEQVEMLGESGKVDEAEALMRKVDMLNAEKT.aL..tQqssn....dkvmmLPQEKK
+#=GR A0A6I9RWQ4 PP 9*****************99999*************************************************************************...************77779.743..4589999*********************************************.74..435789....99**99*****
+A0A6J3DXE2         MISAAQLLDELMGRDRNLAPDekrsnvRWDHESVCKYYLCGFCPAELFTNTRSDLGPCEKIHDENLRKQYEKSSRFMKVGYERDFLRYLQSLLAEV...ERRIRRGHARLAqNQQs.sgA..AgPTGKNEEKIQVLTDKIDVLLQQIEELGSEGKVEEAQGMMKLVEQLKEERE.lL..rSttsvll.qtiesfAAQEKQ
+#=GR A0A6J3DXE2 PP 667889***********9998899************************************************************************...************65558.643..46999***********************************************.74..425789**.************
+A0A6P5AH87         ----AQMLDELMGRDRNLAPNekkediHWSDEKVCKHFLCSFCPSELFTNTRSDLGPCDKIHDDALRDGYRKSSRFQRMGYEEDFLRYLQSCMADV...ERRIRRGHARLAlSEQq..aQ.vAqGGGKNEEKIQMLTDRINGLLEQVEQLGCEGKVEEAQGVMKLCDQLKEERE.qL..rQnkss.....idsmTAQEKQ
+#=GR A0A6P5AH87 PP ....69***********9998899************************************************************************...************86664..64.44367799*********************************************.63..435789.....9*********
+A0A6P5WCW5         MDEMRATLDSLMGRDRNEYGAnakkgtSFKGETICKFFLLDFCPHDLFPNTRVDLGPCDREHRADLKVAFETDPEREFYQFETEFARYLQRLVDQM...ENRIKRVQQRIDaNNQ....P.vE.LSKENEERVNSMNAEISELLKQQDEAGSKGDIDAAEKLNEKVAFLQREVS.rL..kNpna.......diaTIRESQ
+#=GR A0A6P5WCW5 PP 9****************98888899***********************************************************************...************7777....8.89.**************************************************.74..43678.......9999*****
+A0A6P5XSD8         MDAQRALLDELMGTARNLTEEqkkreiRWDDKEVCAFYMVRFCPHDLFVNTRSDLGPCPRVHDQKLKDSFEKSPRHDAYVFEAELAQFCEKLVMDL...DRRVRRGQERLAqEVEt..aP.lTpLSAEKSEQLFVLEEKIKNLLEQVETLGEAGKVDEAEVLMR----------..-...-.............--KEKK
+#=GR A0A6P5XSD8 PP 9*****************99999*************************************************************************...************76667..75.5558999*********************************997................................589*
+A0A7I4FKH7         -----------MGTARDLTAEerkcemQWDDPLVCTCFLVNFCPHDLFVNTKSDLGPCPKIHDPKLKESYQQSTRHDNYVFEAQLFQFCEKLVQDL...DRKVRRGRERLA.QDAntstM..LmPISTESDLLVNIEESIKKLLEKIEVFGEVGQVDEAEALMKKVDMLNMEKA.iL..tQqitn....ergliLSQEKK
+#=GR A0A7I4FKH7 PP ...........9999999998999999*********************************************************************...************.55546532..246778888899****************************************.84..435788....9**********
+A0A7J0E3G1         MESQRALLDELMGAARNLTEDekkkeiTWDDKEVCGMYMVRFCPHDLFVNTRSDLGPCPRIHDPKLKERHVDKPVSCYFDSLASMTGGLALNIKVI...PSARAPGYCRAKeCITg..fS.fE.KSPRHDSYVPRFEAECEKLVMDLDRRVRRGRIDQEVEVPPPVETLNTEKT.aL..tQqsqt....gkllmLAQEKK
+#=GR A0A7J0E3G1 PP 9****************999999*************************************************************************...***********965557..87.78.999***********************************************.74..435789....9**********
+A0A7J6FN42         MDAQRALLDELMGAARNMTDEerkkevTWDDKEVCGAYMVRFCPHDLFVNTRSDLGPCPRIHDPKLKESFEKSPRHDAFVFETELAQFCEKLVMDL...DRRVRRGRERLAqEVEp..aP.aQpLSSEKAEQLSQLEDKIKNLLEQVESLGEAGKVDEAEALMRKVQQVDTLNT.eK...AaltqqtlpdkvllLAQEKK
+#=GR A0A7J6FN42 PP 9*****************9999**************************************************************************...************77678..74.4558999***********************************99888776666.32...123457999***********
+A0A7J6MIQ8         MEEARALLDQLMGRDRNATAAaksrriNWTQDQYCPYYLVDFCPNELFVNTRAYMGSCGKEHCEYTKFRFDQMEEKREIIYERKLLSYCEYMETQL...AQKIRRGKARVT.TEI...pD.iE.VPAQNREKIEELRTRINGLVKDAESLAERGRLMESEKKMSQIEPLNEKIR.dL..sEk...........yLHMTRT
+#=GR A0A7J6MIQ8 PP 9*****************99999*************************************************************************...************.666...47.88.**************************************************.74..435...........7999999
+A0A7J7CED1         MDAQRALLDALMGSARNLTEEerkkelTWEDREVCRFHMVRFCPHDLFVNTRSDLGPCPRIHDQKLKESFENSPRHEAYVFEAELAQFCEKLVMDL...DRKVRRGRERLAqELEp..aP.vTpLAAEKSEQLSVLEEKIKNLLGQVEALGEAGRVDEAEALMRKVELLNAEKT.vL..tQppqn.....nalmLAQEKK
+#=GR A0A7J7CED1 PP 9******************999**************************************************************************...************76667..74.5558999**********************************************.85..435779.....9**99*****
+A0A7S2D7U3         MEDARKLLDSLMGPSRDKSLQeqqradGWKDRNVCKRYLVGFCPNNCFKNTRRDTGSCSKIHSDSLKKQFEEHPDFARYQYEKEFLTFLEGLVFEA...DAWIGREKKNCKpPGK....E.mR.MPAHAKEQERAMQEKSEKLMKEAEDLAEAGELTKSKEAVSKATQLKEDLE.eL...Kv..........kyTFVTCA
+#=GR A0A7S2D7U3 PP 99***************99888999*99********************************************************************...************6555....7.68.9*************************************************.64...34..........479999**
+A0A7S2LHG6         MQDAKALLDSLMGPSRDKSLEeqkktdRWKDKDVCKRYLVGFCPNNWFHNTRKDVNVCCKIHSDRLRSDFEAHPDHAKYAYEKDFLEFLEGLVREA...DAWISRETGNCV.GPG....KvtK.LPASVKQKVAEMQEKSEQLLKEAEDLAEKGDVQASKQAVETSSKLKEEVK.eL..kEk...........hTYESGG
+#=GR A0A7S2LHG6 PP 999**************99888899***********************************************************************...************.666....4346.9************************************************9.73..424...........5889999
+A0A813RY60         -----------MGKARNATAGetvhqyRFDDPEVCKYLLVEFCPHDLFVNTRADLGPCDKVHEEGLQKTYLKSSRYGKLGYEEDFERFLKSLLADV...ERRIKRGIDRLRlTQG...eS.vNdNSETSASRIRQIDDRINELVQKSEQLGCKGKVDEAQAVLEECEQLRAERE.qLs.yQe..........ynSDMMKA
+#=GR A0A813RY60 PP ...........9999999988899999*********************************************************************...************8666...65.666999999********************************************.634.426..........779999**
+A0A833QZ21         MDAQRALLDDLMGAARNMTEDerkreiKWDDREVCGPFMVQFCPHDLFVNTKSNLGPCEKIHDHKLKESFEESPRHDAFVFEADLAQFCEKLVSDL...DKKVRRGRDRLAqELD...vP.tPpLSSEQSEQLSLIEEKIKKLLEQIEELGEAGKVDEAEALMRKVDVLNAEKS.aI..iQpns......kitaLIQEKK
+#=GR A0A833QZ21 PP 9*****************99999*************************************************************************...************6666...84.445999***********************************************.62..43467......89999*****
+A0A8B7ZXX0         MQSAAQLLDELMGKNRNSLPTerskeiRWDHPSVCKHFLCGFCPHELFINTRSDLGPCEKVHDESLKRSFEQCSSRERARYEDDFLSYLQQIVAEV...DRRIRKGHSRLAlSNSq..qQ.lSaNQAKNEEQIRLLTERINSLVEKAEELGCQGEVEEAQGTMRLCEQLREERD.tL...Kaaatq...aldavLSQEKQ
+#=GR A0A8B7ZXX0 PP 8999*************99888999***********************************************************************...***********985555..65.66699999********************************************9.74...335788...9**********
+A0A8H3M743         MDYQRQLLEELMAPFERSNKH......NFWDDSVCKHFLVKFCPNSLFTNTKSDLGPCTKVHDEKLRKQYQEAPDRTKYGYEIKFYDYLQSLCNDL...DKKIRKGNDRLNvRPDd..tL.lNpNKDEKEEKMIILDEKIKELLVKIEGAGEEGRVQEAQILTKEVETLQKDLK.nL..fSrfdyts.ddsnplFKQERR
+#=GR A0A8H3M743 PP 9********************......*********************************************************************...************98777..73.455999999******************************************99.64..63578899.************
+A0A8H7PWF0         MDFQKAMLDELMSQYVDVDNK......DFWDDSVCKHYLVEFCPSSLFTNTKSDLGPCDKIHNDRLKEKYQNSPDKYKYPYEQDFIKYLTFLIDDL...DKKIRRGRGRLTiQSMd..dK..HtEAIKGEEKLVLLDVKIKEMLAKIEEAGEEGRVQEASDLTKEVERLQAEHA.lL..kEka........dnaARSDKK
+#=GR A0A8H7PWF0 PP 9********************......*********************************************************************...************76665..33..3477788999******************************************.73..4357........88999****
+A0A8J5X1A1         MDAQRALLDELMGTARDLTEEerkkevKWDDPDVCRSFMARFCPHDLFVNTKSNLGPCAKIHDSKLKESFESSPRHDSYMFEAELAQQCEKLVVDL...DRKIRRGRERLA.QDIa..vP.pT.ILEKTSEQLLIIEEKVKKLLVQIEELGEAGKVAEAEALMRKVELLNAEKTavT...Nqadn.....kvamLPQEKK
+#=GR A0A8J5X1A1 PP 9******************999**************************************************************************...************.6665..65.45.99999*********************************************642...25788.....99999*****
+A0A9D5C0W0         MDAQRALLDELMGSARNLTDEekkrevRWDDKDVCGPFMLRFCPHDLFINTKSDLGPCSKIHDLKLKESFEKSPRHDAYVFEAELAQFCERLVTNL...NKKVKRGQERVA.QEDv.lpT.vP.ISSEKSGQLSMVEERIKKLLEQIESLGEAGKVDEAEALMRMVDALNAQKT.gLm.aQasd......kglpQAQEKK
+#=GR A0A9D5C0W0 PP 9*****************99999*************************************************************************...************.7776.855.56.9999**********************************************.944.43678......9*********
+A0A9W7Y0B3         ---ARQLLQELMGQYQDSGN-......RYTDANVCKDHLVDFCPNQLFTNTKADLGQCDLVHDDRLKSAYQKSTDRGRLGYEDAFYERLQRLTNDL...QRRVRRAMDRVTtEADe..qL.vNpYKEEKEEKAIILDERIKHMLQQVQEHGENGRVLEAYGMYLQIDRLKEDLD.aL..kQrids.....vnpmFKNEKR
+#=GR A0A9W7Y0B3 PP ...69***********9998.......9********************************************************************...************76556..52.4458899999999***************************************9.74..436889.....99*9******
+A0A9W8EGW9         ---ARQLLQELMGQYQDTGK-......KYTDSDVCKDHLVDFCPNQQFVNTKADLGSCDLVHDDRLREEYQKSRDRGRLGYEEAFYSRLQRLSQDL...QRKVKRALDRITtEGDe..qL.vNpHREEKEEKAIILDVRIKQALKQVEELGMSGKVDEALSIFNHTERLKSDLV.vL..kRridh.....vnpiFKNEKR
+#=GR A0A9W8EGW9 PP ...69**********99998.......9********************************************************************...***********965446..53.4558899999999**************************************99.84..325788.....99********
+A0A9W8HFQ8         ---ARQLLQELMGELQDSGK-......KYTDHDVCKDHLVDFCPNQQFTNTKADLGPCSLVHDDRLREAYQRSADRGRLGYEEAFYDRLQQLTHDL...QRKVRRALDRITaEADe..rL.vNpHKEEKEERAAMLEERIKQMLGQIEELGEAAHVEEAFGLFRQMERLKGDLG.aL..rQrids.....vnpmFKNEKR
+#=GR A0A9W8HFQ8 PP ...69**********99998.......9********************************************************************...************86667..73.455999999*****************************************999.64..436789.....99*9******
+A0A9W8KN07         ---ARQLLQELMGGLEDTGT-......KYTDHNICKDYLVDFCPNLLFVNTKADLGPCDLTHDDRLRDAYKKSPDHGRLGYEEAFYDRLQRLSHDL...QRKVRRALDRITaEADe..qL.vNpHKEEKEERAIILDERIKQAMKKVQELGEQGHVLEAFNIYSQTDRLKSDLS.tL..kQrids.....inpmFKNEKR
+#=GR A0A9W8KN07 PP ...69*********999888.......9********************************************************************...***********976666..53.4558899999999**************************************99.74..436889.....99*9******
+A0AAD5T6Q3         MDAQRKLLEELMNPLLGTTK-......TYKDPQMCPYQLAGYCPYDLFTNTKCDIGMCDKLHDEKLVAMYQASPDRFKLGHEQSFFGLANRLVQDM...DRTIRRQKDKVNvTSLa.daN.tK.DDDEKEERLAMIEGQMKDYVKQMEELGIAGHVDRAIDLWVAVELLKANVE..Ai.kN.............ATNSRR
+#=GR A0AAD5T6Q3 PP 9*************887777.......9********************************************************************...************65557.654.45.8889999*******************************************..44.48.............9*****
+C5L6J1             MEEARALLDQLMGRDRNVSAAeknkkiNWTQTRYCPYFLVDFCPNDLFVNTRADMGMCNKEHCEYTKSRFDKCAEKRAVVYSRELLSFLEYLETQL...AHKIRRGKARVSaEIP....D.iE.VPPQNKEQIEELKGRIHGIVKEAEELAEKGRIVESEKKMGQTESLNAKIR.eLs.gEk...........yMMMTRT
+#=GR C5L6J1     PP 9****************99888999***********************************************************************...************5555....8.88.**************************************************.644.526...........7899999
+F2EDV2             MDAQRALLDALMGSSRDLTEEekkrevSWDDPDVCAPYMARFCPHDLFINTKSNLGVCPKIHDPALKQSFETSPRYAAALFEAELAHRCERLVQDL...DKKIRRGRDRLA.QDV...vE.mPpPAAHAVEQLAILEDKIKKMLEQIEELGDTGKIDEATALMRKVDILNLEKS.aL..tHqiet.....klsmVPQEKK
+#=GR F2EDV2     PP 9*****************99999*************************************************************************...************.776...66.55599999********************************************9.74..435789.....999999****
+F4P120             MDYQRQLLAELMNPLIPSAKK......DYRDNDVCKHFLVGFCPNELFLNTKVDLGKCGNLHDERLQKEYQSSSNKNRLGYEDRFYDYLAKLVSDI...ERTIKRGHTRLEsKTEa..sP.tGvTQDDIREKIIIIEETIKNKTNQLRQLGESGRVKDAYDLYSAVERSMVELD.qL..rQtdq......thpsYRPDKK
+#=GR F4P120     PP 9********************......*********************************************************************...************76667..63.336888999*************************************9999998.63..43567......8899999***
+I1GKH1             MDAQRALLDALMGTSRNLTDEekkrevLWDDPDVCGPFMARFCPHDLFINTKSNLGTCPKIHDPNLKLSFENSPRHETCLYEAELAHRCEKLVQDL...DRKIRRGRDRLAqDVEv..lP.pP.IPGDKSEQLSVLEEKIKKLLEQIEQLGETGKIDEAEALMRKVDLLNVEKA.aL..tNqaen.....kaamLPQEKK
+#=GR I1GKH1     PP 9*****************999999*999********************************************************************...************66668..65.45.999***********************************************.74..425788.....999999****
+J9EHK3             MDHIRQDLDELMGKDRNHPLHrlqkrdHFDDDYVCKYNLLSFCPHDLFPNTKADIGPCQKRHDDYLKEMFKNDPDREIYQYEKELQSLLEQMIAQV...DQKMKRSIARVE.NNQp.eiN.aS.QQESLNQKIDQLEQKINFYIERAEKLGEEGQIDESEAIMKVVDDLKKQKT.eL...Eslt......dvnmIPKDKN
+#=GR J9EHK3     PP 9****************9988899999*********************************************************************...************.7666.555.45.89999*********************************************.64...3467......899999****
+R7T6G3             MSSASQMLDELMGRNRNVDPTrksdelHWEDSEVCKHFLCGLCPHELFTNTRADLGPCDKLHDESLKLKYEKSPRYEQAGLEEDLVRFLQTLVSDV...ERRIRRGQARLSlNSQi..nP.sQtPQAARDEKVGVLTEKINELVEQAEQLGCEGKVEEAQGVMKLCDQLKDERS.eL..eNtk........plvLPSQKE
+#=GR R7T6G3     PP 88999**************9999*************************************************************************...************98889..74.45599999*********************************************.64..4367........99999****
+S8D1R3             MDAQRALLDELMGSARDLTEEerrreiKWDDKEVCGCYMIRFCPHDLFVNTKSDLGVCPKIHDQKLKESFEQSPRHDSFIFEADLAHFCERLVSDL...DRKVRRSRERLAqDIEv.ppP..PpISAEKAEQLSVLEEKIKNLLEQVESLGEEGKVDEAEALMRKVELLNLEKS.sL..tQqshk....dkllmVAQEKK
+#=GR S8D1R3     PP 9******************999**************************************************************************...************55558.743..45899**********************************************9.74..435789....9***99*****
+#=GC PP_cons       9****************9999......*********************************************************************...************.666....5..5.8899999****************************************999..3...3.............99****
+#=GC RF            xxxxxxxxxxxxxxxxxxxxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxx.xxx....x..x.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..x...x.............xxxxxx
 
-A0A016T530         AARLRVCEDCGAQLNIMDHESRIADHFGGKMHLGMVECR
-#=GR A0A016T530 PP ***********************************9988
-A0A059D1I0         DQKLRVCDICGAFLSVYDSDRRLADHFGGKLHLGYMQIR
-#=GR A0A059D1I0 PP **************************************9
-A0A067BJQ2         NQKLRVCDMCGAFLSIFDSDRRLADHFGGKMHLGYMQIR
-#=GR A0A067BJQ2 PP **************************************9
-A0A081A1E7         NQKLRVCDVCGAFLSIFDSERRLADHFGGKVHVGYVQIR
-#=GR A0A081A1E7 PP **************************************9
-A0A0C9RPB2         DQKLRVCDVCGCFLSIYDTDQRLADHFGGKLHSGYMQIR
-#=GR A0A0C9RPB2 PP **************************************9
-A0A0D3F7D0         DQKLRLCDICGAFLSVYDSDRRLADHFGGKLHMGYMLIR
-#=GR A0A0D3F7D0 PP *************************************99
-A0A0E0KLG1         DQKLRLCDICGAFLSVYDNDRRLADHFGGKLHLGYMLIR
-#=GR A0A0E0KLG1 PP 9************************************99
-A0A0E0P3S3         DQKLRLCDICGAFLSVYDNDRRLADHFGGKLHLGYMLIR
-#=GR A0A0E0P3S3 PP *************************************99
-A0A0J0XWF6         HQKLRVCEICGAMLSVLDSDKRLADHFGGKMHLGFHELR
-#=GR A0A0J0XWF6 PP ************************************998
-A0A0P1B1J7         NQKLRVCDVCGAFLSIFDSEKRLADHFGGKLHVGYVQIR
-#=GR A0A0P1B1J7 PP **************************************9
-A0A0S4TGY4         RQKLHPCEICAAFLSETDNDQRLNDHFNGKIHVGYLKIR
-#=GR A0A0S4TGY4 PP **************************************9
-A0A196SCY6         AQKTRICNVCGGMLSVYDIDQRIADHFIGKSHIAFLAIR
-#=GR A0A196SCY6 PP *************************************99
-A0A1I7T1V8         SAKLRVCEDCGAQLNITDHESRIADHYNGKMHIGMVETR
-#=GR A0A1I7T1V8 PP ***********************************9877
-A0A1J4MPJ6         QQKLHPCEVCAAFLSETDNDQRLNDHFSGKIHLGYLAIR
-#=GR A0A1J4MPJ6 PP *************************************99
-A0A1N6LX35         AQKLKPCEICGALLSASDSDRRLSEHFSGKIHVGFQKLR
-#=GR A0A1N6LX35 PP *************************************98
-A0A1Y1HY81         DQKLRVCDICGAFLSIYDKNTGLTDHLGGKLHVGYMEVR
-#=GR A0A1Y1HY81 PP *************************************99
-A0A2B4R9V1         QQKLRVCEVCAAYLSLYDNDRRLADHFGGKLHMGFIKIR
-#=GR A0A2B4R9V1 PP **************************************9
-A0A2K1IDW9         DQKLRVCDICGAFLSIYDSDRRLADHFGGKLHLGYMQIR
-#=GR A0A2K1IDW9 PP **************************************9
-A0A2P6NSE9         QQKLRVCDVCAALLSIIDSDKRLADHFGGRLHHGYVKVR
-#=GR A0A2P6NSE9 PP *************************************99
-A0A388LKU4         DQKLRVCDVCGAFLSIYDSDRRLADHFGGKLHLGYFQIR
-#=GR A0A388LKU4 PP **************************************9
-A0A3B0MP33         QSRLKPCDVCGALLSATDSDRRLTEHYSGKIHVGFQKLR
-#=GR A0A3B0MP33 PP *************************************98
-A0A3R7XJX6         NQKLRVCDVCGAFLSIFDSDRRLADHFGGKVHMGYVQIR
-#=GR A0A3R7XJX6 PP **************************************9
-A0A4S8K810         DQKLRVCDICGAFLSVYDNDRRLADHFGGKLHLGYMLIR
-#=GR A0A4S8K810 PP *************************************99
-A0A4Y7LSK1         QQKLRVCEVCSAYLGIHDNDRRLADHFGGKLHLGFIKIR
-#=GR A0A4Y7LSK1 PP **************************************9
-A0A5D6Y9H5         NQKLRVCDVCGAFLSIFDSDRRLADHFGGKLHLGYLQIR
-#=GR A0A5D6Y9H5 PP **************************************9
-A0A5N5KHN3         DQKLRVCDICGAFLSVYDSDRRLADHFGGKLHLGYMQIR
-#=GR A0A5N5KHN3 PP **************************************9
-A0A662WHC7         NYKLRVCDVCGAFLSIFDSDRRLADHFGGKMHLGYVQIR
-#=GR A0A662WHC7 PP **************************************9
-A0A6A4SXN7         QQKLRVCEVCSAYLGLHDNDRRLADHFGGKLHIGFIEIR
-#=GR A0A6A4SXN7 PP **************************************9
-A0A6H5K8V8         QQKLRVCDICGALLSIFDSNDRLAEHFGGKLHIGFVDIR
-#=GR A0A6H5K8V8 PP **************************************9
-A0A7C8M6W3         HQKLQVCDVCGAYLSRLDNDRRLADHFYGKMHLGFATMR
-#=GR A0A7C8M6W3 PP ************************************998
-A0A7J7N539         DQKLRVCDICGAFLSVYDSDRRLADHFGGKLHLGYMQIR
-#=GR A0A7J7N539 PP **************************************9
-A0A7M5V1X3         QQKLRVCEICAAFLSLYDNDRRLADHFGGRLHMGFIAVR
-#=GR A0A7M5V1X3 PP ************************************998
-A0A816HY15         DQKLRLCDICGAFLSIYDSDRRLADHFGGKLHLGYMLIR
-#=GR A0A816HY15 PP *************************************99
-A0A833VW73         DQKLRLCDICGAFLSVYDSDRRLADHFGGKLHMGYMLIR
-#=GR A0A833VW73 PP *************************************99
-A0A834Z9K9         DQKLRVCDICGAFLSVYDSDRRLADHFGGKLHLGYMQIR
-#=GR A0A834Z9K9 PP **************************************9
-A0A8J5LV60         DQKLRVCDICGAFLSVYDNDRRLADHFGGKLHLGYIQIR
-#=GR A0A8J5LV60 PP **************************************9
-A0A8T1WIA6         NQKLRVCDVCGAFLSIFDSERRLADHFGGKVHIGYVQIR
-#=GR A0A8T1WIA6 PP **************************************9
-A0A8T1X126         NQKLRVCDVCGAFLSIFDSERRLADHFGGKLHVGYLQIR
-#=GR A0A8T1X126 PP **************************************9
-A0A8X6IRP0         QQKLRVCEVCSAYLGIYDNDRRLADHFGGKLHLGFIAIR
-#=GR A0A8X6IRP0 PP **************************************9
-A0A9D4ZG63         DQKLRVCDICGAFLSVYDSDRRLADHFGGKLHLGYIQIR
-#=GR A0A9D4ZG63 PP **************************************9
-A0A9D5CAI4         DQKLRVCDICGAFLSVYDNDRRLADHFGGKLHLGYMQIR
-#=GR A0A9D5CAI4 PP **************************************9
-A0A9P3KJJ2         DQKLRVCDICGAFLSIFDSDRRLADHFGGKLHLGYLFIR
-#=GR A0A9P3KJJ2 PP ***********************************9998
-A0A9P5YKD3         HQKLRVCDVCGAYLSVLDSDRRLADHFGGKMHLGYHELR
-#=GR A0A9P5YKD3 PP ************************************998
-A0A9Q0JJF3         DQKLRVCDICGAFLSVYDSDRRLADHFGGKLHLGYMQIR
-#=GR A0A9Q0JJF3 PP 899***********************************9
-A0A9W8WYM8         HQKLQVCDVCGAYLSRLDNDRRLADHFYGKMHLGYAQMR
-#=GR A0A9W8WYM8 PP *************************************98
-A0AAD5LF37         NQKLRVCDVCGAFLSIFDSDRRLADHFGGKLHLGYLQIR
-#=GR A0AAD5LF37 PP **************************************9
-A0AAD8PEA0         QSRIKPCDICGALLSASDTDRRLTEHYSGKIHVSYQKLR
-#=GR A0AAD8PEA0 PP *************************************98
-A0AAD9D0W3         HQKLRVCETCGAMLSVLDSDKRLADHFGGKLHLGYHELR
-#=GR A0AAD9D0W3 PP ************************************998
-A0AAE0BJL5         DQKLRVCDICGAFLSIYDSDRRLADHFGGKMHLGYCIIR
-#=GR A0AAE0BJL5 PP ************************************998
-D8RYX3             DQKLRVCDICGAYLSIYDSDRRLADHFGGKLHLGYMRIR
-#=GR D8RYX3     PP **************************************9
-F0WNG5             NQKLRVCDVCGAFLSIFDSDRRLANHFGGKLHLGYLQIR
-#=GR F0WNG5     PP **************************************9
-G4YH12             DQKLRVCDVCGAFLSIFDSERRLADHFGGKVHVGY----
-#=GR G4YH12     PP **********************************9....
-L0AW24             QQRLKPCDICGALLSATDSDRRLTEHYSGKIHIGFQKLR
-#=GR L0AW24     PP *************************************98
-M4B1P6             NQKLRVCDVCGAFLSIFDSERRLADHFGGKVHVGYVQIR
-#=GR M4B1P6     PP **************************************9
-Q9SRN8             DQKLRLCDICGAFLSVYDSDRRLADHFGGKLHLGYMLVR
-#=GR Q9SRN8     PP ************************************998
-A0A023ENH0         EKQMEVCQVCGAFLIVGDAQQRIDDHLTGKQHLGYSKLR
-#=GR A0A023ENH0 PP ************************************998
-A0A067JEU6         EKKMALCEICGSFLVANDAAERTQSHVTGKQHIGYGMVR
-#=GR A0A067JEU6 PP *************************************98
-A0A078KKG5         DTNLKVCEICGAMKAAGDLIQRFENHMNGKQHIGFEKIR
-#=GR A0A078KKG5 PP **************************************9
-A0A086PGS0         ESQLRVCAVCGALQSAGDALCRYESHASGKQHRGFEKIR
-#=GR A0A086PGS0 PP **************************************9
-A0A0B7NHH7         EKRMEVCDVCGAFLVTNDSSDRLEAHYQGKQHQGYLKIR
-#=GR A0A0B7NHH7 PP **************************************9
-A0A0D9QMF9         EPNLMVCEVCGAMKSPGDPITKLENHASGKQHIGFETIR
-#=GR A0A0D9QMF9 PP 9*************************************9
-A0A0G4H2P3         ETQLRVCNVCGAMQSLADSMSRFESHVTGKQHMGYEKIR
-#=GR A0A0G4H2P3 PP **************************************9
-A0A0G4J7D6         EKQMGVCDICGAFLVQNEAESRVQSHLNGKQHVGFALIR
-#=GR A0A0G4J7D6 PP ************************************998
-A0A0H5REN6         EKKMGVCEICGAFLVQNEAESRIQSHLNGKQHVGFAMIR
-#=GR A0A0H5REN6 PP **************************************9
-A0A0L1I9W6         DGNLKVCEICGAMQAVGDMVQRFENHINGKQHLGFDNIR
-#=GR A0A0L1I9W6 PP *************************************99
-A0A163URX1         EKRMEVCEVCGALLVTHETTEIPTAHFDGKQHLGYMKIR
-#=GR A0A163URX1 PP **************************************9
-A0A1D2N959         DKAMQVCEVCGSYLIIGEAQHRLDDHIMGKQHVGFAMLR
-#=GR A0A1D2N959 PP ************************************998
-A0A1J1GR03         ETNLKVCQVCGAMQSVGDVIQRFENHVNGKQHLGFEKIR
-#=GR A0A1J1GR03 PP **************************************9
-A0A1L8DH79         EKQMEVCEVCGAFLIVGDAQQRIEDHLTGKQHLGYSKVR
-#=GR A0A1L8DH79 PP *************************************99
-A0A1R0GMA9         EKRLEVCDVCGAFLVPDDDTRRLDAHIEGKQHQGYLKIR
-#=GR A0A1R0GMA9 PP **************************************9
-A0A1S3H6U7         EKQMEVCDVCGALLIVGDVPQRVDEHLIGKQHAGYARIR
-#=GR A0A1S3H6U7 PP **************************************9
-A0A1X2G6H9         DKRMEVCEVCGALLVTNEAGDKPGAHFEGKQHIGYAKIR
-#=GR A0A1X2G6H9 PP **************************************9
-A0A1Y1JJW9         EPNLMVCEICGAMKSAGDMIQRFENHVNGKQHLGFEKIR
-#=GR A0A1Y1JJW9 PP 9*************************************9
-A0A1Y1WEJ2         EKRLEVCDVCGAFLVPNDASKRLDAHIEGKQHQGYLKI-
-#=GR A0A1Y1WEJ2 PP ***********************************998.
-A0A2J6L577         EKKMALCETCGSFFIANDALERTQSHVTGKQHIGYGLVR
-#=GR A0A2J6L577 PP ***********************************9998
-A0A328E4K5         EKKMALCETCGSFLIANDAAERTQSHVTGKQHVGYGMVR
-#=GR A0A328E4K5 PP *************************************98
-A0A3P6D4H9         EKKMALCEFCGSFLVANDAVDRAQSHVTGKQHVGYGMVR
-#=GR A0A3P6D4H9 PP *************************************98
-A0A433QUM3         DKKMEVCQTCSAFLVTNDTSNRLDAHLQGKLHTGYEKIR
-#=GR A0A433QUM3 PP **************************************9
-A0A507DYT5         SRRLVVCDICSATLVYNDSTQRMQDHITGKQHLGYKKLR
-#=GR A0A507DYT5 PP *************************************98
-A0A5B6UVD8         EKKMALCEVCGSFLVANDAAERTQSHVTGKQHIGYGMVR
-#=GR A0A5B6UVD8 PP *************************************98
-A0A653GZP2         EIEMNVCEVCGAMKSAVDPVQRVENHVNGKQHMGFEKIR
-#=GR A0A653GZP2 PP 99************************************9
-A0A6A7G7H7         EKRLKVCEMCGGFMVVNDADQRIRRHYSGKQHTGYEKIR
-#=GR A0A6A7G7H7 PP **************************************9
-A0A6I9RWQ4         EKKMALCEICGSFLVANDAVERTQSHVTGKQHVGYGMAR
-#=GR A0A6I9RWQ4 PP ***********************************9876
-A0A6J3DXE2         EKQMEVCEVCGAFLIVGDAQSRVDDHLMGKQHMGYAKIK
-#=GR A0A6J3DXE2 PP *************************************96
-A0A6P5AH87         EKQMEVCETCGAFLIVGDAQSRVDDHLMGKQHMGYAKIK
-#=GR A0A6P5AH87 PP *************************************96
-A0A6P5WCW5         ESQLRVCATCGAMQSTGDAMCRFESHVSGKQHRGCERIR
-#=GR A0A6P5WCW5 PP *************************************99
-A0A6P5XSD8         EKKMALCEVCGSFLAANDAAERTQSHVTGKQHIGYGMVR
-#=GR A0A6P5XSD8 PP 799**********************************98
-A0A7I4FKH7         EKKMALCETCGSFLVANDATERTHSHMTGKQHVGYGLVR
-#=GR A0A7I4FKH7 PP ***********************************9998
-A0A7J0E3G1         EKKMALCEICGSFLIANDAAERTQSHVTGKQHIGYGMVR
-#=GR A0A7J0E3G1 PP *************************************98
-A0A7J6FN42         EKKMALCEICGSFLVANDAVERTQSHITGKQHIGYGMVR
-#=GR A0A7J6FN42 PP *************************************98
-A0A7J6MIQ8         TRTEFVCDVCGCLVTLNENDTRIHEHARGKQHQGWAKIK
-#=GR A0A7J6MIQ8 PP 9999*********************************96
-A0A7J7CED1         EKKMALCEICGSFLVANDVIERSQSHVSGKQHVGYGMVR
-#=GR A0A7J7CED1 PP *************************************98
-A0A7S2D7U3         TCAEEVCEVCGVRCQPGEAAD-YQAHLDGKLHEGYTRIR
-#=GR A0A7S2D7U3 PP 99***********99998876.9***************9
-A0A7S2LHG6         SGGEQVCQICGVR-CNPDEPADFKAHLDGRLHEGYTKIR
-#=GR A0A7S2LHG6 PP 8999*******98.56788999****************9
-A0A813RY60         MKAMEVCNVCGSFLIVGDAQCRIEEHVSGKQHVGYAKIR
-#=GR A0A813RY60 PP 9*************************************9
-A0A833QZ21         EKKMELCETCGSFLVANDAADRAQSHVAGKQHIGYSMIR
-#=GR A0A833QZ21 PP **************************************9
-A0A8B7ZXX0         EKQMEVCEVCGAFLIVGDAQSRVDDHLMGKQHMGYAKIK
-#=GR A0A8B7ZXX0 PP *************************************96
-A0A8H3M743         ERRMLVCEVCGAFLVTNDTSNRMDAHLQGKQHTGYKQIR
-#=GR A0A8H3M743 PP **************************************9
-A0A8H7PWF0         DKKMEVCTICGAFLVTGDAPDRLDSHFSGKQHQGYQKIR
-#=GR A0A8H7PWF0 PP **************************************9
-A0A8J5X1A1         EKKMELCEICGSFLVSDDVLERTQSHVTGKQHIGYGLVR
-#=GR A0A8J5X1A1 PP ***********************************9998
-A0A9D5C0W0         EKKIALCEICGSFLVANDAAERTQSHVTGKQHVGYSMVR
-#=GR A0A9D5C0W0 PP *************************************98
-A0A9W7Y0B3         EKRLEVCDICGAFLVPNDASKRLDAHKEGKQHQGYIKIR
-#=GR A0A9W7Y0B3 PP **************************************9
-A0A9W8EGW9         EKRLEVCDVCGAFLVPNDASKRLDAHKEGKQHQGYIRI-
-#=GR A0A9W8EGW9 PP ***********************************987.
-A0A9W8HFQ8         EKRLEVCDVCGAFLVPNDASKRLDAHNEGKQHQGYIRI-
-#=GR A0A9W8HFQ8 PP ***********************************987.
-A0A9W8KN07         EKRLEVCDVCGAFLVPNDASKRLDAHKEGKQHQGYIRI-
-#=GR A0A9W8KN07 PP ***********************************987.
-A0AAD5T6Q3         SRRLVVCEICSATLVANDSTQRMQDHITGKQHVGYKKLR
-#=GR A0AAD5T6Q3 PP *************************************98
-C5L6J1             TRTEFVCDVCGVLVTLNENDPKANEHARGKQHQGWAKIR
-#=GR C5L6J1     PP 99999*********************************9
-F2EDV2             EKKMELCEQCGSFLVTNDVLERTQSHVTGKQHIGYGLVR
-#=GR F2EDV2     PP ***********************************9998
-F4P120             DKKMEVCEICGALLANDSTGQRIDAHMTGKQHTGFIRIR
-#=GR F4P120     PP **************************************9
-I1GKH1             EKKMELCETCGSFLVINDVLERTQSHVTGKQHIGFGMVR
-#=GR I1GKH1     PP *************************************98
-J9EHK3             DKNMKVCPVCGALQASTDTDKRLQMHQEGKLHTGYQKIR
-#=GR J9EHK3     PP **************************************9
-R7T6G3             QKEMEVCDICGAFQIKGDAPSRMEDHLSGRQHRGYAKCR
-#=GR R7T6G3     PP *************************************98
-S8D1R3             EKKMALCETCGSFLVANDAAERTQSHVTGKQHMGYGMVR
-#=GR S8D1R3     PP *************************************98
-#=GC PP_cons       *************************************98
-#=GC RF            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+A0A016T530         LRVCEDCGAQLNIMDHESRIADHFGGKMHLGMVECR
+#=GR A0A016T530 PP ********************************9988
+A0A059D1I0         LRVCDICGAFLSVYDSDRRLADHFGGKLHLGYMQIR
+#=GR A0A059D1I0 PP ***********************************9
+A0A067BJQ2         LRVCDMCGAFLSIFDSDRRLADHFGGKMHLGYMQIR
+#=GR A0A067BJQ2 PP ***********************************9
+A0A081A1E7         LRVCDVCGAFLSIFDSERRLADHFGGKVHVGYVQIR
+#=GR A0A081A1E7 PP ***********************************9
+A0A0C9RPB2         LRVCDVCGCFLSIYDTDQRLADHFGGKLHSGYMQIR
+#=GR A0A0C9RPB2 PP ***********************************9
+A0A0D3F7D0         LRLCDICGAFLSVYDSDRRLADHFGGKLHMGYMLIR
+#=GR A0A0D3F7D0 PP **********************************99
+A0A0E0KLG1         LRLCDICGAFLSVYDNDRRLADHFGGKLHLGYMLIR
+#=GR A0A0E0KLG1 PP **********************************99
+A0A0E0P3S3         LRLCDICGAFLSVYDNDRRLADHFGGKLHLGYMLIR
+#=GR A0A0E0P3S3 PP **********************************99
+A0A0J0XWF6         LRVCEICGAMLSVLDSDKRLADHFGGKMHLGFHELR
+#=GR A0A0J0XWF6 PP *********************************998
+A0A0P1B1J7         LRVCDVCGAFLSIFDSEKRLADHFGGKLHVGYVQIR
+#=GR A0A0P1B1J7 PP ***********************************9
+A0A0S4TGY4         LHPCEICAAFLSETDNDQRLNDHFNGKIHVGYLKIR
+#=GR A0A0S4TGY4 PP ***********************************9
+A0A196SCY6         TRICNVCGGMLSVYDIDQRIADHFIGKSHIAFLAIR
+#=GR A0A196SCY6 PP **********************************98
+A0A1I7T1V8         LRVCEDCGAQLNITDHESRIADHYNGKMHIGMVETR
+#=GR A0A1I7T1V8 PP ********************************9877
+A0A1J4MPJ6         LHPCEVCAAFLSETDNDQRLNDHFSGKIHLGYLAIR
+#=GR A0A1J4MPJ6 PP **********************************99
+A0A1N6LX35         LKPCEICGALLSASDSDRRLSEHFSGKIHVGFQKLR
+#=GR A0A1N6LX35 PP **********************************98
+A0A1Y1HY81         LRVCDICGAFLSIYDKNTGLTDHLGGKLHVGYMEVR
+#=GR A0A1Y1HY81 PP **********************************99
+A0A2B4R9V1         LRVCEVCAAYLSLYDNDRRLADHFGGKLHMGFIKIR
+#=GR A0A2B4R9V1 PP ***********************************9
+A0A2K1IDW9         LRVCDICGAFLSIYDSDRRLADHFGGKLHLGYMQIR
+#=GR A0A2K1IDW9 PP ***********************************9
+A0A2P6NSE9         LRVCDVCAALLSIIDSDKRLADHFGGRLHHGYVKVR
+#=GR A0A2P6NSE9 PP **********************************99
+A0A388LKU4         LRVCDVCGAFLSIYDSDRRLADHFGGKLHLGYFQIR
+#=GR A0A388LKU4 PP ***********************************9
+A0A3B0MP33         LKPCDVCGALLSATDSDRRLTEHYSGKIHVGFQKLR
+#=GR A0A3B0MP33 PP **********************************98
+A0A3R7XJX6         LRVCDVCGAFLSIFDSDRRLADHFGGKVHMGYVQIR
+#=GR A0A3R7XJX6 PP ***********************************9
+A0A4S8K810         LRVCDICGAFLSVYDNDRRLADHFGGKLHLGYMLIR
+#=GR A0A4S8K810 PP **********************************99
+A0A4Y7LSK1         LRVCEVCSAYLGIHDNDRRLADHFGGKLHLGFIKIR
+#=GR A0A4Y7LSK1 PP ***********************************9
+A0A5D6Y9H5         LRVCDVCGAFLSIFDSDRRLADHFGGKLHLGYLQIR
+#=GR A0A5D6Y9H5 PP ***********************************9
+A0A5N5KHN3         LRVCDICGAFLSVYDSDRRLADHFGGKLHLGYMQIR
+#=GR A0A5N5KHN3 PP ***********************************9
+A0A662WHC7         LRVCDVCGAFLSIFDSDRRLADHFGGKMHLGYVQIR
+#=GR A0A662WHC7 PP ***********************************9
+A0A6A4SXN7         LRVCEVCSAYLGLHDNDRRLADHFGGKLHIGFIEIR
+#=GR A0A6A4SXN7 PP ***********************************9
+A0A6H5K8V8         LRVCDICGALLSIFDSNDRLAEHFGGKLHIGFVDIR
+#=GR A0A6H5K8V8 PP **********************************99
+A0A7C8M6W3         LQVCDVCGAYLSRLDNDRRLADHFYGKMHLGFATMR
+#=GR A0A7C8M6W3 PP *********************************998
+A0A7J7N539         LRVCDICGAFLSVYDSDRRLADHFGGKLHLGYMQIR
+#=GR A0A7J7N539 PP ***********************************9
+A0A7M5V1X3         LRVCEICAAFLSLYDNDRRLADHFGGRLHMGFIAVR
+#=GR A0A7M5V1X3 PP *********************************998
+A0A7S3MGE9         LRVCDVCGSFLSIFDSDKRLQDHFLGKQHIGYQYMR
+#=GR A0A7S3MGE9 PP ********************************9987
+A0A816HY15         LRLCDICGAFLSIYDSDRRLADHFGGKLHLGYMLIR
+#=GR A0A816HY15 PP **********************************99
+A0A833VW73         LRLCDICGAFLSVYDSDRRLADHFGGKLHMGYMLIR
+#=GR A0A833VW73 PP **********************************99
+A0A834Z9K9         LRVCDICGAFLSVYDSDRRLADHFGGKLHLGYMQIR
+#=GR A0A834Z9K9 PP ***********************************9
+A0A8J5LV60         LRVCDICGAFLSVYDNDRRLADHFGGKLHLGYIQIR
+#=GR A0A8J5LV60 PP ***********************************9
+A0A8T1WIA6         LRVCDVCGAFLSIFDSERRLADHFGGKVHIGYVQIR
+#=GR A0A8T1WIA6 PP ***********************************9
+A0A8T1X126         LRVCDVCGAFLSIFDSERRLADHFGGKLHVGYLQIR
+#=GR A0A8T1X126 PP ***********************************9
+A0A8X6IRP0         LRVCEVCSAYLGIYDNDRRLADHFGGKLHLGFIAIR
+#=GR A0A8X6IRP0 PP ***********************************9
+A0A9D4ZG63         LRVCDICGAFLSVYDSDRRLADHFGGKLHLGYIQIR
+#=GR A0A9D4ZG63 PP ***********************************9
+A0A9D5CAI4         LRVCDICGAFLSVYDNDRRLADHFGGKLHLGYMQIR
+#=GR A0A9D5CAI4 PP ***********************************9
+A0A9P3KJJ2         LRVCDICGAFLSIFDSDRRLADHFGGKLHLGYLFIR
+#=GR A0A9P3KJJ2 PP ********************************9998
+A0A9P5YKD3         LRVCDVCGAYLSVLDSDRRLADHFGGKMHLGYHELR
+#=GR A0A9P5YKD3 PP *********************************998
+A0A9Q0JJF3         LRVCDICGAFLSVYDSDRRLADHFGGKLHLGYMQIR
+#=GR A0A9Q0JJF3 PP ***********************************9
+A0A9W8WYM8         LQVCDVCGAYLSRLDNDRRLADHFYGKMHLGYAQMR
+#=GR A0A9W8WYM8 PP **********************************98
+A0AAD5LF37         LRVCDVCGAFLSIFDSDRRLADHFGGKLHLGYLQIR
+#=GR A0AAD5LF37 PP ***********************************9
+A0AAD8PEA0         IKPCDICGALLSASDTDRRLTEHYSGKIHVSYQKLR
+#=GR A0AAD8PEA0 PP **********************************98
+A0AAD9D0W3         LRVCETCGAMLSVLDSDKRLADHFGGKLHLGYHELR
+#=GR A0AAD9D0W3 PP *********************************998
+A0AAE0BJL5         LRVCDICGAFLSIYDSDRRLADHFGGKMHLGYCIIR
+#=GR A0AAE0BJL5 PP *********************************998
+D8RYX3             LRVCDICGAYLSIYDSDRRLADHFGGKLHLGYMRIR
+#=GR D8RYX3     PP ***********************************9
+F0WNG5             LRVCDVCGAFLSIFDSDRRLANHFGGKLHLGYLQIR
+#=GR F0WNG5     PP ***********************************9
+G4YH12             LRVCDVCGAFLSIFDSERRLADHFGGKVHVGY----
+#=GR G4YH12     PP *******************************9....
+L0AW24             LKPCDICGALLSATDSDRRLTEHYSGKIHIGFQKLR
+#=GR L0AW24     PP **********************************98
+M4B1P6             LRVCDVCGAFLSIFDSERRLADHFGGKVHVGYVQIR
+#=GR M4B1P6     PP ***********************************9
+Q9SRN8             LRLCDICGAFLSVYDSDRRLADHFGGKLHLGYMLVR
+#=GR Q9SRN8     PP *********************************998
+A0A023ENH0         MEVCQVCGAFLIVGDAQQRIDDHLTGKQHLGYSKLR
+#=GR A0A023ENH0 PP *********************************998
+A0A067JEU6         MALCEICGSFLVANDAAERTQSHVTGKQHIGYGMVR
+#=GR A0A067JEU6 PP **********************************98
+A0A078KKG5         LKVCEICGAMKAAGDLIQRFENHMNGKQHIGFEKIR
+#=GR A0A078KKG5 PP ***********************************9
+A0A086PGS0         LRVCAVCGALQSAGDALCRYESHASGKQHRGFEKIR
+#=GR A0A086PGS0 PP ***********************************9
+A0A0B7NHH7         MEVCDVCGAFLVTNDSSDRLEAHYQGKQHQGYLKIR
+#=GR A0A0B7NHH7 PP ***********************************9
+A0A0D9QMF9         LMVCEVCGAMKSPGDPITKLENHASGKQHIGFETIR
+#=GR A0A0D9QMF9 PP ***********************************9
+A0A0G4H2P3         LRVCNVCGAMQSLADSMSRFESHVTGKQHMGYEKIR
+#=GR A0A0G4H2P3 PP ***********************************9
+A0A0G4J7D6         MGVCDICGAFLVQNEAESRVQSHLNGKQHVGFALIR
+#=GR A0A0G4J7D6 PP *********************************998
+A0A0H5REN6         MGVCEICGAFLVQNEAESRIQSHLNGKQHVGFAMIR
+#=GR A0A0H5REN6 PP ***********************************9
+A0A0L1I9W6         LKVCEICGAMQAVGDMVQRFENHINGKQHLGFDNIR
+#=GR A0A0L1I9W6 PP **********************************99
+A0A163URX1         MEVCEVCGALLVTHETTEIPTAHFDGKQHLGYMKIR
+#=GR A0A163URX1 PP ***********************************9
+A0A1D2N959         MQVCEVCGSYLIIGEAQHRLDDHIMGKQHVGFAMLR
+#=GR A0A1D2N959 PP *********************************998
+A0A1J1GR03         LKVCQVCGAMQSVGDVIQRFENHVNGKQHLGFEKIR
+#=GR A0A1J1GR03 PP ***********************************9
+A0A1L8DH79         MEVCEVCGAFLIVGDAQQRIEDHLTGKQHLGYSKVR
+#=GR A0A1L8DH79 PP **********************************99
+A0A1R0GMA9         LEVCDVCGAFLVPDDDTRRLDAHIEGKQHQGYLKIR
+#=GR A0A1R0GMA9 PP ***********************************9
+A0A1S3H6U7         MEVCDVCGALLIVGDVPQRVDEHLIGKQHAGYARIR
+#=GR A0A1S3H6U7 PP ***********************************9
+A0A1X2G6H9         MEVCEVCGALLVTNEAGDKPGAHFEGKQHIGYAKIR
+#=GR A0A1X2G6H9 PP ***********************************9
+A0A1Y1JJW9         LMVCEICGAMKSAGDMIQRFENHVNGKQHLGFEKIR
+#=GR A0A1Y1JJW9 PP ***********************************9
+A0A1Y1WEJ2         LEVCDVCGAFLVPNDASKRLDAHIEGKQHQGYLKI-
+#=GR A0A1Y1WEJ2 PP ********************************998.
+A0A2J6L577         MALCETCGSFFIANDALERTQSHVTGKQHIGYGLVR
+#=GR A0A2J6L577 PP ********************************9998
+A0A2P2IAL6         MRVCDICGAFLVINDAKSRVESHLEGKQHVGYQMIR
+#=GR A0A2P2IAL6 PP ***********************************9
+A0A328E4K5         MALCETCGSFLIANDAAERTQSHVTGKQHVGYGMVR
+#=GR A0A328E4K5 PP **********************************98
+A0A3P6D4H9         MALCEFCGSFLVANDAVDRAQSHVTGKQHVGYGMVR
+#=GR A0A3P6D4H9 PP **********************************98
+A0A433QUM3         MEVCQTCSAFLVTNDTSNRLDAHLQGKLHTGYEKIR
+#=GR A0A433QUM3 PP ***********************************9
+A0A507DYT5         LVVCDICSATLVYNDSTQRMQDHITGKQHLGYKKLR
+#=GR A0A507DYT5 PP **********************************98
+A0A5B6UVD8         MALCEVCGSFLVANDAAERTQSHVTGKQHIGYGMVR
+#=GR A0A5B6UVD8 PP **********************************98
+A0A653GZP2         MNVCEVCGAMKSAVDPVQRVENHVNGKQHMGFEKIR
+#=GR A0A653GZP2 PP ***********************************9
+A0A6A7G7H7         LKVCEMCGGFMVVNDADQRIRRHYSGKQHTGYEKIR
+#=GR A0A6A7G7H7 PP ***********************************9
+A0A6I9RWQ4         MALCEICGSFLVANDAVERTQSHVTGKQHVGYGMAR
+#=GR A0A6I9RWQ4 PP ********************************9876
+A0A6J3DXE2         MEVCEVCGAFLIVGDAQSRVDDHLMGKQHMGYAKIK
+#=GR A0A6J3DXE2 PP **********************************96
+A0A6P5AH87         MEVCETCGAFLIVGDAQSRVDDHLMGKQHMGYAKIK
+#=GR A0A6P5AH87 PP **********************************96
+A0A6P5WCW5         LRVCATCGAMQSTGDAMCRFESHVSGKQHRGCERIR
+#=GR A0A6P5WCW5 PP **********************************99
+A0A6P5XSD8         MALCEVCGSFLAANDAAERTQSHVTGKQHIGYGMVR
+#=GR A0A6P5XSD8 PP **********************************98
+A0A7I4FKH7         MALCETCGSFLVANDATERTHSHMTGKQHVGYGLVR
+#=GR A0A7I4FKH7 PP ********************************9998
+A0A7J0E3G1         MALCEICGSFLIANDAAERTQSHVTGKQHIGYGMVR
+#=GR A0A7J0E3G1 PP **********************************98
+A0A7J6FN42         MALCEICGSFLVANDAVERTQSHITGKQHIGYGMVR
+#=GR A0A7J6FN42 PP **********************************98
+A0A7J6MIQ8         EFVCDVCGCLVTLNENDTRIHEHARGKQHQGWAKIK
+#=GR A0A7J6MIQ8 PP 9*********************************96
+A0A7J7CED1         MALCEICGSFLVANDVIERSQSHVSGKQHVGYGMVR
+#=GR A0A7J7CED1 PP **********************************98
+A0A7S2D7U3         EEVCEVCGVRCQPGEAAD-YQAHLDGKLHEGYTRIR
+#=GR A0A7S2D7U3 PP **********99999876.9***************9
+A0A7S2LHG6         EQVCQICGVR-CNPDEPADFKAHLDGRLHEGYTKIR
+#=GR A0A7S2LHG6 PP ********98.56788999****************9
+A0A813RY60         MEVCNVCGSFLIVGDAQCRIEEHVSGKQHVGYAKIR
+#=GR A0A813RY60 PP ***********************************9
+A0A833QZ21         MELCETCGSFLVANDAADRAQSHVAGKQHIGYSMIR
+#=GR A0A833QZ21 PP ***********************************9
+A0A8B7ZXX0         MEVCEVCGAFLIVGDAQSRVDDHLMGKQHMGYAKIK
+#=GR A0A8B7ZXX0 PP **********************************96
+A0A8H3M743         MLVCEVCGAFLVTNDTSNRMDAHLQGKQHTGYKQIR
+#=GR A0A8H3M743 PP ***********************************9
+A0A8H7PWF0         MEVCTICGAFLVTGDAPDRLDSHFSGKQHQGYQKIR
+#=GR A0A8H7PWF0 PP ***********************************9
+A0A8J5X1A1         MELCEICGSFLVSDDVLERTQSHVTGKQHIGYGLVR
+#=GR A0A8J5X1A1 PP ********************************9998
+A0A9D5C0W0         IALCEICGSFLVANDAAERTQSHVTGKQHVGYSMVR
+#=GR A0A9D5C0W0 PP **********************************98
+A0A9W7Y0B3         LEVCDICGAFLVPNDASKRLDAHKEGKQHQGYIKIR
+#=GR A0A9W7Y0B3 PP ***********************************9
+A0A9W8EGW9         LEVCDVCGAFLVPNDASKRLDAHKEGKQHQGYIRI-
+#=GR A0A9W8EGW9 PP ********************************987.
+A0A9W8HFQ8         LEVCDVCGAFLVPNDASKRLDAHNEGKQHQGYIRI-
+#=GR A0A9W8HFQ8 PP ********************************987.
+A0A9W8KN07         LEVCDVCGAFLVPNDASKRLDAHKEGKQHQGYIRI-
+#=GR A0A9W8KN07 PP ********************************987.
+A0AAD5T6Q3         LVVCEICSATLVANDSTQRMQDHITGKQHVGYKKLR
+#=GR A0AAD5T6Q3 PP **********************************98
+C5L6J1             EFVCDVCGVLVTLNENDPKANEHARGKQHQGWAKIR
+#=GR C5L6J1     PP 99*********************************9
+F2EDV2             MELCEQCGSFLVTNDVLERTQSHVTGKQHIGYGLVR
+#=GR F2EDV2     PP ********************************9998
+F4P120             MEVCEICGALLANDSTGQRIDAHMTGKQHTGFIRIR
+#=GR F4P120     PP ***********************************9
+I1GKH1             MELCETCGSFLVINDVLERTQSHVTGKQHIGFGMVR
+#=GR I1GKH1     PP **********************************98
+J9EHK3             MKVCPVCGALQASTDTDKRLQMHQEGKLHTGYQKIR
+#=GR J9EHK3     PP ***********************************9
+R7T6G3             MEVCDICGAFQIKGDAPSRMEDHLSGRQHRGYAKCR
+#=GR R7T6G3     PP **********************************98
+S8D1R3             MALCETCGSFLVANDAAERTQSHVTGKQHMGYGMVR
+#=GR S8D1R3     PP **********************************98
+#=GC PP_cons       **********************************98
+#=GC RF            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //
