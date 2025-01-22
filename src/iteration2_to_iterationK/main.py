@@ -1,4 +1,5 @@
 import pandas as pd
+from Bio.Seq import Seq
 import os
 import shutil
 import pyhmmer
@@ -18,6 +19,7 @@ import random
 import numpy as np
 from ipdb import set_trace
 from collections import Counter
+import shutil
 
 # L2 名稱集合
 L2_name = {
@@ -296,7 +298,7 @@ def get_clade_frequency(fasta_file, name_to_lineage):
     
     return clade_counts
 
-def main_pipeline(thresholds_file, real_file, decoy_files, iterations=30, csv_dir = '../../dataset/iteration2_to_iterationK/input_csv', output_dir='./result_test', hmm_dir='../../hmm/iteration2_to_iterationK/', representative='./result_test/representative/'):
+def main_pipeline(thresholds_file, real_file, decoy_files, iterations=10, csv_dir = '../../dataset/iteration2_to_iterationK/input_csv', output_dir='./result_test', hmm_dir='../../hmm/iteration2_to_iterationK/', representative='./result_test/representative/'):
     # Set random seed for reproducibility
     seed = 29617
     random.seed(seed)
@@ -395,10 +397,13 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=30, csv_di
 
 
                 l2_fasta_temp = f'./result_test/L2_type_iteration_{iteration}_aligned_real_temp.fasta'
-                l2_fasta_sequences = SeqIO.parse(l2_fasta, "fasta")
+                l2_fasta_copy = l2_fasta + ".copy.fasta"
+                shutil.copy(l2_fasta, l2_fasta_copy)
+                l2_fasta_sequences_copy = SeqIO.parse(l2_fasta_copy, "fasta")
                 
+                # l2_fasta
                 modified_sequences = []
-                for fasta in l2_fasta_sequences:
+                for fasta in l2_fasta_sequences_copy:
                 # Remove lowercase characters from the sequence
                     l2_fasta_temp_seq = ''.join([char for char in str(fasta.seq) if not char.islower()])   
                     fasta.seq = l2_fasta_temp_seq
@@ -407,12 +412,16 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=30, csv_di
                 with open(l2_fasta_temp, "w") as output_handle:
                     SeqIO.write(modified_sequences, output_handle, "fasta")  
 
-
+                ##########################################################################################
                 l3_fasta_temp = f'./result_test/L3_type_iteration_{iteration}_aligned_real_temp.fasta'
-                l3_fasta_sequences = SeqIO.parse(l3_fasta, "fasta")   
+                l3_fasta_copy = l3_fasta + ".copy.fasta"
+                shutil.copy(l3_fasta, l3_fasta_copy)
+
+                l3_fasta_sequences_copy = SeqIO.parse(l3_fasta_copy, "fasta")   
+                
 
                 modified_sequences = []
-                for fasta in l3_fasta_sequences:
+                for fasta in l3_fasta_sequences_copy:
                 # Remove lowercase characters from the sequence
                     l3_fasta_temp_seq = ''.join([char for char in str(fasta.seq) if not char.islower()])   
                     fasta.seq = l3_fasta_temp_seq
@@ -427,31 +436,34 @@ def main_pipeline(thresholds_file, real_file, decoy_files, iterations=30, csv_di
                 run_cd_hit(l2_fasta_temp, l2_clustered_fasta)
                 run_cd_hit(l3_fasta_temp, l3_clustered_fasta)
 
+                # add insertion
                 l2_after_cluster = f'./result_test/L2_type_iteration_{iteration}_after_cluster.fasta'
                 l2_fasta_after_cdhit_sequences = SeqIO.parse(l2_clustered_fasta, "fasta")
+                l2_fasta_sequences = SeqIO.parse(l2_fasta, "fasta")
                 fasta_dict = {record.id: record for record in l2_fasta_sequences}
+                # fasta_dict = {record.id: record for record in l2_fasta} #1115
                 modified_sequences = []
                 for fasta in l2_fasta_after_cdhit_sequences:
                     if fasta.id in fasta_dict:  # Check if sequence exists in original file
                         fasta.seq = fasta_dict[fasta.id].seq  # Update the sequence
                     modified_sequences.append(fasta)
 
-                # Write the modified sequences to the output FASTA file
-                # l2_after_cluster: ./result_test/L2_type_iteration_{iteration}_after_cluster.fasta
+                # Write the modified sequences to the output FASTA file: l2_after_cluster
                 with open(l2_after_cluster, "w") as output_handle:
                     SeqIO.write(modified_sequences, output_handle, "fasta")           
 
                 l3_after_cluster = f'./result_test/L3_type_iteration_{iteration}_after_cluster.fasta'
-                l3_fasta_after_cdhit_sequences = SeqIO.parse(l3_clustered_fasta, "fasta")
+                l3_fasta_after_cdhit_sequences = SeqIO.parse(l3_clustered_fasta, "fasta") # result of cd-hit
+                l3_fasta_sequences = SeqIO.parse(l3_fasta, "fasta") 
                 fasta_dict = {record.id: record for record in l3_fasta_sequences}
+                # fasta_dict = {record.id: record for record in l3_fasta} #1115
                 modified_sequences = []
                 for fasta in l3_fasta_after_cdhit_sequences:
                     if fasta.id in fasta_dict:  # Check if sequence exists in original file
                         fasta.seq = fasta_dict[fasta.id].seq  # Update the sequence
                     modified_sequences.append(fasta)
 
-                # Write the modified sequences to the output FASTA file 
-                # l3_after_cluster: ./result_test/L3_type_iteration_{iteration}_after_cluster.fasta
+                # Write the modified sequences to the output FASTA file: l3_after_cluster
                 with open(l3_after_cluster, "w") as output_handle:
                     SeqIO.write(modified_sequences, output_handle, "fasta")     
 
@@ -790,7 +802,7 @@ plt.xticks(x_iterations)
 plt.xlabel('Iterations', fontsize = 20)
 plt.ylabel('Count', fontsize = 20)
 plt.title('Clade Frequency Over Iterations for L2 and L3', fontsize = 20)
-# plt.legend()
+plt.legend()
 # plt.legend(bbox_to_anchor=(1.01, 1), loc='upper left', borderaxespad=0., fontsize = 20)
 plt.grid(True)
 plt.savefig("../../result/iteration2_to_iterationK/line_plot.png")
